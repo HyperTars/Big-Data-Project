@@ -1,3 +1,6 @@
 .vs_code/
 .vscode
 .DS_Store
+*.zip
+.zip
+*zip
