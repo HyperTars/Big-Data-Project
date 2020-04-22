@@ -1,1 +1,0 @@
-http://www.nasdaqtrader.com/trader.aspx?id=symboldirdefs
