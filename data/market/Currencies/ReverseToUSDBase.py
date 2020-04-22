@@ -19,4 +19,4 @@ for cur in currencies:
     columns = [df.columns.values[1], df.columns.values[3], df.columns.values[4], df.columns.values[5]]
     for col in columns:
         df[col] = df[col].apply(lambda x: 1 / x)
-    df.to_csv(newName, index=True)
+    df.to_csv(newName, index=False, header=True)

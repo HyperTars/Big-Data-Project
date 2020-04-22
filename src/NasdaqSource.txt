@@ -1,6 +1,6 @@
 ../data/market/Commodities/Energies/BrentCrude.csv
 ../data/market/Commodities/Energies/CrudeOil_CL.csv
-../data/market/Commodities/Energies/Ethonal.csv
+../data/market/Commodities/Energies/Ethanol.csv
 ../data/market/Commodities/Energies/Gasoline.csv
 ../data/market/Commodities/Energies/HeatingOil.csv
 ../data/market/Commodities/Energies/NaturalGas.csv
