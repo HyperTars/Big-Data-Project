@@ -1,8 +1,4 @@
 .vs_code/
 .vscode
 .DS_Store
-*.zip
-.zip
-*zip
-!raw_data*.zip
 .ipynb_checkpoints/
