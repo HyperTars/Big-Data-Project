@@ -29,6 +29,7 @@
 ../data/market/Cryptocurrencies/BinanceCoin.csv
 ../data/market/Cryptocurrencies/BitcoinCash.csv
 ../data/market/Cryptocurrencies/Bitcoin.csv
+../data/market/Cryptocurrencies/Cardano.csv
 ../data/market/Cryptocurrencies/DASH.csv
 ../data/market/Cryptocurrencies/Dogecoin.csv
 ../data/market/Cryptocurrencies/EOS.csv
