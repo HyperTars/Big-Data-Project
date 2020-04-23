@@ -82,12 +82,7 @@ def CleanOtherSources():
     file_Initial_Jobless_Claims = '../data/employment/InitialJoblessClaims.csv'
     file_Unemployment_Rate = '../data/employment/UnemploymentRate.csv'
 
-    CWM = pd.read_csv(file_CrudeOil_WTI_MacroTrends)
-    # reorder in time
-    CWM['date'] = pd.to_datetime(CWM['date'])
-    CWM.sort_values('date', inplace=True, ascending=False)
-    CWM.to_csv(file_CrudeOil_WTI_MacroTrends, index=False, header=True)
-
+    # Finance Sector Related Policy Responses
     FSRPR = pd.read_excel(file_Finance_Sector_Related_Policy_Responses, sheet_name='Raw data')
     # drop redundant columns
     FSRPR = FSRPR.drop('Iso 3 Code', axis=1, errors='ignore')
@@ -98,22 +93,30 @@ def CleanOtherSources():
     FSRPR.insert(0, 'Country', FSRPR_Country)
     FSRPR.to_csv(file_Finance_Sector_Related_Policy_Responses[:-4] + 'csv', index=False, header=True)
 
-    IPI = pd.read_csv(file_Industrial_Production_Index)
+    # CrudeOil WTI MacroTrends
+    CWM = pd.read_csv(file_CrudeOil_WTI_MacroTrends)
     # reorder in time
-    IPI['DATE'] = pd.to_datetime(IPI['DATE'])
-    IPI.sort_values('DATE', inplace=True, ascending=False)
-    IPI.to_csv(file_Industrial_Production_Index, index=False, header=True)
-
-    IJC = pd.read_csv(file_Initial_Jobless_Claims)
-    IJC['DATE'] = pd.to_datetime(IJC['DATE'])
-    IJC.sort_values('DATE', inplace=True, ascending=False)
-    IJC.to_csv(file_Initial_Jobless_Claims, index=False, header=True)
-
-    UR = pd.read_csv(file_Unemployment_Rate)
-    # reorder in time
-    UR['DATE'] = pd.to_datetime(UR['DATE'])
-    UR.sort_values('DATE', inplace=True, ascending=False)
-    UR.to_csv(file_Unemployment_Rate, index=False, header=True)
+    CWM['date'] = pd.to_datetime(CWM['date'])
+    CWM.sort_values('date', inplace=True, ascending=False)
+    # format column name, delete redundant whitespace in column names
+    CWM.columns = [x.strip() for x in CWM.columns.values if x.strip() != '']
+    # delete invalid future data
+    CWM.dropna(subset=['value'], inplace=True)
+    CWM.to_csv(file_CrudeOil_WTI_MacroTrends, index=False, header=True)
+    
+    
+    # Others with date (reorder date)
+    file_path = []
+    file_path.append(file_Industrial_Production_Index)
+    file_path.append(file_Initial_Jobless_Claims)
+    file_path.append(file_Unemployment_Rate)
+    for path in file_path:
+        df = pd.read_csv(path)
+        # reorder in time
+        df['DATE'] = pd.to_datetime(df['DATE'])
+        df.sort_values('DATE', inplace=True, ascending=False)
+        # save
+        df.to_csv(path, index=False, header=True)
 
 #TransToUSDBase()
 #TransYahooToNASDAQ()
