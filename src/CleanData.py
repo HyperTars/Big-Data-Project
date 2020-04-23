@@ -118,7 +118,7 @@ def CleanOtherSources():
         # save
         df.to_csv(path, index=False, header=True)
 
-#TransToUSDBase()
-#TransYahooToNASDAQ()
-#CleanDataFromNASDAQ()
+TransToUSDBase()
+TransYahooToNASDAQ()
+CleanDataFromNASDAQ()
 CleanOtherSources()
