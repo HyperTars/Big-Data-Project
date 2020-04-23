@@ -38,9 +38,10 @@ def TransYahooToNASDAQ():
         # remove redundant column 'Adj Close'
         df = df.drop('Adj Close', axis=1, errors='ignore')
         # rename Close to Close/Last and put to second place
-        df_close = df.Close
-        df = df.drop('Close', axis=1, errors='ignore')
-        df.insert(1, 'Close/Last', df_close)
+        if 'Close' in df.columns.values:
+            df_close = df.Close
+            df = df.drop('Close', axis=1, errors='ignore')
+            df.insert(1, 'Close/Last', df_close)
         # reorder in time
         df['Date'] = pd.to_datetime(df['Date'])
         df.sort_values('Date', inplace=True, ascending=False)
