@@ -1,0 +1,766 @@
+Country,Level of income,Region,Date (at or prior to),Level 1 policy measure,Level 2 policy measure
+China,Upper middle income,EAP,2020-02-01,Financial Institutions,Operational continuity
+Canada,High income,Other G20,2020-02-03,Financial Markets,Market functioning
+Thailand,Upper middle income,EAP,2020-02-05,Liquidity/funding ,Policy rate
+Russian Federation,Upper middle income,ECA,2020-02-07,Liquidity/funding ,Policy rate
+Belarus,Upper middle income,ECA,2020-02-19,Liquidity/funding ,Liquidity (incl FX)/ELA
+Belarus,Upper middle income,ECA,2020-02-19,Financial Markets,Market functioning
+Belarus,Upper middle income,ECA,2020-02-19,Liquidity/funding ,Policy rate
+China,Upper middle income,EAP,2020-02-20,Liquidity/funding ,Policy rate
+Indonesia,Lower middle income,EAP,2020-02-20,Liquidity/funding ,Policy rate
+Japan,High income,Other G20,2020-02-20,Financial Institutions,Support borrowers
+Uganda,Low income,SSA,2020-02-20,Payment systems,
+Japan,High income,Other G20,2020-02-25,Financial Institutions,Operational continuity
+Italy,High income,Other G20,2020-03-01,Financial Institutions,Operational continuity
+Italy,High income,Other G20,2020-03-01,Financial Institutions,Operational continuity
+Italy,High income,Other G20,2020-03-01,Financial Institutions,Prudential
+Brazil,Upper middle income,LAC,2020-03-02,Liquidity/funding ,Liquidity (incl FX)/ELA
+Thailand,Upper middle income,EAP,2020-03-02,Financial Markets,Market functioning
+Australia,High income,Other G20,2020-03-03,Liquidity/funding ,Policy rate
+EU/Eurozone,High income,Other G20,2020-03-03,Financial Institutions,Operational continuity
+Malaysia,Upper middle income,EAP,2020-03-03,Liquidity/funding ,Liquidity (incl FX)/ELA
+Malaysia,Upper middle income,EAP,2020-03-03,Liquidity/funding ,Policy rate
+Canada,High income,Other G20,2020-03-04,Liquidity/funding ,Policy rate
+"Hong Kong SAR, China",High income,EAP,2020-03-04,Liquidity/funding ,Policy rate
+Argentina,High income,LAC,2020-03-05,Liquidity/funding ,Policy rate
+Jordan,Upper middle income,MENA,2020-03-05,Liquidity/funding ,Policy rate
+Japan,High income,Other G20,2020-03-06,Financial Institutions,Operational continuity
+Italy,High income,Other G20,2020-03-09,Financial Institutions,Operational continuity
+Mexico,Upper middle income,LAC,2020-03-09,Financial Markets,Market functioning
+Bahrain,High income,MENA,2020-03-10,Liquidity/funding ,Policy rate
+Mauritius,Upper middle income,SSA,2020-03-10,Liquidity/funding ,Policy rate
+Qatar,High income,MENA,2020-03-10,Liquidity/funding ,Policy rate
+Saudi Arabia,High income,MENA,2020-03-10,Liquidity/funding ,Policy rate
+South Africa,Upper middle income,SSA,2020-03-10,Financial Institutions,Operational continuity
+United Arab Emirates,High income,MENA,2020-03-10,Liquidity/funding ,Policy rate
+Italy,High income,Other G20,2020-03-11,Financial Institutions,Support borrowers
+Italy,High income,Other G20,2020-03-11,Financial Institutions,Support borrowers
+Japan,High income,Other G20,2020-03-11,Financial Institutions,Support borrowers
+South Korea,High income,EAP,2020-03-11,Financial Institutions,Prudential
+UK,High income,Other G20,2020-03-11,Liquidity/funding ,Policy rate
+EU/Eurozone,High income,Other G20,2020-03-12,Liquidity/funding ,Liquidity (incl FX)/ELA
+EU/Eurozone,High income,Other G20,2020-03-12,Financial Institutions,Prudential
+EU/Eurozone,High income,Other G20,2020-03-12,Financial Institutions,Prudential
+Germany,High income,Other G20,2020-03-12,Financial Institutions,Operational continuity
+Mexico,Upper middle income,LAC,2020-03-12,Liquidity/funding ,Liquidity (incl FX)/ELA
+Canada,High income,Other G20,2020-03-13,Liquidity/funding ,Policy rate
+Germany,High income,Other G20,2020-03-13,Financial Institutions,Support borrowers
+Mauritius,Upper middle income,SSA,2020-03-13,Liquidity/funding ,Liquidity (incl FX)/ELA
+Mauritius,Upper middle income,SSA,2020-03-13,Financial Institutions,Prudential
+Mauritius,Upper middle income,SSA,2020-03-13,Financial Institutions,Support borrowers
+Turkey,Upper middle income,ECA,2020-03-13,Financial Institutions,Operational continuity
+Australia,High income,Other G20,2020-03-15,Financial Markets,Market functioning
+Jordan,Upper middle income,MENA,2020-03-15,Liquidity/funding ,Liquidity (incl FX)/ELA
+Jordan,Upper middle income,MENA,2020-03-15,Financial Institutions,Prudential
+Jordan,Upper middle income,MENA,2020-03-15,Financial Institutions,Support borrowers
+United States,High income,Other G20,2020-03-15,Liquidity/funding ,Policy rate
+United States,High income,Other G20,2020-03-15,Liquidity/funding ,Policy rate
+Czech Republic,High income,ECA,2020-03-16,Liquidity/funding ,Liquidity (incl FX)/ELA
+Dominican Republic,Upper middle income,LAC,2020-03-16,Liquidity/funding ,Policy rate
+India,Lower middle income,SA,2020-03-16,Financial Institutions,Operational continuity
+Jordan,Upper middle income,MENA,2020-03-16,Liquidity/funding ,Policy rate
+Kenya,Lower middle income,SSA,2020-03-16,Payment systems,
+Panama,High income,LAC,2020-03-16,Financial Institutions,Prudential
+Saudi Arabia,High income,MENA,2020-03-16,Financial Institutions,Operational continuity
+South Korea,High income,EAP,2020-03-16,Financial Markets,Market functioning
+Sri Lanka,Lower middle income,SA,2020-03-16,Liquidity/funding ,Liquidity (incl FX)/ELA
+Sri Lanka,Lower middle income,SA,2020-03-16,Liquidity/funding ,Policy rate
+EU/Eurozone,High income,Other G20,2020-03-17,Financial Institutions,
+Italy,High income,Other G20,2020-03-17,Financial Institutions,Prudential
+Mexico,Upper middle income,LAC,2020-03-17,Financial Markets,Market functioning
+Morocco,Lower middle income,MENA,2020-03-17,Liquidity/funding ,Policy rate
+Philippines,Lower middle income,EAP,2020-03-17,Financial Markets,Market functioning
+Spain,High income,Other G20,2020-03-17,Financial Markets,Market functioning
+Spain,High income,Other G20,2020-03-17,Financial Markets,Market functioning
+Tunisia,Lower middle income,MENA,2020-03-17,Liquidity/funding ,Policy rate
+Turkey,Upper middle income,ECA,2020-03-17,Liquidity/funding ,Policy rate
+UK,High income,Other G20,2020-03-17,Financial Institutions,Support borrowers
+Vietnam,Lower middle income,EAP,2020-03-17,Liquidity/funding ,Policy rate
+Armenia,Upper middle income,ECA,2020-03-18,Financial Institutions,Support borrowers
+Belarus,Upper middle income,ECA,2020-03-18,Financial Institutions,Prudential
+Belarus,Upper middle income,ECA,2020-03-18,Financial Institutions,Prudential
+Belarus,Upper middle income,ECA,2020-03-18,Financial Institutions,Prudential
+Belarus,Upper middle income,ECA,2020-03-18,Financial Institutions,Prudential
+Belarus,Upper middle income,ECA,2020-03-18,Financial Institutions,Prudential
+Brazil,Upper middle income,LAC,2020-03-18,Liquidity/funding ,Policy rate
+Dominican Republic,Upper middle income,LAC,2020-03-18,Liquidity/funding ,Liquidity (incl FX)/ELA
+Dominican Republic,Upper middle income,LAC,2020-03-18,Liquidity/funding ,Liquidity (incl FX)/ELA
+Dominican Republic,Upper middle income,LAC,2020-03-18,Financial Institutions,Prudential
+Dominican Republic,Upper middle income,LAC,2020-03-18,Financial Institutions,Prudential
+EU/Eurozone,High income,Other G20,2020-03-18,Liquidity/funding ,Asset purchases
+France,High income,Other G20,2020-03-18,Financial Institutions,Prudential
+Kenya,Lower middle income,SSA,2020-03-18,Financial Institutions,Support borrowers
+Kenya,Lower middle income,SSA,2020-03-18,Financial Institutions,Support borrowers
+Kyrgyz Republic,Lower middle income,ECA,2020-03-18,Financial Institutions,Prudential
+Nigeria,Lower middle income,SSA,2020-03-18,Financial Institutions,Support borrowers
+Uzbekistan,Lower middle income,ECA,2020-03-18,Financial Institutions,Prudential
+Uzbekistan,Lower middle income,ECA,2020-03-18,Financial Institutions,Support borrowers
+Argentina,High income,LAC,2020-03-19,Liquidity/funding ,Liquidity (incl FX)/ELA
+Argentina,High income,LAC,2020-03-19,Financial Institutions,Prudential
+Argentina,High income,LAC,2020-03-19,Financial Institutions,Prudential
+Argentina,High income,LAC,2020-03-19,Financial Institutions,Prudential
+Argentina,High income,LAC,2020-03-19,Financial Institutions,Prudential
+Argentina,High income,LAC,2020-03-19,Financial Institutions,Support borrowers
+Australia,High income,Other G20,2020-03-19,Liquidity/funding ,Liquidity (incl FX)/ELA
+Australia,High income,Other G20,2020-03-19,Liquidity/funding ,Policy rate
+Australia,High income,Other G20,2020-03-19,Financial Markets,Market functioning
+Azerbaijan,Upper middle income,ECA,2020-03-19,Liquidity/funding ,Liquidity (incl FX)/ELA
+Bulgaria,Upper middle income,ECA,2020-03-19,Liquidity/funding ,Liquidity (incl FX)/ELA
+Bulgaria,Upper middle income,ECA,2020-03-19,Financial Institutions,Prudential
+Bulgaria,Upper middle income,ECA,2020-03-19,Financial Institutions,Prudential
+Cameroon,Lower middle income,SSA,2020-03-19,Payment systems,
+Indonesia,Lower middle income,EAP,2020-03-19,Liquidity/funding ,Policy rate
+Mexico,Upper middle income,LAC,2020-03-19,Liquidity/funding ,Liquidity (incl FX)/ELA
+Mexico,Upper middle income,LAC,2020-03-19,Financial Institutions,Prudential
+Paraguay,Upper middle income,LAC,2020-03-19,Liquidity/funding ,Policy rate
+Peru,Upper middle income,LAC,2020-03-19,Liquidity/funding ,Policy rate
+Russian Federation,Upper middle income,ECA,2020-03-19,Liquidity/funding ,Liquidity (incl FX)/ELA
+Senegal,Low income,SSA,2020-03-19,Payment systems,
+South Africa,Upper middle income,SSA,2020-03-19,Liquidity/funding ,Policy rate
+Uganda,Low income,SSA,2020-03-19,Payment systems,
+UK,High income,Other G20,2020-03-19,Liquidity/funding ,Asset purchases
+UK,High income,Other G20,2020-03-19,Liquidity/funding ,Policy rate
+UK,High income,Other G20,2020-03-19,Financial Institutions,Support borrowers
+United States,High income,Other G20,2020-03-19,Liquidity/funding ,Liquidity (incl FX)/ELA
+Uzbekistan,Lower middle income,ECA,2020-03-19,Liquidity/funding ,Liquidity (incl FX)/ELA
+Uzbekistan,Lower middle income,ECA,2020-03-19,Liquidity/funding ,Liquidity (incl FX)/ELA
+Uzbekistan,Lower middle income,ECA,2020-03-19,Financial Institutions,Support borrowers
+Uzbekistan,Lower middle income,ECA,2020-03-19,Financial Institutions,Support borrowers
+Albania,Upper middle income,ECA,2020-03-20,Financial Institutions,Prudential
+Algeria,Upper middle income,MENA,2020-03-20,Liquidity/funding ,Policy rate
+Algeria,Upper middle income,MENA,2020-03-20,Financial Institutions,Prudential
+Armenia,Upper middle income,ECA,2020-03-20,Liquidity/funding ,Policy rate
+Armenia,Upper middle income,ECA,2020-03-20,Financial Institutions,Prudential
+Australia,High income,Other G20,2020-03-20,Financial Institutions,Operational continuity
+Bolivia,Lower middle income,LAC,2020-03-20,Financial Institutions,Prudential
+Brazil,Upper middle income,LAC,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Brazil,Upper middle income,LAC,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Brazil,Upper middle income,LAC,2020-03-20,Financial Markets,Market functioning
+Brazil,Upper middle income,LAC,2020-03-20,Financial Institutions,Operational continuity
+Brazil,Upper middle income,LAC,2020-03-20,Financial Institutions,Prudential
+Brazil,Upper middle income,LAC,2020-03-20,Financial Institutions,Prudential
+Brazil,Upper middle income,LAC,2020-03-20,Financial Institutions,Support borrowers
+Brazil,Upper middle income,LAC,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Brazil,Upper middle income,LAC,2020-03-20,Financial Institutions,Prudential
+Brazil,Upper middle income,LAC,2020-03-20,Financial Institutions,Support borrowers
+Brazil,Upper middle income,LAC,2020-03-20,Financial Institutions,Support borrowers
+Brazil,Upper middle income,LAC,2020-03-20,Financial Institutions,Prudential
+Brazil,Upper middle income,LAC,2020-03-20,Financial Institutions,Prudential
+Brazil,Upper middle income,LAC,2020-03-20,Financial Institutions,Prudential
+Bulgaria,Upper middle income,ECA,2020-03-20,Financial Institutions,Support borrowers
+Canada,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+Chile,High income,LAC,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Chile,High income,LAC,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Chile,High income,LAC,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Chile,High income,LAC,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Chile,High income,LAC,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Chile,High income,LAC,2020-03-20,Liquidity/funding ,Policy rate
+Chile,High income,LAC,2020-03-20,Financial Institutions,Support borrowers
+China,Upper middle income,EAP,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+China,Upper middle income,EAP,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+China,Upper middle income,EAP,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+China,Upper middle income,EAP,2020-03-20,Financial Institutions,Support borrowers
+China,Upper middle income,EAP,2020-03-20,Financial Institutions,Support borrowers
+China,Upper middle income,EAP,2020-03-20,Financial Institutions,Prudential
+Colombia,Upper middle income,LAC,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Colombia,Upper middle income,LAC,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Colombia,Upper middle income,LAC,2020-03-20,Payment systems,
+Colombia,Upper middle income,LAC,2020-03-20,Financial Institutions,Prudential
+Costa Rica,Upper middle income,LAC,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Costa Rica,Upper middle income,LAC,2020-03-20,Liquidity/funding ,Policy rate
+Costa Rica,Upper middle income,LAC,2020-03-20,Financial Institutions,Prudential
+Costa Rica,Upper middle income,LAC,2020-03-20,Financial Institutions,Prudential
+Croatia,High income,ECA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Croatia,High income,ECA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Croatia,High income,ECA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Czech Republic,High income,ECA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Czech Republic,High income,ECA,2020-03-20,Liquidity/funding ,Policy rate
+Czech Republic,High income,ECA,2020-03-20,Financial Institutions,Prudential
+Ecuador,Upper middle income,LAC,2020-03-20,Financial Institutions,Prudential
+Ecuador,Upper middle income,LAC,2020-03-20,Financial Institutions,Prudential
+"Egypt, Arab Rep.",Lower middle income,MENA,2020-03-20,Liquidity/funding ,Policy rate
+"Egypt, Arab Rep.",Lower middle income,MENA,2020-03-20,Payment systems,
+EU/Eurozone,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+EU/Eurozone,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+EU/Eurozone,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+EU/Eurozone,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+EU/Eurozone,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+France,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+France,High income,Other G20,2020-03-20,Financial Markets,Market functioning
+France,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+Georgia,Lower middle income,ECA,2020-03-20,Financial Institutions,Prudential
+Germany,High income,Other G20,2020-03-20,Financial Institutions,Support borrowers
+Germany,High income,Other G20,2020-03-20,Financial Institutions,Support borrowers
+Germany,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+Ghana,Lower middle income,SSA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Ghana,Lower middle income,SSA,2020-03-20,Liquidity/funding ,Policy rate
+Ghana,Lower middle income,SSA,2020-03-20,Financial Institutions,Prudential
+Ghana,Lower middle income,SSA,2020-03-20,Payment systems,
+Ghana,Lower middle income,SSA,2020-03-20,Payment systems,
+Ghana,Lower middle income,SSA,2020-03-20,Payment systems,
+Ghana,Lower middle income,SSA,2020-03-20,Financial Institutions,Prudential
+Ghana,Lower middle income,SSA,2020-03-20,Financial Institutions,Prudential
+Hungary,High income,ECA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Hungary,High income,ECA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Hungary,High income,ECA,2020-03-20,Financial Institutions,Prudential
+India,Lower middle income,SA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+India,Lower middle income,SA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+India,Lower middle income,SA,2020-03-20,Financial Institutions,Support borrowers
+Indonesia,Lower middle income,EAP,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Indonesia,Lower middle income,EAP,2020-03-20,Financial Markets,Market functioning
+Indonesia,Lower middle income,EAP,2020-03-20,Financial Institutions,Operational continuity
+Italy,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+Italy,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+Italy,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+Italy,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+Italy,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+Italy,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+Italy,High income,Other G20,2020-03-20,Financial Institutions,Support borrowers
+Italy,High income,Other G20,2020-03-20,Financial Institutions,Support borrowers
+Italy,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+Italy,High income,Other G20,2020-03-20,Financial Markets,Market functioning
+Italy,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+Italy,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+Italy,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+Italy,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+Italy,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+Italy,High income,Other G20,2020-03-20,Financial Institutions,
+Japan,High income,Other G20,2020-03-20,Liquidity/funding ,Asset purchases
+Japan,High income,Other G20,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Jordan,Upper middle income,MENA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Jordan,Upper middle income,MENA,2020-03-20,Financial Institutions,Prudential
+Jordan,Upper middle income,MENA,2020-03-20,Financial Institutions,Support borrowers
+Kazakhstan,Upper middle income,ECA,2020-03-20,Financial Institutions,Prudential
+Kuwait,High income,MENA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Malaysia,Upper middle income,EAP,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Malaysia,Upper middle income,EAP,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Maldives,Upper middle income,SA,2020-03-20,Financial Institutions,Support borrowers
+Mexico,Upper middle income,LAC,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Mexico,Upper middle income,LAC,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Mexico,Upper middle income,LAC,2020-03-20,Financial Markets,Market functioning
+Mexico,Upper middle income,LAC,2020-03-20,Liquidity/funding ,Policy rate
+Moldova,Lower middle income,ECA,2020-03-20,Liquidity/funding ,Policy rate
+Moldova,Lower middle income,ECA,2020-03-20,Financial Institutions,Prudential
+Moldova,Lower middle income,ECA,2020-03-20,Financial Institutions,Prudential
+Montenegro,Upper middle income,ECA,2020-03-20,Financial Institutions,Prudential
+Morocco,Lower middle income,MENA,2020-03-20,Financial Institutions,Prudential
+Mozambique,Low income,SSA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Nigeria,Lower middle income,SSA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Nigeria,Lower middle income,SSA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Nigeria,Lower middle income,SSA,2020-03-20,Financial Institutions,Prudential
+Nigeria,Lower middle income,SSA,2020-03-20,Financial Markets,Public debt management
+Nigeria,Lower middle income,SSA,2020-03-20,Financial Institutions,Support borrowers
+Nigeria,Lower middle income,SSA,2020-03-20,Financial Institutions,Support borrowers
+Oman,High income,MENA,2020-03-20,Liquidity/funding ,Policy rate
+Pakistan,Lower middle income,SA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Pakistan,Lower middle income,SA,2020-03-20,Liquidity/funding ,Policy rate
+Pakistan,Lower middle income,SA,2020-03-20,Payment systems,
+Pakistan,Lower middle income,SA,2020-03-20,Payment systems,
+Paraguay,Upper middle income,LAC,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Paraguay,Upper middle income,LAC,2020-03-20,Liquidity/funding ,Policy rate
+Paraguay,Upper middle income,LAC,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Paraguay,Upper middle income,LAC,2020-03-20,Financial Institutions,Support borrowers
+Peru,Upper middle income,LAC,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Peru,Upper middle income,LAC,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Peru,Upper middle income,LAC,2020-03-20,Financial Institutions,Support borrowers
+Peru,Upper middle income,LAC,2020-03-20,Financial Institutions,Prudential
+Philippines,Lower middle income,EAP,2020-03-20,Liquidity/funding ,Policy rate
+Philippines,Lower middle income,EAP,2020-03-20,Liquidity/funding ,Policy rate
+Poland,High income,ECA,2020-03-20,Liquidity/funding ,Policy rate
+Portugal,High income,Other G20,2020-03-20,Payment systems,
+Portugal,High income,Other G20,2020-03-20,Payment systems,
+Qatar,High income,MENA,2020-03-20,Financial Institutions,Prudential
+Romania,Upper middle income,ECA,2020-03-20,Liquidity/funding ,Asset purchases
+Romania,Upper middle income,ECA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Romania,Upper middle income,ECA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Romania,Upper middle income,ECA,2020-03-20,Liquidity/funding ,Policy rate
+Romania,Upper middle income,ECA,2020-03-20,Financial Institutions,Prudential
+Romania,Upper middle income,ECA,2020-03-20,Financial Institutions,Support borrowers
+Russian Federation,Upper middle income,ECA,2020-03-20,Financial Markets,Market functioning
+Russian Federation,Upper middle income,ECA,2020-03-20,Financial Institutions,Prudential
+Russian Federation,Upper middle income,ECA,2020-03-20,Financial Institutions,Support borrowers
+Russian Federation,Upper middle income,ECA,2020-03-20,Payment systems,
+Russian Federation,Upper middle income,ECA,2020-03-20,Financial Institutions,Prudential
+Russian Federation,Upper middle income,ECA,2020-03-20,Financial Institutions,Prudential
+Rwanda,Low income,SSA,2020-03-20,Liquidity/funding ,Asset purchases
+Rwanda,Low income,SSA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Rwanda,Low income,SSA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Rwanda,Low income,SSA,2020-03-20,Financial Institutions,Prudential
+Rwanda,Low income,SSA,2020-03-20,Payment systems,
+Saudi Arabia,High income,MENA,2020-03-20,Financial Institutions,Prudential
+Saudi Arabia,High income,MENA,2020-03-20,Financial Institutions,Support borrowers
+Saudi Arabia,High income,MENA,2020-03-20,Financial Institutions,Prudential
+Serbia,Upper middle income,ECA,2020-03-20,Liquidity/funding ,Policy rate
+Serbia,Upper middle income,ECA,2020-03-20,Financial Institutions,Prudential
+Sierra Leone,Low income,SSA,2020-03-20,Financial Markets,Market functioning
+Slovenia,High income,ECA,2020-03-20,Financial Institutions,Prudential
+South Africa,Upper middle income,SSA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+South Africa,Upper middle income,SSA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+South Africa,Upper middle income,SSA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+South Korea,High income,EAP,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+South Korea,High income,EAP,2020-03-20,Liquidity/funding ,Policy rate
+Spain,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+Spain,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+Spain,High income,Other G20,2020-03-20,Financial Institutions,Support borrowers
+Sri Lanka,Lower middle income,SA,2020-03-20,Financial Markets,Market functioning
+Sri Lanka,Lower middle income,SA,2020-03-20,Financial Markets,Market functioning
+Sri Lanka,Lower middle income,SA,2020-03-20,Financial Institutions,Prudential
+Sri Lanka,Lower middle income,SA,2020-03-20,Financial Institutions,Prudential
+Sri Lanka,Lower middle income,SA,2020-03-20,Financial Institutions,Support borrowers
+Tajikistan,Low income,ECA,2020-03-20,Financial Markets,Market functioning
+Thailand,Upper middle income,EAP,2020-03-20,Liquidity/funding ,Policy rate
+Thailand,Upper middle income,EAP,2020-03-20,Financial Institutions,Prudential
+Thailand,Upper middle income,EAP,2020-03-20,Financial Institutions,Prudential
+Turkey,Upper middle income,ECA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Turkey,Upper middle income,ECA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Turkey,Upper middle income,ECA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Turkey,Upper middle income,ECA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Turkey,Upper middle income,ECA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Turkey,Upper middle income,ECA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Turkey,Upper middle income,ECA,2020-03-20,Financial Markets,Market functioning
+Uganda,Low income,SSA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Uganda,Low income,SSA,2020-03-20,Financial Markets,Market functioning
+Uganda,Low income,SSA,2020-03-20,Financial Institutions,Prudential
+UK,High income,Other G20,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+UK,High income,Other G20,2020-03-20,Financial Institutions,Support borrowers
+UK,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+UK,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+UK,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+UK,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+UK,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+Ukraine,Lower middle income,ECA,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+Ukraine,Lower middle income,ECA,2020-03-20,Financial Markets,Market functioning
+Ukraine,Lower middle income,ECA,2020-03-20,Liquidity/funding ,Policy rate
+Ukraine,Lower middle income,ECA,2020-03-20,Financial Institutions,Prudential
+Ukraine,Lower middle income,ECA,2020-03-20,Financial Institutions,Prudential
+United Arab Emirates,High income,MENA,2020-03-20,Liquidity/funding ,Asset purchases
+United Arab Emirates,High income,MENA,2020-03-20,Financial Institutions,Prudential
+United States,High income,Other G20,2020-03-20,Liquidity/funding ,Asset purchases
+United States,High income,Other G20,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+United States,High income,Other G20,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+United States,High income,Other G20,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+United States,High income,Other G20,2020-03-20,Liquidity/funding ,Liquidity (incl FX)/ELA
+United States,High income,Other G20,2020-03-20,Financial Institutions,Prudential
+United States,High income,Other G20,2020-03-20,Liquidity/funding ,Asset purchases
+Vietnam,Lower middle income,EAP,2020-03-20,Financial Institutions,Support borrowers
+Zambia,Lower middle income,SSA,2020-03-20,Financial Institutions,Prudential
+Zambia,Lower middle income,SSA,2020-03-20,Payment systems,
+Zambia,Lower middle income,SSA,2020-03-20,Payment systems,
+Zambia,Lower middle income,SSA,2020-03-20,Payment systems,
+Cameroon,Lower middle income,SSA,2020-03-21,Payment systems,
+Australia,High income,Other G20,2020-03-22,Financial Institutions,Prudential
+Australia,High income,Other G20,2020-03-22,Financial Markets,Market functioning
+Mozambique,Low income,SSA,2020-03-22,Liquidity/funding ,Liquidity (incl FX)/ELA
+Mozambique,Low income,SSA,2020-03-22,Financial Institutions,Prudential
+Argentina,High income,LAC,2020-03-23,Financial Institutions,Support borrowers
+Benin,Low income,SSA,2020-03-23,Liquidity/funding ,Liquidity (incl FX)/ELA
+Benin,Low income,SSA,2020-03-23,Liquidity/funding ,Liquidity (incl FX)/ELA
+Benin,Low income,SSA,2020-03-23,Financial Markets,Market functioning
+Benin,Low income,SSA,2020-03-23,Financial Institutions,Prudential
+Benin,Low income,SSA,2020-03-23,Financial Institutions,Support borrowers
+Benin,Low income,SSA,2020-03-23,Payment systems,
+Burkina Faso,Low income,SSA,2020-03-23,Liquidity/funding ,Liquidity (incl FX)/ELA
+Burkina Faso,Low income,SSA,2020-03-23,Liquidity/funding ,Liquidity (incl FX)/ELA
+Burkina Faso,Low income,SSA,2020-03-23,Financial Markets,Market functioning
+Burkina Faso,Low income,SSA,2020-03-23,Financial Institutions,Prudential
+Burkina Faso,Low income,SSA,2020-03-23,Financial Institutions,Support borrowers
+Burkina Faso,Low income,SSA,2020-03-23,Payment systems,
+Côte d'Ivoire,Lower middle income,SSA,2020-03-23,Liquidity/funding ,Liquidity (incl FX)/ELA
+Côte d'Ivoire,Lower middle income,SSA,2020-03-23,Liquidity/funding ,Liquidity (incl FX)/ELA
+Côte d'Ivoire,Lower middle income,SSA,2020-03-23,Financial Markets,Market functioning
+Côte d'Ivoire,Lower middle income,SSA,2020-03-23,Financial Institutions,Prudential
+Côte d'Ivoire,Lower middle income,SSA,2020-03-23,Financial Institutions,Support borrowers
+Côte d'Ivoire,Lower middle income,SSA,2020-03-23,Payment systems,
+Guinea-Bissau,Low income,SSA,2020-03-23,Liquidity/funding ,Liquidity (incl FX)/ELA
+Guinea-Bissau,Low income,SSA,2020-03-23,Liquidity/funding ,Liquidity (incl FX)/ELA
+Guinea-Bissau,Low income,SSA,2020-03-23,Financial Markets,Market functioning
+Guinea-Bissau,Low income,SSA,2020-03-23,Financial Institutions,Prudential
+Guinea-Bissau,Low income,SSA,2020-03-23,Financial Institutions,Support borrowers
+Guinea-Bissau,Low income,SSA,2020-03-23,Payment systems,
+Madagascar,Low income,SSA,2020-03-23,Financial Institutions,Prudential
+Madagascar,Low income,SSA,2020-03-23,Financial Institutions,Prudential
+Madagascar,Low income,SSA,2020-03-23,Financial Institutions,Prudential
+Madagascar,Low income,SSA,2020-03-23,Financial Institutions,Support borrowers
+Mali,Low income,SSA,2020-03-23,Liquidity/funding ,Liquidity (incl FX)/ELA
+Mali,Low income,SSA,2020-03-23,Liquidity/funding ,Liquidity (incl FX)/ELA
+Mali,Low income,SSA,2020-03-23,Financial Markets,Market functioning
+Mali,Low income,SSA,2020-03-23,Financial Institutions,Prudential
+Mali,Low income,SSA,2020-03-23,Financial Institutions,Support borrowers
+Mali,Low income,SSA,2020-03-23,Payment systems,
+Mauritius,Upper middle income,SSA,2020-03-23,Financial Markets,Public debt management
+Mauritius,Upper middle income,SSA,2020-03-23,Financial Institutions,Support borrowers
+Niger,Low income,SSA,2020-03-23,Liquidity/funding ,Liquidity (incl FX)/ELA
+Niger,Low income,SSA,2020-03-23,Liquidity/funding ,Liquidity (incl FX)/ELA
+Niger,Low income,SSA,2020-03-23,Financial Markets,Market functioning
+Niger,Low income,SSA,2020-03-23,Financial Institutions,Prudential
+Niger,Low income,SSA,2020-03-23,Financial Institutions,Support borrowers
+Niger,Low income,SSA,2020-03-23,Payment systems,
+Philippines,Lower middle income,EAP,2020-03-23,Liquidity/funding ,Liquidity (incl FX)/ELA
+Senegal,Low income,SSA,2020-03-23,Liquidity/funding ,Liquidity (incl FX)/ELA
+Senegal,Low income,SSA,2020-03-23,Liquidity/funding ,Liquidity (incl FX)/ELA
+Senegal,Low income,SSA,2020-03-23,Financial Markets,Market functioning
+Senegal,Low income,SSA,2020-03-23,Financial Institutions,Prudential
+Senegal,Low income,SSA,2020-03-23,Financial Institutions,Support borrowers
+Senegal,Low income,SSA,2020-03-23,Payment systems,
+Seychelles,High income,SSA,2020-03-23,Financial Institutions,Support borrowers
+South Africa,Upper middle income,SSA,2020-03-23,Financial Institutions,Prudential
+South Africa,Upper middle income,SSA,2020-03-23,Financial Institutions,Support borrowers
+South Africa,Upper middle income,SSA,2020-03-23,Financial Institutions,Support borrowers
+Togo,Low income,SSA,2020-03-23,Liquidity/funding ,Liquidity (incl FX)/ELA
+Togo,Low income,SSA,2020-03-23,Liquidity/funding ,Liquidity (incl FX)/ELA
+Togo,Low income,SSA,2020-03-23,Financial Markets,Market functioning
+Togo,Low income,SSA,2020-03-23,Financial Institutions,Prudential
+Togo,Low income,SSA,2020-03-23,Financial Institutions,Support borrowers
+Togo,Low income,SSA,2020-03-23,Payment systems,
+UK,High income,Other G20,2020-03-23,Financial Institutions,Support borrowers
+UK,High income,Other G20,2020-03-23,Payment systems,
+Uruguay,High income,LAC,2020-03-23,Financial Institutions,Prudential
+Uruguay,High income,LAC,2020-03-23,Financial Institutions,Support borrowers
+Bulgaria,Upper middle income,ECA,2020-03-24,Financial Institutions,Support borrowers
+"Egypt, Arab Rep.",Lower middle income,MENA,2020-03-24,Financial Institutions,Prudential
+"Egypt, Arab Rep.",Lower middle income,MENA,2020-03-24,Financial Institutions,Support borrowers
+Germany,High income,Other G20,2020-03-24,Financial Institutions,Prudential
+Germany,High income,Other G20,2020-03-24,Financial Institutions,Support borrowers
+Germany,High income,Other G20,2020-03-24,Financial Institutions,Support borrowers
+Germany,High income,Other G20,2020-03-24,Financial Institutions,Support borrowers
+Kenya,Lower middle income,SSA,2020-03-24,Liquidity/funding ,Liquidity (incl FX)/ELA
+Kenya,Lower middle income,SSA,2020-03-24,Liquidity/funding ,Policy rate
+Kenya,Lower middle income,SSA,2020-03-24,Financial Institutions,Prudential
+Kenya,Lower middle income,SSA,2020-03-24,Payment systems,
+Kyrgyz Republic,Lower middle income,ECA,2020-03-24,Liquidity/funding ,Liquidity (incl FX)/ELA
+Kyrgyz Republic,Lower middle income,ECA,2020-03-24,Financial Institutions,Prudential
+Kyrgyz Republic,Lower middle income,ECA,2020-03-24,Financial Institutions,Prudential
+Kyrgyz Republic,Lower middle income,ECA,2020-03-24,Financial Institutions,Prudential
+Kyrgyz Republic,Lower middle income,ECA,2020-03-24,Financial Institutions,Prudential
+Kyrgyz Republic,Lower middle income,ECA,2020-03-24,Financial Institutions,Prudential
+Nigeria,Lower middle income,SSA,2020-03-24,Payment systems,
+Seychelles,High income,SSA,2020-03-24,Liquidity/funding ,Policy rate
+Seychelles,High income,SSA,2020-03-24,Financial Institutions,Prudential
+Dominican Republic,Upper middle income,LAC,2020-03-25,Financial Institutions,Prudential
+Jordan,Upper middle income,MENA,2020-03-25,Payment systems,
+Kenya,Lower middle income,SSA,2020-03-25,Financial Institutions,Prudential
+Malaysia,Upper middle income,EAP,2020-03-25,Financial Institutions,Prudential
+Malaysia,Upper middle income,EAP,2020-03-25,Financial Institutions,Prudential
+Malaysia,Upper middle income,EAP,2020-03-25,Financial Institutions,Prudential
+Malaysia,Upper middle income,EAP,2020-03-25,Financial Institutions,Prudential
+Malaysia,Upper middle income,EAP,2020-03-25,Financial Institutions,Prudential
+Saudi Arabia,High income,MENA,2020-03-25,Payment systems,
+South Africa,Upper middle income,SSA,2020-03-25,Liquidity/funding ,Asset purchases
+South Africa,Upper middle income,SSA,2020-03-25,Liquidity/funding ,Liquidity (incl FX)/ELA
+South Africa,Upper middle income,SSA,2020-03-25,Liquidity/funding ,Liquidity (incl FX)/ELA
+Australia,High income,Other G20,2020-03-26,Payment systems,
+Czech Republic,High income,ECA,2020-03-26,Liquidity/funding ,Policy rate
+EU/Eurozone,High income,Other G20,2020-03-26,Liquidity/funding ,Asset purchases
+India,Lower middle income,SA,2020-03-26,Liquidity/funding ,Liquidity (incl FX)/ELA
+India,Lower middle income,SA,2020-03-26,Payment systems,
+Jamaica,Upper middle income,LAC,2020-03-26,Liquidity/funding ,Liquidity (incl FX)/ELA
+Mexico,Upper middle income,LAC,2020-03-26,Financial Institutions,Prudential
+South Korea,High income,EAP,2020-03-26,Financial Markets,Market functioning
+South Korea,High income,EAP,2020-03-26,Financial Institutions,Prudential
+South Korea,High income,EAP,2020-03-26,Financial Institutions,Prudential
+Uzbekistan,Lower middle income,ECA,2020-03-26,Financial Institutions,Prudential
+Zimbabwe,Low income,SSA,2020-03-26,Liquidity/funding ,Liquidity (incl FX)/ELA
+Zimbabwe,Low income,SSA,2020-03-26,Liquidity/funding ,Liquidity (incl FX)/ELA
+Zimbabwe,Low income,SSA,2020-03-26,Financial Markets,Market functioning
+Zimbabwe,Low income,SSA,2020-03-26,Liquidity/funding ,Policy rate
+Australia,High income,Other G20,2020-03-27,Financial Markets,Market functioning
+Brazil,Upper middle income,LAC,2020-03-27,Financial Institutions,Support borrowers
+Canada,High income,Other G20,2020-03-27,Liquidity/funding ,Policy rate
+Canada,High income,Other G20,2020-03-27,Liquidity/funding ,Asset purchases
+Canada,High income,Other G20,2020-03-27,Financial Institutions,Operational continuity
+Colombia,Upper middle income,LAC,2020-03-27,Liquidity/funding ,Policy rate
+"Egypt, Arab Rep.",Lower middle income,MENA,2020-03-27,Financial Institutions,Prudential
+Ethiopia,Low income,SSA,2020-03-27,Liquidity/funding ,Liquidity (incl FX)/ELA
+Ethiopia,Low income,SSA,2020-03-27,Financial Institutions,Support borrowers
+G20,High income,G20,2020-03-27,Financial Institutions,Prudential
+Germany,High income,Other G20,2020-03-27,Financial Institutions,Operational continuity
+"Hong Kong SAR, China",High income,EAP,2020-03-27,Financial Institutions,Prudential
+India,Lower middle income,SA,2020-03-27,Liquidity/funding ,Policy rate
+India,Lower middle income,SA,2020-03-27,Financial Institutions,Prudential
+"Iran, Islamic Rep.",Upper middle income,MENA,2020-03-27,Financial Institutions,Prudential
+Libya,Upper middle income,MENA,2020-03-27,Financial Institutions,Prudential
+Malaysia,Upper middle income,EAP,2020-03-27,Financial Institutions,Support borrowers
+Morocco,Lower middle income,MENA,2020-03-27,Liquidity/funding ,Liquidity (incl FX)/ELA
+Morocco,Lower middle income,MENA,2020-03-27,Liquidity/funding ,Liquidity (incl FX)/ELA
+Spain,High income,Other G20,2020-03-27,Financial Institutions,Prudential
+Spain,High income,Other G20,2020-03-27,Payment systems,
+Spain,High income,Other G20,2020-03-27,Financial Institutions,Prudential
+Tunisia,Lower middle income,MENA,2020-03-27,Financial Institutions,Operational continuity
+UK,High income,Other G20,2020-03-27,Financial Institutions,Prudential
+United Arab Emirates,High income,MENA,2020-03-27,Financial Institutions,Prudential
+West Bank and Gaza,Lower middle income,MENA,2020-03-27,Financial Institutions,Prudential
+West Bank and Gaza,Lower middle income,MENA,2020-03-27,Financial Institutions,Prudential
+West Bank and Gaza,Lower middle income,MENA,2020-03-27,Financial Institutions,Prudential
+West Bank and Gaza,Lower middle income,MENA,2020-03-27,Financial Institutions,Support borrowers
+West Bank and Gaza,Lower middle income,MENA,2020-03-27,Financial Institutions,Support borrowers
+West Bank and Gaza,Lower middle income,MENA,2020-03-27,Payment systems,
+Jordan,Upper middle income,MENA,2020-03-28,Payment systems,
+Nepal,Low income,SA,2020-03-28,Payment systems,
+South Africa,Upper middle income,SSA,2020-03-28,Financial Institutions,Prudential
+South Africa,Upper middle income,SSA,2020-03-28,Financial Institutions,Prudential
+South Africa,Upper middle income,SSA,2020-03-28,Financial Institutions,Prudential
+"Egypt, Arab Rep.",Lower middle income,MENA,2020-03-29,Payment systems,
+"Egypt, Arab Rep.",Lower middle income,MENA,2020-03-29,Payment systems,
+Brazil,Upper middle income,LAC,2020-03-30,Financial Institutions,Support borrowers
+China,Upper middle income,EAP,2020-03-30,Liquidity/funding ,Policy rate
+Colombia,Upper middle income,LAC,2020-03-30,Liquidity/funding ,Asset purchases
+France,High income,Other G20,2020-03-30,Financial Institutions,Prudential
+Ghana,Lower middle income,SSA,2020-03-30,Liquidity/funding ,Policy rate
+Ghana,Lower middle income,SSA,2020-03-30,Financial Institutions,Prudential
+Ghana,Lower middle income,SSA,2020-03-30,Financial Markets,Public debt management
+Jordan,Upper middle income,MENA,2020-03-30,Payment systems,
+Kyrgyz Republic,Lower middle income,ECA,2020-03-30,Liquidity/funding ,Liquidity (incl FX)/ELA
+Kyrgyz Republic,Lower middle income,ECA,2020-03-30,Financial Institutions,Operational continuity
+Kyrgyz Republic,Lower middle income,ECA,2020-03-30,Financial Institutions,Prudential
+Kyrgyz Republic,Lower middle income,ECA,2020-03-30,Financial Institutions,Support borrowers
+Mozambique,Low income,SSA,2020-03-30,Financial Institutions,Prudential
+Mozambique,Low income,SSA,2020-03-30,Payment systems,
+Philippines,Lower middle income,EAP,2020-03-30,Liquidity/funding ,Asset purchases
+Philippines,Lower middle income,EAP,2020-03-30,Payment systems,
+UK,High income,Other G20,2020-03-30,Financial Institutions,Prudential
+Albania,Upper middle income,ECA,2020-03-31,Liquidity/funding ,Liquidity (incl FX)/ELA
+Albania,Upper middle income,ECA,2020-03-31,Liquidity/funding ,Policy rate
+Albania,Upper middle income,ECA,2020-03-31,Financial Institutions,Prudential
+Albania,Upper middle income,ECA,2020-03-31,Financial Institutions,Support borrowers
+Argentina,High income,LAC,2020-03-31,Financial Institutions,Prudential
+Argentina,High income,LAC,2020-03-31,Financial Institutions,Prudential
+Argentina,High income,LAC,2020-03-31,Financial Institutions,Support borrowers
+Argentina,High income,LAC,2020-03-31,Financial Institutions,Support borrowers
+Argentina,High income,LAC,2020-03-31,Financial Institutions,Support borrowers
+Australia,High income,Other G20,2020-03-31,Financial Institutions,Prudential
+Bosnia and Herzegovina,Upper middle income,ECA,2020-03-31,Financial Institutions,Prudential
+Bosnia and Herzegovina,Upper middle income,ECA,2020-03-31,Financial Institutions,Prudential
+Bosnia and Herzegovina,Upper middle income,ECA,2020-03-31,Financial Institutions,Support borrowers
+Bosnia and Herzegovina,Upper middle income,ECA,2020-03-31,Financial Institutions,Support borrowers
+Brazil,Upper middle income,LAC,2020-03-31,Liquidity/funding ,Liquidity (incl FX)/ELA
+China,Upper middle income,EAP,2020-03-31,Financial Institutions,Support borrowers
+Croatia,High income,ECA,2020-03-31,Financial Institutions,Support borrowers
+Croatia,High income,ECA,2020-03-31,Financial Institutions,Support borrowers
+Czech Republic,High income,ECA,2020-03-31,Financial Institutions,Support borrowers
+Estonia,High income,ECA,2020-03-31,Financial Institutions,Support borrowers
+EU/Eurozone,High income,Other G20,2020-03-31,Financial Institutions,Prudential
+EU/Eurozone,High income,Other G20,2020-03-31,Financial Institutions,Support borrowers
+France,High income,Other G20,2020-03-31,Financial Institutions,Support borrowers
+France,High income,Other G20,2020-03-31,Financial Institutions,Support borrowers
+France,High income,Other G20,2020-03-31,Financial Institutions,Support borrowers
+France,High income,Other G20,2020-03-31,Financial Institutions,Support borrowers
+Georgia,Lower middle income,ECA,2020-03-31,Financial Institutions,Prudential
+Germany,High income,Other G20,2020-03-31,Financial Institutions,Support borrowers
+Germany,High income,Other G20,2020-03-31,Financial Institutions,Prudential
+Kazakhstan,Upper middle income,ECA,2020-03-31,Financial Institutions,Support borrowers
+Latvia,High income,ECA,2020-03-31,Financial Institutions,Prudential
+Moldova,Lower middle income,ECA,2020-03-31,Liquidity/funding ,Liquidity (incl FX)/ELA
+Moldova,Lower middle income,ECA,2020-03-31,Liquidity/funding ,Liquidity (incl FX)/ELA
+Moldova,Lower middle income,ECA,2020-03-31,Liquidity/funding ,Policy rate
+Moldova,Lower middle income,ECA,2020-03-31,Financial Institutions,
+Montenegro,Upper middle income,ECA,2020-03-31,Financial Institutions,Prudential
+Montenegro,Upper middle income,ECA,2020-03-31,Financial Institutions,Prudential
+North Macedonia,Upper middle income,ECA,2020-03-31,Liquidity/funding ,Liquidity (incl FX)/ELA
+North Macedonia,Upper middle income,ECA,2020-03-31,Liquidity/funding ,Policy rate
+North Macedonia,Upper middle income,ECA,2020-03-31,Financial Institutions,Prudential
+North Macedonia,Upper middle income,ECA,2020-03-31,Financial Institutions,Prudential
+Poland,High income,ECA,2020-03-31,Liquidity/funding ,Asset purchases
+Poland,High income,ECA,2020-03-31,Liquidity/funding ,Liquidity (incl FX)/ELA
+Poland,High income,ECA,2020-03-31,Liquidity/funding ,Liquidity (incl FX)/ELA
+Poland,High income,ECA,2020-03-31,Liquidity/funding ,Liquidity (incl FX)/ELA
+Poland,High income,ECA,2020-03-31,Financial Institutions,Prudential
+Poland,High income,ECA,2020-03-31,Financial Institutions,Prudential
+Poland,High income,ECA,2020-03-31,Financial Institutions,Prudential
+Poland,High income,ECA,2020-03-31,Financial Institutions,Support borrowers
+Poland,High income,ECA,2020-03-31,Financial Institutions,
+Poland,High income,ECA,2020-03-31,Financial Institutions,Prudential
+Poland,High income,ECA,2020-03-31,Financial Institutions,Prudential
+Portugal,High income,Other G20,2020-03-31,Financial Institutions,Support borrowers
+Serbia,Upper middle income,ECA,2020-03-31,Liquidity/funding ,Liquidity (incl FX)/ELA
+Serbia,Upper middle income,ECA,2020-03-31,Liquidity/funding ,Liquidity (incl FX)/ELA
+Slovak Republic,High income,ECA,2020-03-31,Financial Institutions,Prudential
+Slovak Republic,High income,ECA,2020-03-31,Financial Institutions,Prudential
+Slovak Republic,High income,ECA,2020-03-31,Financial Institutions,Prudential
+Slovak Republic,High income,ECA,2020-03-31,Financial Institutions,Support borrowers
+Slovenia,High income,ECA,2020-03-31,Financial Institutions,Support borrowers
+South Korea,High income,EAP,2020-03-31,Financial Institutions,Prudential
+South Korea,High income,EAP,2020-03-31,Financial Institutions,Support borrowers
+Spain,High income,Other G20,2020-03-31,Financial Institutions,Prudential
+Spain,High income,Other G20,2020-03-31,Financial Institutions,Support borrowers
+Spain,High income,Other G20,2020-03-31,Financial Institutions,Support borrowers
+Turkey,Upper middle income,ECA,2020-03-31,Financial Institutions,Support borrowers
+Turkey,Upper middle income,ECA,2020-03-31,Financial Institutions,Prudential
+United States,High income,Other G20,2020-03-31,Liquidity/funding ,Liquidity (incl FX)/ELA
+Brazil,Upper middle income,LAC,2020-04-01,Liquidity/funding ,Liquidity (incl FX)/ELA
+Brazil,Upper middle income,LAC,2020-04-01,Financial Institutions,Prudential
+Czech Republic,High income,ECA,2020-04-01,Financial Institutions,Support borrowers
+Czech Republic,High income,ECA,2020-04-01,Financial Institutions,Support borrowers
+France,High income,Other G20,2020-04-01,Financial Institutions,Support borrowers
+France,High income,Other G20,2020-04-01,Financial Institutions,Support borrowers
+France,High income,Other G20,2020-04-01,Financial Institutions,Support borrowers
+Georgia,Lower middle income,ECA,2020-04-01,Financial Markets,Market functioning
+Germany,High income,Other G20,2020-04-01,Financial Institutions,Prudential
+Hungary,High income,ECA,2020-04-01,Financial Institutions,Prudential
+Hungary,High income,ECA,2020-04-01,Financial Institutions,Support borrowers
+Kazakhstan,Upper middle income,ECA,2020-04-01,Financial Markets,Market functioning
+Kazakhstan,Upper middle income,ECA,2020-04-01,Liquidity/funding ,Policy rate
+Kazakhstan,Upper middle income,ECA,2020-04-01,Financial Institutions,Prudential
+Kazakhstan,Upper middle income,ECA,2020-04-01,Financial Institutions,Prudential
+Kazakhstan,Upper middle income,ECA,2020-04-01,Financial Institutions,Prudential
+Kazakhstan,Upper middle income,ECA,2020-04-01,Financial Institutions,Support borrowers
+Kazakhstan,Upper middle income,ECA,2020-04-01,Financial Institutions,Prudential
+Kazakhstan,Upper middle income,ECA,2020-04-01,Financial Institutions,Prudential
+Kosovo,Lower middle income,ECA,2020-04-01,Liquidity/funding ,Liquidity (incl FX)/ELA
+Kosovo,Lower middle income,ECA,2020-04-01,Financial Institutions,Prudential
+Lithuania,High income,ECA,2020-04-01,Financial Institutions,Prudential
+Lithuania,High income,ECA,2020-04-01,Financial Institutions,Prudential
+Lithuania,High income,ECA,2020-04-01,Financial Institutions,Support borrowers
+North Macedonia,Upper middle income,ECA,2020-04-01,Financial Institutions,Support borrowers
+Peru,Upper middle income,LAC,2020-04-01,Liquidity/funding ,Liquidity (incl FX)/ELA
+Peru,Upper middle income,LAC,2020-04-01,Financial Markets,Market functioning
+Peru,Upper middle income,LAC,2020-04-01,Financial Institutions,Prudential
+Peru,Upper middle income,LAC,2020-04-01,Financial Institutions,Prudential
+Serbia,Upper middle income,ECA,2020-04-01,Liquidity/funding ,Liquidity (incl FX)/ELA
+Serbia,Upper middle income,ECA,2020-04-01,Financial Institutions,Support borrowers
+Serbia,Upper middle income,ECA,2020-04-01,Financial Institutions,Support borrowers
+Ukraine,Lower middle income,ECA,2020-04-01,Financial Markets,Market functioning
+Ukraine,Lower middle income,ECA,2020-04-01,Financial Institutions,Prudential
+United States,High income,Other G20,2020-04-01,Financial Institutions,Prudential
+Belize,Upper middle income,LAC,2020-04-02,Liquidity/funding ,Liquidity (incl FX)/ELA
+Belize,Upper middle income,LAC,2020-04-02,Financial Institutions,Operational continuity
+Belize,Upper middle income,LAC,2020-04-02,Financial Institutions,Prudential
+Belize,Upper middle income,LAC,2020-04-02,Financial Institutions,Prudential
+Belize,Upper middle income,LAC,2020-04-02,Financial Institutions,Prudential
+Bolivia,Lower middle income,LAC,2020-04-02,Financial Institutions,Prudential
+Ecuador,Upper middle income,LAC,2020-04-02,Payment systems,
+El Salvador,Lower middle income,LAC,2020-04-02,Liquidity/funding ,Liquidity (incl FX)/ELA
+El Salvador,Lower middle income,LAC,2020-04-02,Financial Institutions,Prudential
+El Salvador,Lower middle income,LAC,2020-04-02,Financial Institutions,Prudential
+El Salvador,Lower middle income,LAC,2020-04-02,Payment systems,
+EU/Eurozone,High income,Other G20,2020-04-02,Financial Institutions,Prudential
+Guatemala,Upper middle income,LAC,2020-04-02,Liquidity/funding ,Policy rate
+Guatemala,Upper middle income,LAC,2020-04-02,Financial Institutions,Prudential
+Guatemala,Upper middle income,LAC,2020-04-02,Financial Institutions,Prudential
+Honduras,Lower middle income,LAC,2020-04-02,Liquidity/funding ,Liquidity (incl FX)/ELA
+Honduras,Lower middle income,LAC,2020-04-02,Liquidity/funding ,Policy rate
+Honduras,Lower middle income,LAC,2020-04-02,Financial Institutions,Prudential
+Nicaragua,Lower middle income,LAC,2020-04-02,Liquidity/funding ,Liquidity (incl FX)/ELA
+Nicaragua,Lower middle income,LAC,2020-04-02,Liquidity/funding ,Policy rate
+Panama,High income,LAC,2020-04-02,Financial Institutions,Prudential
+Panama,High income,LAC,2020-04-02,Financial Institutions,Prudential
+Paraguay,Upper middle income,LAC,2020-04-02,Liquidity/funding ,Liquidity (incl FX)/ELA
+Paraguay,Upper middle income,LAC,2020-04-02,Liquidity/funding ,Liquidity (incl FX)/ELA
+Paraguay,Upper middle income,LAC,2020-04-02,Liquidity/funding ,Policy rate
+Paraguay,Upper middle income,LAC,2020-04-02,Financial Institutions,Support borrowers
+Paraguay,Upper middle income,LAC,2020-04-02,Financial Institutions,Prudential
+Peru,Upper middle income,LAC,2020-04-02,Financial Institutions,Support borrowers
+Uruguay,High income,LAC,2020-04-02,Liquidity/funding ,Liquidity (incl FX)/ELA
+Uruguay,High income,LAC,2020-04-02,Financial Institutions,Support borrowers
+G20,High income,G20,2020-04-03,Financial Institutions,Prudential
+India,Lower middle income,SA,2020-04-03,Liquidity/funding ,Liquidity (incl FX)/ELA
+Argentina,High income,LAC,2020-04-05,Financial Institutions,Support borrowers
+Argentina,High income,LAC,2020-04-05,Financial Institutions,Support borrowers
+Australia,High income,Other G20,2020-04-07,Financial Institutions,Prudential
+Australia,High income,Other G20,2020-04-08,Financial Institutions,Prudential
+Bangladesh,Lower middle income,SA,2020-04-07,Financial Institutions,Support borrowers
+Bangladesh,Lower middle income,SA,2020-04-05,Financial Institutions,Support borrowers
+Bangladesh,Lower middle income,SA,2020-04-02,Financial Institutions,Support borrowers
+Bangladesh,Lower middle income,SA,2020-03-29,Payment systems,
+Bangladesh,Lower middle income,SA,2020-03-24,Financial Institutions,Support borrowers
+Bangladesh,Lower middle income,SA,2020-03-23,Liquidity/funding ,Liquidity (incl FX)/ELA
+Bangladesh,Lower middle income,SA,2020-03-23,Liquidity/funding ,Policy rate
+Bangladesh,Lower middle income,SA,2020-03-19,Financial Institutions,Prudential
+Bangladesh,Lower middle income,SA,2020-03-19,Payment systems,
+Bangladesh,Lower middle income,SA,2020-04-09,Liquidity/funding ,Liquidity (incl FX)/ELA
+Bangladesh,Lower middle income,SA,2020-04-09,Liquidity/funding ,Policy rate
+Bhutan,Lower middle income,SA,2020-03-27,Financial Institutions,Support borrowers
+Brazil,Upper middle income,LAC,2020-04-06,Liquidity/funding ,Liquidity (incl FX)/ELA
+Brazil,Upper middle income,LAC,2020-04-06,Financial Institutions,Prudential
+Brazil,Upper middle income,LAC,2020-04-09,Financial Institutions,Operational continuity
+Brazil,Upper middle income,LAC,2020-04-09,Financial Institutions,Prudential
+Brazil,Upper middle income,LAC,2020-04-09,Financial Institutions,Prudential
+G20,High income,G20,2020-04-08,Financial Institutions,Prudential
+G20,High income,G20,2020-04-08,Financial Institutions,Prudential
+EU/Eurozone,High income,Other G20,2020-04-07,Liquidity/funding ,Liquidity (incl FX)/ELA
+EU/Eurozone,High income,Other G20,2020-04-08,Financial Institutions,Support borrowers
+EU/Eurozone,High income,Other G20,2020-04-08,Financial Institutions,Support borrowers
+EU/Eurozone,High income,Other G20,2020-04-08,Financial Institutions,Prudential
+EU/Eurozone,High income,Other G20,2020-04-09,Financial Institutions,Prudential
+EU/Eurozone,High income,Other G20,2020-04-06,Financial Institutions,Support borrowers
+France,High income,Other G20,2020-04-09,Financial Institutions,Prudential
+Germany,High income,Other G20,2020-04-06,Financial Institutions,Support borrowers
+Italy,High income,Other G20,2020-04-09,Financial Institutions,Support borrowers
+Japan,High income,Other G20,2020-04-08,Financial Institutions,Prudential
+Mexico,Upper middle income,LAC,2020-04-05,Financial Institutions,Support borrowers
+Mexico,Upper middle income,LAC,2020-04-08,Financial Institutions,Prudential
+Mexico,Upper middle income,LAC,2020-04-08,Financial Institutions,Prudential
+Mexico,Upper middle income,LAC,2020-04-08,Financial Institutions,Prudential
+Mexico,Upper middle income,LAC,2020-04-08,Financial Institutions,Prudential
+Mexico,Upper middle income,LAC,2020-04-09,Financial Institutions,Prudential
+Mexico,Upper middle income,LAC,2020-04-09,Financial Institutions,Prudential
+Nepal,Low income,SA,2020-03-19,Financial Markets,Market functioning
+Nepal,Low income,SA,2020-03-25,Financial Institutions,Operational continuity
+Nepal,Low income,SA,2020-03-25,Payment systems,
+Nepal,Low income,SA,2020-03-29,Liquidity/funding ,Policy rate
+Nepal,Low income,SA,2020-03-29,Liquidity/funding ,Liquidity (incl FX)/ELA
+Nepal,Low income,SA,2020-03-29,Financial Institutions,Prudential
+Nepal,Low income,SA,2020-03-29,Financial Institutions,Prudential
+Nepal,Low income,SA,2020-03-29,Financial Institutions,Prudential
+Nepal,Low income,SA,2020-03-29,Financial Institutions,Support borrowers
+Nepal,Low income,SA,2020-03-29,Financial Institutions,Prudential
+Nepal,Low income,SA,2020-03-29,Financial Institutions,Prudential
+Nepal,Low income,SA,2020-03-29,Financial Institutions,Prudential
+Nepal,Low income,SA,2020-03-29,Financial Institutions,Support borrowers
+Nepal,Low income,SA,2020-03-29,Financial Institutions,Support borrowers
+Nepal,Low income,SA,2020-03-29,Financial Institutions,Support borrowers
+Russian Federation,Upper middle income,ECA,2020-04-06,Financial Institutions,Prudential
+South Africa,Upper middle income,SSA,2020-04-06,Financial Institutions,Prudential
+South Africa,Upper middle income,SSA,2020-04-07,Financial Institutions,Prudential
+South Africa,Upper middle income,SSA,2020-04-06,Financial Institutions,Prudential
+South Africa,Upper middle income,SSA,2020-04-06,Financial Institutions,Prudential
+South Africa,Upper middle income,SSA,2020-04-06,Financial Institutions,Prudential
+South Africa,Upper middle income,SSA,2020-04-09,Financial Institutions,Prudential
+South Korea,High income,EAP,2020-04-07,Financial Institutions,Support borrowers
+South Korea,High income,EAP,2020-04-08,Financial Institutions,Prudential
+South Korea,High income,EAP,2020-04-08,Financial Institutions,Prudential
+South Korea,High income,EAP,2020-04-08,Financial Institutions,Support borrowers
+South Korea,High income,EAP,2020-04-08,Financial Institutions,Integrity
+South Korea,High income,EAP,2020-04-06,Financial Institutions,Prudential
+UK,High income,Other G20,2020-04-10,Liquidity/funding ,Liquidity (incl FX)/ELA
+UK,High income,Other G20,2020-04-09,Liquidity/funding ,Liquidity (incl FX)/ELA
+United States,High income,Other G20,2020-04-06,Financial Institutions,Prudential
+United States,High income,Other G20,2020-04-07,Financial Institutions,Prudential
+United States,High income,Other G20,2020-04-07,Financial Institutions,Prudential
+United States,High income,Other G20,2020-04-08,Financial Institutions,Support borrowers
+United States,High income,Other G20,2020-04-06,Liquidity/funding ,Liquidity (incl FX)/ELA
+United States,High income,Other G20,2020-04-09,Liquidity/funding ,Liquidity (incl FX)/ELA
+United States,High income,Other G20,2020-04-09,Liquidity/funding ,Liquidity (incl FX)/ELA
+United States,High income,Other G20,2020-04-09,Liquidity/funding ,Liquidity (incl FX)/ELA
+United States,High income,Other G20,2020-04-09,Financial Institutions,Prudential
+United States,High income,Other G20,2020-04-09,Financial Institutions,Prudential
+United States,High income,Other G20,2020-04-08,Financial Institutions,Support borrowers
+Philippines,Lower middle income,EAP,2020-04-07,Financial Institutions,Integrity
+EU/Eurozone,High income,Other G20,2020-04-06,Liquidity/funding ,Liquidity (incl FX)/ELA
+Moldova,Lower middle income,ECA,2020-04-06,Financial Institutions,Prudential
+Moldova,Lower middle income,ECA,2020-04-06,Financial Institutions,Prudential
+Moldova,Lower middle income,ECA,2020-04-06,Financial Institutions,Prudential
+Sweden,High income,Other G20,2020-04-06,Liquidity/funding ,Liquidity (incl FX)/ELA
+Uzbekistan,Lower middle income,ECA,2020-04-06,Liquidity/funding ,Liquidity (incl FX)/ELA
+Uzbekistan,Lower middle income,ECA,2020-04-03,Liquidity/funding ,Liquidity (incl FX)/ELA
+Uzbekistan,Lower middle income,ECA,2020-04-03,Financial Institutions,Prudential
+Romania,Upper middle income,ECA,2020-04-02,Financial Institutions,Prudential
+Moldova,Lower middle income,ECA,2020-04-03,Liquidity/funding ,Liquidity (incl FX)/ELA
+Hungary,High income,ECA,2020-04-01,Financial Institutions,Prudential
+Hungary,High income,ECA,2020-04-01,Liquidity/funding ,Liquidity (incl FX)/ELA
+Bulgaria,Upper middle income,ECA,2020-04-03,Financial Institutions,Prudential
+Canada,High income,Other G20,2020-04-10,Financial Institutions,Support borrowers
+France,High income,Other G20,2020-04-10,Financial Institutions,Support borrowers
+Philippines,Lower middle income,EAP,2020-04-10,Liquidity/funding ,Liquidity (incl FX)/ELA
+Philippines,Lower middle income,EAP,2020-04-10,Liquidity/funding ,Liquidity (incl FX)/ELA
+South Korea,High income,EAP,2020-04-10,Payment systems,
+South Korea,High income,EAP,2020-04-10,Payment systems,
+South Korea,High income,EAP,2020-04-10,Liquidity/funding ,Liquidity (incl FX)/ELA
+South Korea,High income,EAP,2020-04-10,Liquidity/funding ,Liquidity (incl FX)/ELA
+Sri Lanka,Lower middle income,SA,2020-04-09,Payment systems,
+Kenya,Lower middle income,SSA,2020-03-24,Liquidity/funding ,Policy rate
+Kenya,Lower middle income,SSA,2020-03-24,Liquidity/funding ,Liquidity (incl FX)/ELA
+Kenya,Lower middle income,SSA,2020-03-24,Liquidity/funding ,Liquidity (incl FX)/ELA
+Kenya,Lower middle income,SSA,2020-03-24,Financial Institutions,Prudential
+Kenya,Lower middle income,SSA,2020-03-24,Payment systems,
+Kenya,Lower middle income,SSA,2020-03-25,Financial Institutions,Prudential
+Kenya,Lower middle income,SSA,2020-03-31,Financial Markets,Public debt management
