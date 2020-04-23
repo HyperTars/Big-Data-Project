@@ -1,1 +1,2 @@
 raw_stock_history_0421.zip filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
