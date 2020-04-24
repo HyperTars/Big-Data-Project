@@ -686,7 +686,7 @@ BBIO,"BridgeBio Pharma, Inc.",27.62,3418402143.0,,2019.0,Health Care,Major Pharm
 BBK,Blackrock Municipal Bond Trust,14.22,149636448.5,,2002.0,,,https://old.nasdaq.com/symbol/bbk
 BBL,BHP Group Plc,31.71,80179873326.0,,,Energy,Coal Mining,https://old.nasdaq.com/symbol/bbl
 BBN,BalckRock Taxable Municipal Bond Trust,23.06,1317435879.0,,2010.0,,,https://old.nasdaq.com/symbol/bbn
-BBP,Virtus LifeSci Biotech Products ETF,44.40600000000001,44406177.62,,,,,https://old.nasdaq.com/symbol/bbp
+BBP,Virtus LifeSci Biotech Products ETF,44.406000000000006,44406177.62,,,,,https://old.nasdaq.com/symbol/bbp
 BBQ,"BBQ Holdings, Inc. ",2.1,19471420.5,,,Consumer Services,Restaurants,https://old.nasdaq.com/symbol/bbq
 BBRX,"Braeburn Pharmaceuticals, Inc.",,0.0,,,,,https://old.nasdaq.com/symbol/bbrx
 BBSI,"Barrett Business Services, Inc.",41.1,309424473.6,,1993.0,Technology,Professional Services,https://old.nasdaq.com/symbol/bbsi
@@ -898,7 +898,7 @@ BOMN,Boston Omaha Corporation,16.59,390041849.4,,,Finance,Real Estate,https://ol
 BOOM,DMC Global Inc.,27.23,401688682.1,,,Capital Goods,Industrial Specialties,https://old.nasdaq.com/symbol/boom
 BOOT,"Boot Barn Holdings, Inc.",14.17,407692282.5,,2014.0,Consumer Services,Clothing/Shoe/Accessory Stores,https://old.nasdaq.com/symbol/boot
 BORR,Borr Drilling Limited,0.688,76243025.49,,2019.0,Energy,Oil & Gas Production,https://old.nasdaq.com/symbol/borr
-BOSC,B.O.S. Better Online Solutions,1.8801,8005070.9789999975,,,Technology,Computer Communications Equipment,https://old.nasdaq.com/symbol/bosc
+BOSC,B.O.S. Better Online Solutions,1.8801,8005070.978999999,,,Technology,Computer Communications Equipment,https://old.nasdaq.com/symbol/bosc
 BOTJ,"Bank of the James Financial Group, Inc.",9.5601,41485442.1,,,Finance,Major Banks,https://old.nasdaq.com/symbol/botj
 BOTZ,Global X Robotics & Artificial Intelligence ETF,19.0,1128810539.0,,,,,https://old.nasdaq.com/symbol/botz
 BOX,"Box, Inc.",16.01,2433743900.0,,2015.0,Technology,Computer Software: Prepackaged Software,https://old.nasdaq.com/symbol/box
@@ -2351,7 +2351,7 @@ FDNI,First Trust Dow Jones International Internet ETF,25.7044,7711371.409,,,,,ht
 FDP,"Fresh Del Monte Produce, Inc.",31.7,1520600214.0,,1997.0,Consumer Non-Durables,Farming/Seeds/Milling,https://old.nasdaq.com/symbol/fdp
 FDS,FactSet Research Systems Inc.,276.7,10479109628.0,,1996.0,Technology,"Computer Software: Programming, Data Processing",https://old.nasdaq.com/symbol/fds
 FDT,First Trust Developed Markets Ex-US AlphaDEX Fund,41.75,386271000.0,,,,,https://old.nasdaq.com/symbol/fdt
-FDTS,First Trust Developed Markets ex-US Small Cap AlphaDEX Fund,27.9282,5585695.856000002,,,,,https://old.nasdaq.com/symbol/fdts
+FDTS,First Trust Developed Markets ex-US Small Cap AlphaDEX Fund,27.9282,5585695.856000001,,,,,https://old.nasdaq.com/symbol/fdts
 FDUS,Fidus Investment Corporation,8.63,211116717.0,,2011.0,,,https://old.nasdaq.com/symbol/fdus
 FDUSG,Fidus Investment Corporation,22.0,0.0,,,,,https://old.nasdaq.com/symbol/fdusg
 FDUSL,Fidus Investment Corporation,21.8,0.0,,,,,https://old.nasdaq.com/symbol/fdusl
@@ -2815,7 +2815,7 @@ GNT,"GAMCO Natural Resources, Gold & Income Tust ",4.22,88226831.04,,2011.0,,,ht
 GNT^A,"GAMCO Natural Resources, Gold & Income Tust ",25.0,0.0,,,,,https://old.nasdaq.com/symbol/gnt^a
 GNTX,Gentex Corporation,22.95,5664006481.0,,,Capital Goods,Auto Parts:O.E.M.,https://old.nasdaq.com/symbol/gntx
 GNTY,"Guaranty Bancshares, Inc.",24.28,271199296.2,,2017.0,Finance,Major Banks,https://old.nasdaq.com/symbol/gnty
-GNUS,"Genius Brands International, Inc.",0.2811,8318375.5720000025,,,Consumer Services,Movies/Entertainment,https://old.nasdaq.com/symbol/gnus
+GNUS,"Genius Brands International, Inc.",0.2811,8318375.572000001,,,Consumer Services,Movies/Entertainment,https://old.nasdaq.com/symbol/gnus
 GNW,Genworth Financial Inc,3.38,1707326211.0,,2004.0,Finance,Life Insurance,https://old.nasdaq.com/symbol/gnw
 GO,Grocery Outlet Holding Corp.,34.94,3141125776.0,,2019.0,Consumer Services,Food Chains,https://old.nasdaq.com/symbol/go
 GOF,Guggenheim Strategic Opportunities Fund,14.92,610396610.9,,,,,https://old.nasdaq.com/symbol/gof
@@ -3650,7 +3650,7 @@ KRC,Kilroy Realty Corporation,61.25,6502962358.0,,1997.0,Consumer Services,Real 
 KREF,KKR Real Estate Finance Trust Inc.,14.4,827806795.2,,2017.0,Consumer Services,Real Estate Investment Trusts,https://old.nasdaq.com/symbol/kref
 KRG,Kite Realty Group Trust,7.73,649520941.4,,2004.0,Consumer Services,Real Estate Investment Trusts,https://old.nasdaq.com/symbol/krg
 KRKR,36Kr Holdings Inc.,3.6,4968000.0,1380000.0,2019.0,Miscellaneous,Business Services,https://old.nasdaq.com/symbol/krkr
-KRMA,Global X Conscious Companies ETF,20.069000000000006,218796873.9,,,,,https://old.nasdaq.com/symbol/krma
+KRMA,Global X Conscious Companies ETF,20.069000000000003,218796873.9,,,,,https://old.nasdaq.com/symbol/krma
 KRMD,"Repro Med Systems, Inc.",11.4,452428904.4,,,Health Care,Medical/Dental Instruments,https://old.nasdaq.com/symbol/krmd
 KRNT,Kornit Digital Ltd.,27.31,1114298087.0,,2015.0,Capital Goods,Industrial Machinery/Components,https://old.nasdaq.com/symbol/krnt
 KRNY,Kearny Financial,8.11,678721253.0,,,Finance,Savings Institutions,https://old.nasdaq.com/symbol/krny
@@ -3978,7 +3978,7 @@ MDLX,Medley LLC,7.6,0.0,,2016.0,Finance,Investment Managers,https://old.nasdaq.c
 MDLY,Medley Management Inc.,0.4939,15759409.11,,2014.0,Finance,Investment Managers,https://old.nasdaq.com/symbol/mdly
 MDLZ,"Mondelez International, Inc.",53.49,76474349016.0,,,Consumer Non-Durables,Packaged Foods,https://old.nasdaq.com/symbol/mdlz
 MDP,Meredith Corporation,13.02,590331929.9,,,Consumer Services,Newspapers/Magazines,https://old.nasdaq.com/symbol/mdp
-MDRR,"Medalist Diversified REIT, Inc.",1.472,6624211.9679999985,,2018.0,Consumer Services,Real Estate Investment Trusts,https://old.nasdaq.com/symbol/mdrr
+MDRR,"Medalist Diversified REIT, Inc.",1.472,6624211.967999999,,2018.0,Consumer Services,Real Estate Investment Trusts,https://old.nasdaq.com/symbol/mdrr
 MDRRP,"Medalist Diversified REIT, Inc.",16.0,0.0,,,Consumer Services,Real Estate Investment Trusts,https://old.nasdaq.com/symbol/mdrrp
 MDRX,"Allscripts Healthcare Solutions, Inc.",6.62,1071759444.0,,,Technology,EDP Services,https://old.nasdaq.com/symbol/mdrx
 MDT,Medtronic plc,101.54,136080000000.0,,,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus,https://old.nasdaq.com/symbol/mdt
@@ -5811,7 +5811,7 @@ SMTX,SMTC Corporation,2.55,71898015.0,,2000.0,Technology,Electrical Products,htt
 SNA,Snap-On Incorporated,114.66,6270465769.0,,,Capital Goods,Industrial Machinery/Components,https://old.nasdaq.com/symbol/sna
 SNAP,Snap Inc.,12.92,18348870188.0,,2017.0,Technology,"Computer Software: Programming, Data Processing",https://old.nasdaq.com/symbol/snap
 SNBR,Sleep Number Corporation,22.77,623024952.7,,,Consumer Durables,Home Furnishings,https://old.nasdaq.com/symbol/snbr
-SNCA,"Seneca Biopharma, Inc.",0.8161,7694199.777000003,,,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),https://old.nasdaq.com/symbol/snca
+SNCA,"Seneca Biopharma, Inc.",0.8161,7694199.777000001,,,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),https://old.nasdaq.com/symbol/snca
 SNCR,"Synchronoss Technologies, Inc.",3.21,143168446.0,,2018.0,Technology,EDP Services,https://old.nasdaq.com/symbol/sncr
 SND,"Smart Sand, Inc.",0.6601,27563307.89,,2016.0,Basic Industries,Mining & Quarrying of Nonmetallic Minerals (No Fuels),https://old.nasdaq.com/symbol/snd
 SNDE,Sundance Energy Inc. ,2.72,18701827.84,,,Energy,Oil & Gas Production,https://old.nasdaq.com/symbol/snde
@@ -5832,7 +5832,7 @@ SNPS,"Synopsys, Inc.",151.01,22685800411.0,,1992.0,Technology,Computer Software:
 SNR,New Senior Investment Group Inc.,2.67,221290192.7,,2014.0,Consumer Services,Real Estate Investment Trusts,https://old.nasdaq.com/symbol/snr
 SNSR,Global X Internet of Things ETF,19.79,130603254.0,,,,,https://old.nasdaq.com/symbol/snsr
 SNSS,"Sunesis Pharmaceuticals, Inc.",0.4716,52532938.8,,2005.0,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/snss
-SNUG,Merlyn.AI Tactical Growth & Income ETF,23.29300000000001,4658600.0,,,,,https://old.nasdaq.com/symbol/snug
+SNUG,Merlyn.AI Tactical Growth & Income ETF,23.293000000000003,4658600.0,,,,,https://old.nasdaq.com/symbol/snug
 SNV,Synovus Financial Corp.,17.37,2557840211.0,,,Finance,Major Banks,https://old.nasdaq.com/symbol/snv
 SNV^D,Synovus Financial Corp.,22.54,0.0,,,,,https://old.nasdaq.com/symbol/snv^d
 SNV^E,Synovus Financial Corp.,21.0769,0.0,,,,,https://old.nasdaq.com/symbol/snv^e
@@ -6354,7 +6354,7 @@ TSLX,"TPG Specialty Lending, Inc.",15.15,1010793774.0,,2014.0,,,https://old.nasd
 TSM,Taiwan Semiconductor Manufacturing Company Ltd.,52.59,272736000000.0,,1997.0,Technology,Semiconductors,https://old.nasdaq.com/symbol/tsm
 TSN,"Tyson Foods, Inc.",63.86,23311334663.0,,,Consumer Non-Durables,Meat/Poultry/Fish,https://old.nasdaq.com/symbol/tsn
 TSQ,"Townsquare Media, Inc.",4.31,81796020.45,,2014.0,Consumer Services,Broadcasting,https://old.nasdaq.com/symbol/tsq
-TSRI,"TSR, Inc.",3.3838,6639225.3960000025,,,Technology,EDP Services,https://old.nasdaq.com/symbol/tsri
+TSRI,"TSR, Inc.",3.3838,6639225.396000001,,,Technology,EDP Services,https://old.nasdaq.com/symbol/tsri
 TSU,TIM Participacoes S.A.,12.05,5833181051.0,,,Public Utilities,Telecommunications Equipment,https://old.nasdaq.com/symbol/tsu
 TT,Trane Technologies plc,85.02,20268855826.0,,,Capital Goods,Auto Parts:O.E.M.,https://old.nasdaq.com/symbol/tt
 TTC,Toro Company (The),63.24,6765370679.0,,,Capital Goods,Tools/Hardware,https://old.nasdaq.com/symbol/ttc
@@ -6887,7 +6887,7 @@ X,United States Steel Corporation,6.59,1121927506.0,,,Basic Industries,Steel/Iro
 XAIR,"Beyond Air, Inc.",7.9,126845244.0,,,Health Care,Medical/Dental Instruments,https://old.nasdaq.com/symbol/xair
 XAN,Exantas Capital Corp.,2.54,81435455.62,,,Consumer Services,Real Estate Investment Trusts,https://old.nasdaq.com/symbol/xan
 XAN^C,Exantas Capital Corp.,8.9378,0.0,,,,,https://old.nasdaq.com/symbol/xan^c
-XBIO,"Xenetic Biosciences, Inc.",0.9449,5938616.1839999985,,,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/xbio
+XBIO,"Xenetic Biosciences, Inc.",0.9449,5938616.183999999,,,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/xbio
 XBIOW,"Xenetic Biosciences, Inc.",0.7,0.0,,,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/xbiow
 XBIT,XBiotech Inc.,13.02,375665109.5,,2015.0,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/xbit
 XCUR,"Exicure, Inc.",1.98,172557885.1,,,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/xcur
