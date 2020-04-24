@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+import platform as pf
 import os
 import xlrd
 
@@ -174,7 +175,12 @@ def FormatDate():
     print('### Format Date Column Completed ###')
 
 
-# os.system('unzip ../raw_data_0422.zip -d ../')
+sys = pf.system()
+if sys == 'Darwin' or sys == 'Linux':
+    os.system('unzip ../raw_data_0422.zip -d ../')
+if sys == 'Windows':
+    os.system('Expand-Archive -Path "..\raw_data_0422.zip" -DestinationPath "..\"')
+
 FormatDate()
 TransToUSDBase()
 TransYahooToNASDAQ()
