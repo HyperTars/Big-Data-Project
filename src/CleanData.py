@@ -174,6 +174,7 @@ def FormatDate():
     print('### Format Date Column Completed ###')
 
 
+# os.system('unzip ../raw_data_0422.zip -d ../')
 FormatDate()
 TransToUSDBase()
 TransYahooToNASDAQ()

@@ -204,7 +204,7 @@ AIG,"American International Group, Inc.",23.75,20455640516.0,,,Finance,Property-
 AIG.WS,"American International Group, Inc.",,0.0,,,,,https://old.nasdaq.com/symbol/aig.ws
 AIG^A,"American International Group, Inc.",25.72,0.0,,,,,https://old.nasdaq.com/symbol/aig^a
 AIH,Aesthetic Medical International Holdings Group Ltd.,9.08,22700000.0,2500000.0,2019.0,Health Care,Medical Specialities,https://old.nasdaq.com/symbol/aih
-AIHS,Senmiao Technology Limited,0.407,11737799.82,,2018.0,Finance,Finance: Consumer Services,https://old.nasdaq.com/symbol/aihs
+AIHS,Senmiao Technology Limited,0.40700000000000003,11737799.82,,2018.0,Finance,Finance: Consumer Services,https://old.nasdaq.com/symbol/aihs
 AIKI,AIkido Pharma Inc.,0.8284,28901400.62,,,Health Care,Biotechnology: Commercial Physical & Biological Resarch,https://old.nasdaq.com/symbol/aiki
 AIM,"Hemispherx BioPharma, Inc.",2.4,66302584.8,,,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),https://old.nasdaq.com/symbol/aim
 AIMC,Altra Industrial Motion Corp.,18.3,1183392869.0,,2006.0,Capital Goods,Industrial Machinery/Components,https://old.nasdaq.com/symbol/aimc
@@ -753,7 +753,7 @@ BFC,Bank First Corporation,51.99,372038100.5,,,Finance,Major Banks,https://old.n
 BFIN,BankFinancial Corporation,7.14,108576459.2,,,Finance,Savings Institutions,https://old.nasdaq.com/symbol/bfin
 BFIT,Global X Health & Wellness Thematic ETF,17.205,17204827.95,,,,,https://old.nasdaq.com/symbol/bfit
 BFK,BlackRock Municipal Income Trust,12.64,566668137.6,,,,,https://old.nasdaq.com/symbol/bfk
-BFO,Blackrock Florida Municipal 2020 Term Trust,14.486,79277314.91,,2003.0,,,https://old.nasdaq.com/symbol/bfo
+BFO,Blackrock Florida Municipal 2020 Term Trust,14.485999999999999,79277314.91,,2003.0,,,https://old.nasdaq.com/symbol/bfo
 BFRA,Biofrontera AG,6.5162,612509.7676,93998.0,2018.0,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/bfra
 BFS,"Saul Centers, Inc.",29.44,683483426.6,,1993.0,Consumer Services,Real Estate Investment Trusts,https://old.nasdaq.com/symbol/bfs
 BFS^D,"Saul Centers, Inc.",17.275,0.0,,,,,https://old.nasdaq.com/symbol/bfs^d
@@ -768,7 +768,7 @@ BGCP,"BGC Partners, Inc.",2.65,940394603.2,,,Finance,Investment Bankers/Brokers/
 BGFV,Big 5 Sporting Goods Corporation,0.98,21230794.48,,2002.0,Consumer Services,Other Specialty Stores,https://old.nasdaq.com/symbol/bgfv
 BGG,Briggs & Stratton Corporation,1.85,78584605.25,,,Energy,Industrial Machinery/Components,https://old.nasdaq.com/symbol/bgg
 BGH,Babson Global Short Duration High Yield Fund,11.41,228933811.3,,2012.0,,,https://old.nasdaq.com/symbol/bgh
-BGI,Birks Group Inc.,0.5499,9882187.462,,,Consumer Services,Consumer Specialties,https://old.nasdaq.com/symbol/bgi
+BGI,Birks Group Inc.,0.5499,9882187.462000001,,,Consumer Services,Consumer Specialties,https://old.nasdaq.com/symbol/bgi
 BGIO,BlackRock 2022 Global Income Opportunity Trust,7.78,172223876.1,,2017.0,,,https://old.nasdaq.com/symbol/bgio
 BGNE,"BeiGene, Ltd.",161.03,6515203108.0,40459561.0,2016.0,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/bgne
 BGR,BlackRock Energy and Resources Trust,6.54,195057632.0,,2004.0,,,https://old.nasdaq.com/symbol/bgr
@@ -797,7 +797,7 @@ BHTG,"BioHiTech Global, Inc.",1.13,19487238.72,,,Consumer Services,Other Consume
 BHV,BlackRock Virginia Municipal Bond Trust,15.6479,25134235.95,,2002.0,,,https://old.nasdaq.com/symbol/bhv
 BHVN,Biohaven Pharmaceutical Holding Company Ltd.,41.8,2436546996.0,,2017.0,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/bhvn
 BIB,ProShares Ultra Nasdaq Biotechnology,62.86,160293000.0,,,,,https://old.nasdaq.com/symbol/bib
-BICK,First Trust BICK Index Fund,21.923,67961343.85,,,,,https://old.nasdaq.com/symbol/bick
+BICK,First Trust BICK Index Fund,21.923000000000002,67961343.85,,,,,https://old.nasdaq.com/symbol/bick
 BIDU,"Baidu, Inc.",104.68,28943023446.0,276490480.0,2005.0,Technology,"Computer Software: Programming, Data Processing",https://old.nasdaq.com/symbol/bidu
 BIF,"USLIFE Income Fund, Inc.",9.56,981583229.2,,,,,https://old.nasdaq.com/symbol/bif
 BIG,"Big Lots, Inc.",19.6,767667104.4,,,Consumer Services,Department/Specialty Retail Stores,https://old.nasdaq.com/symbol/big
@@ -882,8 +882,8 @@ BNDW,Vanguard Total World Bond ETF,80.44,363991000.0,,,,,https://old.nasdaq.com/
 BNDX,Vanguard Total International Bond ETF,56.76,26167361246.0,,,,,https://old.nasdaq.com/symbol/bndx
 BNED,"Barnes & Noble Education, Inc",1.91,92248328.14,,2015.0,Consumer Services,Other Specialty Stores,https://old.nasdaq.com/symbol/bned
 BNFT,"Benefitfocus, Inc.",10.49,344276324.2,,2013.0,Technology,Computer Software: Prepackaged Software,https://old.nasdaq.com/symbol/bnft
-BNGO,"Bionano Genomics, Inc.",0.343,18744424.87,,2018.0,Capital Goods,Biotechnology: Laboratory Analytical Instruments,https://old.nasdaq.com/symbol/bngo
-BNGOW,"Bionano Genomics, Inc.",0.116,0.0,,2018.0,Capital Goods,Biotechnology: Laboratory Analytical Instruments,https://old.nasdaq.com/symbol/bngow
+BNGO,"Bionano Genomics, Inc.",0.34299999999999997,18744424.87,,2018.0,Capital Goods,Biotechnology: Laboratory Analytical Instruments,https://old.nasdaq.com/symbol/bngo
+BNGOW,"Bionano Genomics, Inc.",0.11599999999999999,0.0,,2018.0,Capital Goods,Biotechnology: Laboratory Analytical Instruments,https://old.nasdaq.com/symbol/bngow
 BNS,Bank of Nova Scotia (The),38.75,46959826604.0,,,Finance,Major Banks,https://old.nasdaq.com/symbol/bns
 BNSO,"Bonso Electronics International, Inc.",2.0102,9308980.905,,,Capital Goods,Industrial Machinery/Components,https://old.nasdaq.com/symbol/bnso
 BNTC,Benitec Biopharma Inc.,13.06,4196008560.0,,2015.0,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/bntc
@@ -898,11 +898,11 @@ BOMN,Boston Omaha Corporation,16.59,390041849.4,,,Finance,Real Estate,https://ol
 BOOM,DMC Global Inc.,27.23,401688682.1,,,Capital Goods,Industrial Specialties,https://old.nasdaq.com/symbol/boom
 BOOT,"Boot Barn Holdings, Inc.",14.17,407692282.5,,2014.0,Consumer Services,Clothing/Shoe/Accessory Stores,https://old.nasdaq.com/symbol/boot
 BORR,Borr Drilling Limited,0.688,76243025.49,,2019.0,Energy,Oil & Gas Production,https://old.nasdaq.com/symbol/borr
-BOSC,B.O.S. Better Online Solutions,1.8801,8005070.978999998,,,Technology,Computer Communications Equipment,https://old.nasdaq.com/symbol/bosc
+BOSC,B.O.S. Better Online Solutions,1.8801,8005070.9789999975,,,Technology,Computer Communications Equipment,https://old.nasdaq.com/symbol/bosc
 BOTJ,"Bank of the James Financial Group, Inc.",9.5601,41485442.1,,,Finance,Major Banks,https://old.nasdaq.com/symbol/botj
 BOTZ,Global X Robotics & Artificial Intelligence ETF,19.0,1128810539.0,,,,,https://old.nasdaq.com/symbol/botz
 BOX,"Box, Inc.",16.01,2433743900.0,,2015.0,Technology,Computer Software: Prepackaged Software,https://old.nasdaq.com/symbol/box
-BOXL,Boxlight Corporation,0.6693,9283985.459,,2017.0,Miscellaneous,Industrial Machinery/Components,https://old.nasdaq.com/symbol/boxl
+BOXL,Boxlight Corporation,0.6693,9283985.458999999,,2017.0,Miscellaneous,Industrial Machinery/Components,https://old.nasdaq.com/symbol/boxl
 BP,BP p.l.c.,22.35,75464219804.0,,,Energy,Integrated oil Companies,https://old.nasdaq.com/symbol/bp
 BPFH,"Boston Private Financial Holdings, Inc.",7.04,586180855.0,,,Finance,Major Banks,https://old.nasdaq.com/symbol/bpfh
 BPMC,Blueprint Medicines Corporation,70.61,3814847105.0,,2015.0,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/bpmc
@@ -982,7 +982,7 @@ BSJN,Invesco BulletShares 2023 High Yield Corporate Bond ETF,23.31,358974000.0,,
 BSJO,Invesco BulletShares 2024 High Yield Corporate Bond ETF,22.8,150480000.0,,,,,https://old.nasdaq.com/symbol/bsjo
 BSJP,Invesco BulletShares 2025 High Yield Corporate Bond ETF,21.9849,125313930.0,,,,,https://old.nasdaq.com/symbol/bsjp
 BSJQ,Invesco BulletShares 2026 High Yield Corporate Bond ETF,22.9711,64319102.97,,,,,https://old.nasdaq.com/symbol/bsjq
-BSJR,Invesco BulletShares 2027 High Yield Corporate Bond ETF,22.782,25060222.78,,,,,https://old.nasdaq.com/symbol/bsjr
+BSJR,Invesco BulletShares 2027 High Yield Corporate Bond ETF,22.781999999999996,25060222.78,,,,,https://old.nasdaq.com/symbol/bsjr
 BSL,Blackstone GSO Senior Floating Rate Term Fund,11.81,180529809.4,,2010.0,,,https://old.nasdaq.com/symbol/bsl
 BSM,"Black Stone Minerals, L.P.",5.22,1075028578.0,,2015.0,Energy,Oil & Gas Production,https://old.nasdaq.com/symbol/bsm
 BSML,Invesco BulletShares 2021 Municipal Bond ETF,25.07,15042025.07,,,,,https://old.nasdaq.com/symbol/bsml
@@ -1119,7 +1119,7 @@ CBD,Companhia Brasileira de Distribuicao,12.24,3277491152.0,,2020.0,Consumer Ser
 CBFV,"CB Financial Services, Inc.",19.2,103559270.4,,,Finance,Major Banks,https://old.nasdaq.com/symbol/cbfv
 CBH,AllianzGI Convertible & Income 2024 Target Term Fund,7.97,145508385.6,,2017.0,,,https://old.nasdaq.com/symbol/cbh
 CBIO,"Catalyst Biosciences, Inc. ",4.98,86574655.62,,,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/cbio
-CBL,"CBL & Associates Properties, Inc.",0.206,39545200.15,,1993.0,Consumer Services,Real Estate Investment Trusts,https://old.nasdaq.com/symbol/cbl
+CBL,"CBL & Associates Properties, Inc.",0.20600000000000002,39545200.15,,1993.0,Consumer Services,Real Estate Investment Trusts,https://old.nasdaq.com/symbol/cbl
 CBL^D,"CBL & Associates Properties, Inc.",1.9,0.0,,,,,https://old.nasdaq.com/symbol/cbl^d
 CBL^E,"CBL & Associates Properties, Inc.",1.28,0.0,,,,,https://old.nasdaq.com/symbol/cbl^e
 CBLI,"Cleveland BioLabs, Inc.",1.57,17903085.23,,2006.0,Health Care,Biotechnology: Commercial Physical & Biological Resarch,https://old.nasdaq.com/symbol/cbli
@@ -1930,7 +1930,7 @@ DUKB,Duke Energy Corporation,26.6,0.0,,2018.0,Public Utilities,Power Generation,
 DUKH,Duke Energy Corporation,25.28,0.0,,,Public Utilities,Power Generation,https://old.nasdaq.com/symbol/dukh
 DUO,Fangdd Network Group Ltd.,9.9,94991697.9,9595121.0,2019.0,Finance,Real Estate,https://old.nasdaq.com/symbol/duo
 DUOT,"Duos Technologies Group, Inc.",4.428,15603196.0,,,Technology,Computer Software: Prepackaged Software,https://old.nasdaq.com/symbol/duot
-DUSA,Davis Select U.S. Equity ETF,20.964,181338600.0,,,,,https://old.nasdaq.com/symbol/dusa
+DUSA,Davis Select U.S. Equity ETF,20.964000000000002,181338600.0,,,,,https://old.nasdaq.com/symbol/dusa
 DVA,DaVita Inc.,77.52,9732787086.0,,,Health Care,Misc Health and Biotechnology Services,https://old.nasdaq.com/symbol/dva
 DVAX,Dynavax Technologies Corporation,3.57,307693883.9,,2004.0,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/dvax
 DVD,"Dover Motorsports, Inc.",1.145,41693322.39,,1996.0,Consumer Services,Services-Misc. Amusement & Recreation,https://old.nasdaq.com/symbol/dvd
@@ -2177,7 +2177,7 @@ ESEA,Euroseas Ltd.,2.59,14504670.81,,,Transportation,Marine Transportation,https
 ESG,FlexShares Trust,68.2407,35826435.74,,,,,https://old.nasdaq.com/symbol/esg
 ESGD,iShares ESG MSCI EAFE ETF,54.55,1767420000.0,,,,,https://old.nasdaq.com/symbol/esgd
 ESGE,iShares ESG MSCI EM ETF,28.91,2792706000.0,,,,,https://old.nasdaq.com/symbol/esge
-ESGG,FlexShares Trust,92.733,83459792.73,,,,,https://old.nasdaq.com/symbol/esgg
+ESGG,FlexShares Trust,92.73299999999999,83459792.73,,,,,https://old.nasdaq.com/symbol/esgg
 ESGR,Enstar Group Limited,145.48,3131055184.0,,,Finance,Property-Casualty Insurers,https://old.nasdaq.com/symbol/esgr
 ESGRO,Enstar Group Limited,24.379,107267.6,,,Finance,Property-Casualty Insurers,https://old.nasdaq.com/symbol/esgro
 ESGRP,Enstar Group Limited,24.56,392960.0,,,Finance,Property-Casualty Insurers,https://old.nasdaq.com/symbol/esgrp
@@ -2287,7 +2287,7 @@ EYEGW,"Eyegate Pharmaceuticals, Inc.",0.0212,0.0,,,Health Care,Major Pharmaceuti
 EYEN,"Eyenovia, Inc.",3.25,64272061.75,,2018.0,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/eyen
 EYES,"Second Sight Medical Products, Inc.",1.86,29123322.0,,2014.0,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus,https://old.nasdaq.com/symbol/eyes
 EYESW,"Second Sight Medical Products, Inc.",0.08,0.0,,,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus,https://old.nasdaq.com/symbol/eyesw
-EYPT,"EyePoint Pharmaceuticals, Inc.",0.911,113639809.0,,,Capital Goods,Biotechnology: Laboratory Analytical Instruments,https://old.nasdaq.com/symbol/eypt
+EYPT,"EyePoint Pharmaceuticals, Inc.",0.9109999999999999,113639809.0,,,Capital Goods,Biotechnology: Laboratory Analytical Instruments,https://old.nasdaq.com/symbol/eypt
 EZPW,"EZCORP, Inc.",4.89,271988445.5,,1991.0,Consumer Services,Other Specialty Stores,https://old.nasdaq.com/symbol/ezpw
 EZT,Entergy Texas Inc,26.0,0.0,,2014.0,Public Utilities,Electric Utilities: Central,https://old.nasdaq.com/symbol/ezt
 F,Ford Motor Company,4.98,19803901768.0,,,Capital Goods,Auto Manufacturing,https://old.nasdaq.com/symbol/f
@@ -2371,7 +2371,7 @@ FENC,Fennec Pharmaceuticals Inc.,7.18,142852059.4,,,Health Care,Biotechnology: B
 FENG,Phoenix New Media Limited,1.37,99723039.8,,2011.0,Consumer Services,Broadcasting,https://old.nasdaq.com/symbol/feng
 FEO,First Trust/Aberdeen Emerging Opportunity Fund,10.49,53043471.75,,,,,https://old.nasdaq.com/symbol/feo
 FEP,First Trust Europe AlphaDEX Fund,26.63,339532553.3,,,,,https://old.nasdaq.com/symbol/fep
-FET,"Forum Energy Technologies, Inc.",0.199,22177624.85,,2012.0,Energy,Metal Fabrications,https://old.nasdaq.com/symbol/fet
+FET,"Forum Energy Technologies, Inc.",0.19899999999999998,22177624.85,,2012.0,Energy,Metal Fabrications,https://old.nasdaq.com/symbol/fet
 FEUZ,First Trust Eurozone AlphaDEX ETF,29.1922,33571088.38,,,,,https://old.nasdaq.com/symbol/feuz
 FEX,First Trust Large Cap Core AlphaDEX Fund,51.9429,880432258.9,,,,,https://old.nasdaq.com/symbol/fex
 FEYE,"FireEye, Inc.",10.875,2422468042.0,,2013.0,Technology,Computer peripheral equipment,https://old.nasdaq.com/symbol/feye
@@ -2395,7 +2395,7 @@ FGEN,"FibroGen, Inc",38.5,3387992454.0,,2014.0,Health Care,Major Pharmaceuticals
 FGM,First Trust Germany AlphaDEX Fund,33.465,76969566.93,,,,,https://old.nasdaq.com/symbol/fgm
 FHB,"First Hawaiian, Inc.",16.44,2142965919.0,,2016.0,Finance,Major Banks,https://old.nasdaq.com/symbol/fhb
 FHI,"Federated Hermes, Inc.",20.66,2086369272.0,,,Finance,Investment Managers,https://old.nasdaq.com/symbol/fhi
-FHK,First Trust Hong Kong AlphaDEX Fund,27.3158,2731634.632,,,,,https://old.nasdaq.com/symbol/fhk
+FHK,First Trust Hong Kong AlphaDEX Fund,27.3158,2731634.6319999998,,,,,https://old.nasdaq.com/symbol/fhk
 FHN,First Horizon National Corporation,7.96,2481829129.0,,,Finance,Major Banks,https://old.nasdaq.com/symbol/fhn
 FHN^A,First Horizon National Corporation,24.22,0.0,,,,,https://old.nasdaq.com/symbol/fhn^a
 FI,Frank&#39;s International N.V.,2.08,469364952.2,,2013.0,Energy,Oilfield Services/Equipment,https://old.nasdaq.com/symbol/fi
@@ -2640,7 +2640,7 @@ GBLI,Global Indemnity Limited,23.99,342953795.0,,,Finance,Property-Casualty Insu
 GBLIL,Global Indemnity Limited,22.82,0.0,,,Finance,Property-Casualty Insurers,https://old.nasdaq.com/symbol/gblil
 GBLIZ,Global Indemnity Limited,22.9,0.0,,,Finance,Property-Casualty Insurers,https://old.nasdaq.com/symbol/gbliz
 GBLK,GoodBulk Ltd.,,0.0,,,,,https://old.nasdaq.com/symbol/gblk
-GBR,"New Concept Energy, Inc",0.7771,3988025.911,,,Energy,Oil & Gas Production,https://old.nasdaq.com/symbol/gbr
+GBR,"New Concept Energy, Inc",0.7771,3988025.9110000003,,,Energy,Oil & Gas Production,https://old.nasdaq.com/symbol/gbr
 GBT,"Global Blood Therapeutics, Inc.",72.99,4439910389.0,,2015.0,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/gbt
 GBX,"Greenbrier Companies, Inc. (The)",16.33,533462969.5,,1994.0,Capital Goods,Railroads,https://old.nasdaq.com/symbol/gbx
 GCAP,"GAIN Capital Holdings, Inc.",5.93,222409133.1,,2010.0,Finance,Investment Bankers/Brokers/Service,https://old.nasdaq.com/symbol/gcap
@@ -2742,7 +2742,7 @@ GL^C,Globe Life Inc.,25.5,0.0,,,,,https://old.nasdaq.com/symbol/gl^c
 GLAD,Gladstone Capital Corporation,6.16,191893726.6,,2001.0,Consumer Non-Durables,Textiles,https://old.nasdaq.com/symbol/glad
 GLADD,Gladstone Capital Corporation,22.77,0.0,,,Consumer Non-Durables,Textiles,https://old.nasdaq.com/symbol/gladd
 GLADL,Gladstone Capital Corporation,21.2,0.0,,,Consumer Non-Durables,Textiles,https://old.nasdaq.com/symbol/gladl
-GLBS,Globus Maritime Limited,0.7658,4002958.362,,,Transportation,Marine Transportation,https://old.nasdaq.com/symbol/glbs
+GLBS,Globus Maritime Limited,0.7658,4002958.3619999997,,,Transportation,Marine Transportation,https://old.nasdaq.com/symbol/glbs
 GLBZ,Glen Burnie Bancorp,8.55,24199560.9,,,Finance,Major Banks,https://old.nasdaq.com/symbol/glbz
 GLDD,Great Lakes Dredge & Dock Corporation,7.71,498416242.2,,,Basic Industries,Military/Government/Technical,https://old.nasdaq.com/symbol/gldd
 GLDI,Credit Suisse AG,9.73,39438861.98,,,Finance,Investment Bankers/Brokers/Service,https://old.nasdaq.com/symbol/gldi
@@ -2815,7 +2815,7 @@ GNT,"GAMCO Natural Resources, Gold & Income Tust ",4.22,88226831.04,,2011.0,,,ht
 GNT^A,"GAMCO Natural Resources, Gold & Income Tust ",25.0,0.0,,,,,https://old.nasdaq.com/symbol/gnt^a
 GNTX,Gentex Corporation,22.95,5664006481.0,,,Capital Goods,Auto Parts:O.E.M.,https://old.nasdaq.com/symbol/gntx
 GNTY,"Guaranty Bancshares, Inc.",24.28,271199296.2,,2017.0,Finance,Major Banks,https://old.nasdaq.com/symbol/gnty
-GNUS,"Genius Brands International, Inc.",0.2811,8318375.572000002,,,Consumer Services,Movies/Entertainment,https://old.nasdaq.com/symbol/gnus
+GNUS,"Genius Brands International, Inc.",0.2811,8318375.5720000025,,,Consumer Services,Movies/Entertainment,https://old.nasdaq.com/symbol/gnus
 GNW,Genworth Financial Inc,3.38,1707326211.0,,2004.0,Finance,Life Insurance,https://old.nasdaq.com/symbol/gnw
 GO,Grocery Outlet Holding Corp.,34.94,3141125776.0,,2019.0,Consumer Services,Food Chains,https://old.nasdaq.com/symbol/go
 GOF,Guggenheim Strategic Opportunities Fund,14.92,610396610.9,,,,,https://old.nasdaq.com/symbol/gof
@@ -2838,7 +2838,7 @@ GPAQU,Gordon Pointe Acquisition Corp.,10.25,0.0,,2018.0,Finance,Business Service
 GPAQW,Gordon Pointe Acquisition Corp.,0.0996,0.0,,2018.0,Finance,Business Services,https://old.nasdaq.com/symbol/gpaqw
 GPC,Genuine Parts Company,73.18,10639027171.0,,,Capital Goods,Automotive Aftermarket,https://old.nasdaq.com/symbol/gpc
 GPI,"Group 1 Automotive, Inc.",47.53,860717015.1,,1997.0,Consumer Durables,Automotive Aftermarket,https://old.nasdaq.com/symbol/gpi
-GPJA,Georgia Power Company,25.874,0.0,,2017.0,Public Utilities,Electric Utilities: Central,https://old.nasdaq.com/symbol/gpja
+GPJA,Georgia Power Company,25.874000000000002,0.0,,2017.0,Public Utilities,Electric Utilities: Central,https://old.nasdaq.com/symbol/gpja
 GPK,Graphic Packaging Holding Company,13.17,3719082898.0,,,Consumer Durables,Containers/Packaging,https://old.nasdaq.com/symbol/gpk
 GPL,Great Panther Mining Limited,0.4657,145270900.4,,,Basic Industries,Precious Metals,https://old.nasdaq.com/symbol/gpl
 GPM,Guggenheim Enhanced Equity Income Fund,5.28,255248859.4,,,,,https://old.nasdaq.com/symbol/gpm
@@ -3095,7 +3095,7 @@ HPF,John Hancock Pfd Income Fund II,16.3,347976605.4,,2002.0,,,https://old.nasda
 HPI,John Hancock Preferred Income Fund,16.97,443244758.6,,2002.0,,,https://old.nasdaq.com/symbol/hpi
 HPP,"Hudson Pacific Properties, Inc.",22.79,3494069475.0,,2010.0,Finance,Real Estate,https://old.nasdaq.com/symbol/hpp
 HPQ,HP Inc.,15.36,21961176868.0,,,Technology,Computer Manufacturing,https://old.nasdaq.com/symbol/hpq
-HPR,HighPoint Resources Corporation,0.173,36594804.7,,2018.0,Energy,Oil & Gas Production,https://old.nasdaq.com/symbol/hpr
+HPR,HighPoint Resources Corporation,0.17300000000000001,36594804.7,,2018.0,Energy,Oil & Gas Production,https://old.nasdaq.com/symbol/hpr
 HPS,John Hancock Preferred Income Fund III,14.37,455015703.6,,2003.0,,,https://old.nasdaq.com/symbol/hps
 HQH,Tekla Healthcare Investors,20.7,891819155.7,,1987.0,,,https://old.nasdaq.com/symbol/hqh
 HQI,"HireQuest, Inc.",6.34,85821232.48,,,Technology,Professional Services,https://old.nasdaq.com/symbol/hqi
@@ -3113,7 +3113,7 @@ HRZN,Horizon Technology Finance Corporation,8.87,149468804.6,,2010.0,,,https://o
 HSBC,HSBC Holdings plc,25.52,103943000000.0,,,Finance,Savings Institutions,https://old.nasdaq.com/symbol/hsbc
 HSBC^A,HSBC Holdings plc,25.53,0.0,,,,,https://old.nasdaq.com/symbol/hsbc^a
 HSC,Harsco Corporation,7.87,619997883.8,,,Consumer Services,Diversified Commercial Services,https://old.nasdaq.com/symbol/hsc
-HSDT,"Helius Medical Technologies, Inc.",0.329,9973211.577,,,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus,https://old.nasdaq.com/symbol/hsdt
+HSDT,"Helius Medical Technologies, Inc.",0.32899999999999996,9973211.577,,,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus,https://old.nasdaq.com/symbol/hsdt
 HSIC,"Henry Schein, Inc.",53.15,7587484164.0,,1995.0,Health Care,Medical Specialities,https://old.nasdaq.com/symbol/hsic
 HSII,"Heidrick & Struggles International, Inc.",23.04,441684910.1,,1999.0,Technology,Diversified Commercial Services,https://old.nasdaq.com/symbol/hsii
 HSKA,Heska Corporation,62.43,489351436.9,,1997.0,Health Care,Biotechnology: In Vitro & In Vivo Diagnostic Substances,https://old.nasdaq.com/symbol/hska
@@ -3205,7 +3205,7 @@ IBTA,iShares iBonds Dec 2021 Term Treasury ETF,25.395,6348750.0,,,,,https://old.
 IBTB,iShares iBonds Dec 2022 Term Treasury ETF,25.605,3840750.0,,,,,https://old.nasdaq.com/symbol/ibtb
 IBTD,iShares iBonds Dec 2023 Term Treasury ETF,25.715,12857500.0,,,,,https://old.nasdaq.com/symbol/ibtd
 IBTE,iShares iBonds Dec 2024 Term Treasury ETF,25.93,11668500.0,,,,,https://old.nasdaq.com/symbol/ibte
-IBTF,iShares iBonds Dec 2025 Term Treasury ETF,26.089,15653400.0,,,,,https://old.nasdaq.com/symbol/ibtf
+IBTF,iShares iBonds Dec 2025 Term Treasury ETF,26.089000000000002,15653400.0,,,,,https://old.nasdaq.com/symbol/ibtf
 IBTG,iShares iBonds Dec 2026 Term Treasury ETF,26.215,19661250.0,,,,,https://old.nasdaq.com/symbol/ibtg
 IBTH,iShares iBonds Dec 2027 Term Treasury ETF,26.375,11868750.0,,,,,https://old.nasdaq.com/symbol/ibth
 IBTI,iShares iBonds Dec 2028 Term Treasury ETF,26.5901,13295050.0,,,,,https://old.nasdaq.com/symbol/ibti
@@ -3449,7 +3449,7 @@ IVR^C,INVESCO MORTGAGE CAPITAL INC,12.25,0.0,,,,,https://old.nasdaq.com/symbol/i
 IVZ,Invesco Plc,9.09,4171390874.0,,,Finance,Investment Managers,https://old.nasdaq.com/symbol/ivz
 IX,Orix Corp Ads,55.97,14059087285.0,,,Finance,Diversified Financial Services,https://old.nasdaq.com/symbol/ix
 IXUS,iShares Core MSCI Total International Stock ETF,48.91,16296812000.0,,,,,https://old.nasdaq.com/symbol/ixus
-IZEA,"IZEA Worldwide, Inc.",0.199,6980454.34,,,Consumer Services,Advertising,https://old.nasdaq.com/symbol/izea
+IZEA,"IZEA Worldwide, Inc.",0.19899999999999998,6980454.34,,,Consumer Services,Advertising,https://old.nasdaq.com/symbol/izea
 J,Jacobs Engineering Group Inc.,80.7,10737146621.0,,,Basic Industries,Military/Government/Technical,https://old.nasdaq.com/symbol/j
 JACK,Jack In The Box Inc.,54.12,1224777327.0,,,Consumer Services,Restaurants,https://old.nasdaq.com/symbol/jack
 JAGX,"Jaguar Health, Inc.",0.4489,9414755.011,,2015.0,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/jagx
@@ -3487,7 +3487,7 @@ JFIN,Jiayin Group Inc.,2.71,10907750.0,4025000.0,2019.0,Finance,Finance: Consume
 JFK,8i Enterprises Acquisition Corp,10.2945,76462398.75,,2019.0,Finance,Business Services,https://old.nasdaq.com/symbol/jfk
 JFKKR,8i Enterprises Acquisition Corp,0.35,0.0,,2019.0,Finance,Business Services,https://old.nasdaq.com/symbol/jfkkr
 JFKKU,8i Enterprises Acquisition Corp,10.6,53000000.0,,2019.0,Finance,Business Services,https://old.nasdaq.com/symbol/jfkku
-JFKKW,8i Enterprises Acquisition Corp,0.211,1213250.0,,2019.0,Finance,Business Services,https://old.nasdaq.com/symbol/jfkkw
+JFKKW,8i Enterprises Acquisition Corp,0.21100000000000002,1213250.0,,2019.0,Finance,Business Services,https://old.nasdaq.com/symbol/jfkkw
 JFR,Nuveen Floating Rate Income Fund,7.61,433149541.5,,2004.0,,,https://old.nasdaq.com/symbol/jfr
 JFU,9F Inc.,7.3,74715500.0,10235000.0,2019.0,Finance,Finance: Consumer Services,https://old.nasdaq.com/symbol/jfu
 JG,Aurora Mobile Limited,2.37,96193351.44,40587912.0,2018.0,Technology,"Computer Software: Programming, Data Processing",https://old.nasdaq.com/symbol/jg
@@ -3519,7 +3519,7 @@ JMPNZ,JMP Group LLC,17.65,0.0,,,Finance,Investment Bankers/Brokers/Service,https
 JNCE,"Jounce Therapeutics, Inc.",4.86,165478582.3,,2017.0,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),https://old.nasdaq.com/symbol/jnce
 JNJ,Johnson & Johnson,151.67,399856000000.0,,,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/jnj
 JNPR,"Juniper Networks, Inc.",23.1,7646371286.0,,1999.0,Technology,Computer Communications Equipment,https://old.nasdaq.com/symbol/jnpr
-JOB,GEE Group Inc.,0.2955,4153842.614,,,Technology,Diversified Commercial Services,https://old.nasdaq.com/symbol/job
+JOB,GEE Group Inc.,0.2955,4153842.6139999996,,,Technology,Diversified Commercial Services,https://old.nasdaq.com/symbol/job
 JOBS,"51job, Inc.",71.18,2807540711.0,39442831.0,2004.0,Technology,Diversified Commercial Services,https://old.nasdaq.com/symbol/jobs
 JOE,St. Joe Company (The),16.75,989413639.3,,,Consumer Services,Homebuilding,https://old.nasdaq.com/symbol/joe
 JOF,Japan Smaller Capitalization Fund Inc,6.98,197770573.1,,1990.0,,,https://old.nasdaq.com/symbol/jof
@@ -4123,7 +4123,7 @@ MNOV,"MediciNova, Inc.",5.26,231208665.2,,,Health Care,Major Pharmaceuticals,htt
 MNP,"Western Asset Municipal Partners Fund, Inc.",13.8,134123069.4,,1993.0,,,https://old.nasdaq.com/symbol/mnp
 MNPR,Monopar Therapeutics Inc.,8.12,86246864.2,,2019.0,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/mnpr
 MNR,Monmouth Real Estate Investment Corporation,12.44,1218702738.0,,,Consumer Services,Real Estate Investment Trusts,https://old.nasdaq.com/symbol/mnr
-MNR^C,Monmouth Real Estate Investment Corporation,24.007,0.0,,,,,https://old.nasdaq.com/symbol/mnr^c
+MNR^C,Monmouth Real Estate Investment Corporation,24.006999999999998,0.0,,,,,https://old.nasdaq.com/symbol/mnr^c
 MNRL,"Brigham Minerals, Inc.",9.15,520525007.9,,2019.0,Energy,Oil & Gas Production,https://old.nasdaq.com/symbol/mnrl
 MNRO,"Monro, Inc. ",47.11,1567997510.0,,1991.0,Consumer Services,Automotive Aftermarket,https://old.nasdaq.com/symbol/mnro
 MNSB,"MainStreet Bancshares, Inc.",14.1,116469257.1,,,Finance,Major Banks,https://old.nasdaq.com/symbol/mnsb
@@ -4553,7 +4553,7 @@ NTRS,Northern Trust Corporation,79.33,16601137783.0,,,Finance,Major Banks,https:
 NTRSO,Northern Trust Corporation,25.02,0.0,,,Finance,Major Banks,https://old.nasdaq.com/symbol/ntrso
 NTUS,Natus Medical Incorporated,23.9,815112272.4,,,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus,https://old.nasdaq.com/symbol/ntus
 NTWK,NetSol Technologies Inc.,2.43,28559943.09,,,Technology,Computer Software: Prepackaged Software,https://old.nasdaq.com/symbol/ntwk
-NTZ,"Natuzzi, S.p.A.",0.546,5989952.514,,1993.0,Consumer Durables,Home Furnishings,https://old.nasdaq.com/symbol/ntz
+NTZ,"Natuzzi, S.p.A.",0.546,5989952.5139999995,,1993.0,Consumer Durables,Home Furnishings,https://old.nasdaq.com/symbol/ntz
 NUAN,"Nuance Communications, Inc.",18.97,5366377431.0,,,Technology,Computer Software: Prepackaged Software,https://old.nasdaq.com/symbol/nuan
 NUE,Nucor Corporation,36.53,11000334718.0,,,Basic Industries,Steel/Iron Ore,https://old.nasdaq.com/symbol/nue
 NUM,Nuveen Michigan Quality Municipal Income Fund,13.27,268410803.8,,1991.0,,,https://old.nasdaq.com/symbol/num
@@ -4725,7 +4725,7 @@ OPRA,Opera Limited,5.25,120512857.5,22954830.0,2018.0,Technology,Computer Softwa
 OPRT,Oportun Financial Corporation,6.42,173361141.1,,2019.0,Finance,Finance: Consumer Services,https://old.nasdaq.com/symbol/oprt
 OPRX,OptimizeRx Corporation,9.48,138745592.3,,,Miscellaneous,Business Services,https://old.nasdaq.com/symbol/oprx
 OPTN,"OptiNose, Inc.",4.0,183624648.0,,2017.0,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/optn
-OPTT,"Ocean Power Technologies, Inc.",0.399,3692944.5,,2007.0,Public Utilities,Electric Utilities: Central,https://old.nasdaq.com/symbol/optt
+OPTT,"Ocean Power Technologies, Inc.",0.39899999999999997,3692944.5,,2007.0,Public Utilities,Electric Utilities: Central,https://old.nasdaq.com/symbol/optt
 OPY,"Oppenheimer Holdings, Inc.",19.08,247784442.5,,,Finance,Investment Bankers/Brokers/Service,https://old.nasdaq.com/symbol/opy
 OR,Osisko Gold Royalties Ltd.,8.47,1400313507.0,,2016.0,Basic Industries,Precious Metals,https://old.nasdaq.com/symbol/or
 ORA,"Ormat Technologies, Inc.",59.17,3019542849.0,,2004.0,Public Utilities,Electric Utilities: Central,https://old.nasdaq.com/symbol/ora
@@ -4766,7 +4766,7 @@ OTIS,Otis Worldwide Corporation,45.39,19657476462.0,,2020.0,Energy,Consumer Elec
 OTLK,"Outlook Therapeutics, Inc.",0.72,64620858.24,,2016.0,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),https://old.nasdaq.com/symbol/otlk
 OTLKW,"Outlook Therapeutics, Inc.",0.1298,0.0,,2016.0,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),https://old.nasdaq.com/symbol/otlkw
 OTTR,Otter Tail Corporation,43.93,1768069029.0,,,Public Utilities,Electric Utilities: Central,https://old.nasdaq.com/symbol/ottr
-OTTW,"Ottawa Bancorp, Inc.",9.784,30918946.74,,,Finance,Savings Institutions,https://old.nasdaq.com/symbol/ottw
+OTTW,"Ottawa Bancorp, Inc.",9.783999999999999,30918946.74,,,Finance,Savings Institutions,https://old.nasdaq.com/symbol/ottw
 OUT,OUTFRONT Media Inc.,12.2,1758768763.0,,2014.0,Consumer Services,Real Estate Investment Trusts,https://old.nasdaq.com/symbol/out
 OVBC,Ohio Valley Banc Corp.,23.15,110829374.9,,,Finance,Major Banks,https://old.nasdaq.com/symbol/ovbc
 OVID,Ovid Therapeutics Inc.,3.46,189297714.1,,2017.0,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/ovid
@@ -5091,7 +5091,7 @@ PRAA,"PRA Group, Inc.",25.98,1179914383.0,,2002.0,Finance,Finance: Consumer Serv
 PRAH,"PRA Health Sciences, Inc.",89.24,5678148620.0,,2014.0,Health Care,Biotechnology: Commercial Physical & Biological Resarch,https://old.nasdaq.com/symbol/prah
 PRCP,"Perceptron, Inc.",2.69,26104561.62,,1992.0,Capital Goods,Electronic Components,https://old.nasdaq.com/symbol/prcp
 PRDO,Perdoceo Education Corporation,11.93,823808016.4,,,Consumer Services,Other Consumer Services,https://old.nasdaq.com/symbol/prdo
-PRE^F,PartnerRe Ltd.,24.696,0.0,,,,,https://old.nasdaq.com/symbol/pre^f
+PRE^F,PartnerRe Ltd.,24.695999999999998,0.0,,,,,https://old.nasdaq.com/symbol/pre^f
 PRE^G,PartnerRe Ltd.,25.625,0.0,,,,,https://old.nasdaq.com/symbol/pre^g
 PRE^H,PartnerRe Ltd.,26.31,0.0,,,,,https://old.nasdaq.com/symbol/pre^h
 PRE^I,PartnerRe Ltd.,24.8,0.0,,,,,https://old.nasdaq.com/symbol/pre^i
@@ -5102,7 +5102,7 @@ PRGS,Progress Software Corporation,37.7,1688524527.0,,1991.0,Technology,Computer
 PRGX,"PRGX Global, Inc.",3.04,72234488.8,,1996.0,Consumer Services,Diversified Commercial Services,https://old.nasdaq.com/symbol/prgx
 PRH,"Prudential Financial, Inc.",25.27,0.0,,,Finance,Life Insurance,https://old.nasdaq.com/symbol/prh
 PRI,"Primerica, Inc.",96.31,3927421252.0,,2010.0,Finance,Life Insurance,https://old.nasdaq.com/symbol/pri
-PRIF^A,"Priority Income Fund, Inc.",22.532,0.0,,,,,https://old.nasdaq.com/symbol/prif^a
+PRIF^A,"Priority Income Fund, Inc.",22.531999999999996,0.0,,,,,https://old.nasdaq.com/symbol/prif^a
 PRIF^B,"Priority Income Fund, Inc.",22.75,0.0,,,,,https://old.nasdaq.com/symbol/prif^b
 PRIF^C,"Priority Income Fund, Inc.",24.135,0.0,,,,,https://old.nasdaq.com/symbol/prif^c
 PRIF^D,"Priority Income Fund, Inc.",24.405,0.0,,,,,https://old.nasdaq.com/symbol/prif^d
@@ -5214,7 +5214,7 @@ PULM,"Pulmatrix, Inc.",1.33,27296659.32,,2014.0,Health Care,Major Pharmaceutical
 PUMP,ProPetro Holding Corp.,3.27,329040803.7,,2017.0,Energy,Oilfield Services/Equipment,https://old.nasdaq.com/symbol/pump
 PUYI,Puyi Inc.,6.2699,26912141.29,4292276.0,2019.0,Finance,Investment Managers,https://old.nasdaq.com/symbol/puyi
 PVAC,Penn Virginia Corporation,3.43,51991662.17,,,Energy,Oil & Gas Production,https://old.nasdaq.com/symbol/pvac
-PVAL,Principal Contrarian Value Index ETF,20.6492,3097400.649,,,,,https://old.nasdaq.com/symbol/pval
+PVAL,Principal Contrarian Value Index ETF,20.6492,3097400.6489999997,,,,,https://old.nasdaq.com/symbol/pval
 PVBC,"Provident Bancorp, Inc.",8.61,167690495.3,,2015.0,Finance,Savings Institutions,https://old.nasdaq.com/symbol/pvbc
 PVG,"Pretium Resources, Inc.",7.96,1475666988.0,,,Basic Industries,Precious Metals,https://old.nasdaq.com/symbol/pvg
 PVH,PVH Corp.,40.88,166008815.3,,,Consumer Non-Durables,Apparel,https://old.nasdaq.com/symbol/pvh
@@ -5282,7 +5282,7 @@ QUIK,QuickLogic Corporation,3.13,26226388.94,,1999.0,Technology,Semiconductors,h
 QUMU,Qumu Corporation,2.2,29822293.6,,,Technology,Computer Software: Prepackaged Software,https://old.nasdaq.com/symbol/qumu
 QUOT,Quotient Technology Inc.,6.15,551363164.1,,2014.0,Consumer Services,Advertising,https://old.nasdaq.com/symbol/quot
 QURE,uniQure N.V.,57.19,2531784543.0,,2014.0,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/qure
-QVCC,"QVC, Inc.",19.624,0.0,,2019.0,Consumer Services,Catalog/Specialty Distribution,https://old.nasdaq.com/symbol/qvcc
+QVCC,"QVC, Inc.",19.624000000000002,0.0,,2019.0,Consumer Services,Catalog/Specialty Distribution,https://old.nasdaq.com/symbol/qvcc
 QVCD,"QVC, Inc.",21.4,0.0,,2018.0,Consumer Services,Catalog/Specialty Distribution,https://old.nasdaq.com/symbol/qvcd
 QYLD,Global X NASDAQ-100 Covered Call ETF,19.58,883213896.0,,,,,https://old.nasdaq.com/symbol/qyld
 R,"Ryder System, Inc.",26.54,1385894357.0,,,Consumer Services,Rental/Leasing Companies,https://old.nasdaq.com/symbol/r
@@ -5363,7 +5363,7 @@ REVG,"REV Group, Inc.",3.92,247972869.2,,2017.0,Capital Goods,Auto Manufacturing
 REX,REX American Resources Corporation,51.42,323602617.2,,,Basic Industries,Major Chemicals,https://old.nasdaq.com/symbol/rex
 REXN,"Rexahn Pharmaceuticals, Inc.",1.9527,7848176.631,,,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/rexn
 REXR,"Rexford Industrial Realty, Inc.",40.49,4710256240.0,,2013.0,Consumer Services,Real Estate Investment Trusts,https://old.nasdaq.com/symbol/rexr
-REXR^A,"Rexford Industrial Realty, Inc.",24.751,0.0,,,,,https://old.nasdaq.com/symbol/rexr^a
+REXR^A,"Rexford Industrial Realty, Inc.",24.750999999999998,0.0,,,,,https://old.nasdaq.com/symbol/rexr^a
 REXR^B,"Rexford Industrial Realty, Inc.",24.95,0.0,,,,,https://old.nasdaq.com/symbol/rexr^b
 REXR^C,"Rexford Industrial Realty, Inc.",24.45,0.0,,,,,https://old.nasdaq.com/symbol/rexr^c
 REYN,Reynolds Consumer Products Inc.,30.38,6370701190.0,,2020.0,Consumer Durables,Containers/Packaging,https://old.nasdaq.com/symbol/reyn
@@ -5736,7 +5736,7 @@ SILV,SilverCrest Metals Inc.,5.72,625139309.1,,2018.0,Basic Industries,Precious 
 SIM,"Grupo Simec, S.A. de C.V.",6.2373,1034787225.0,,1993.0,Basic Industries,Steel/Iron Ore,https://old.nasdaq.com/symbol/sim
 SIMO,Silicon Motion Technology Corporation,44.47,1542913999.0,34695615.0,2005.0,Technology,Semiconductors,https://old.nasdaq.com/symbol/simo
 SINA,Sina Corporation,33.91,2352273627.0,,,Technology,Computer Software: Prepackaged Software,https://old.nasdaq.com/symbol/sina
-SINO,"Sino-Global Shipping America, Ltd.",0.448,8171088.576,,,Transportation,Oil Refining/Marketing,https://old.nasdaq.com/symbol/sino
+SINO,"Sino-Global Shipping America, Ltd.",0.44799999999999995,8171088.576,,,Transportation,Oil Refining/Marketing,https://old.nasdaq.com/symbol/sino
 SINT,"SiNtx Technologies, Inc.",0.4895,5170891.011,,2014.0,Health Care,Medical/Dental Instruments,https://old.nasdaq.com/symbol/sint
 SIRI,Sirius XM Holdings Inc.,5.22,23040790160.0,,,Consumer Services,Broadcasting,https://old.nasdaq.com/symbol/siri
 SITC,SITE Centers Corp.,5.06,977331521.3,,,Consumer Services,Real Estate Investment Trusts,https://old.nasdaq.com/symbol/sitc
@@ -5811,7 +5811,7 @@ SMTX,SMTC Corporation,2.55,71898015.0,,2000.0,Technology,Electrical Products,htt
 SNA,Snap-On Incorporated,114.66,6270465769.0,,,Capital Goods,Industrial Machinery/Components,https://old.nasdaq.com/symbol/sna
 SNAP,Snap Inc.,12.92,18348870188.0,,2017.0,Technology,"Computer Software: Programming, Data Processing",https://old.nasdaq.com/symbol/snap
 SNBR,Sleep Number Corporation,22.77,623024952.7,,,Consumer Durables,Home Furnishings,https://old.nasdaq.com/symbol/snbr
-SNCA,"Seneca Biopharma, Inc.",0.8161,7694199.777000002,,,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),https://old.nasdaq.com/symbol/snca
+SNCA,"Seneca Biopharma, Inc.",0.8161,7694199.777000003,,,Health Care,Biotechnology: Biological Products (No Diagnostic Substances),https://old.nasdaq.com/symbol/snca
 SNCR,"Synchronoss Technologies, Inc.",3.21,143168446.0,,2018.0,Technology,EDP Services,https://old.nasdaq.com/symbol/sncr
 SND,"Smart Sand, Inc.",0.6601,27563307.89,,2016.0,Basic Industries,Mining & Quarrying of Nonmetallic Minerals (No Fuels),https://old.nasdaq.com/symbol/snd
 SNDE,Sundance Energy Inc. ,2.72,18701827.84,,,Energy,Oil & Gas Production,https://old.nasdaq.com/symbol/snde
@@ -5832,7 +5832,7 @@ SNPS,"Synopsys, Inc.",151.01,22685800411.0,,1992.0,Technology,Computer Software:
 SNR,New Senior Investment Group Inc.,2.67,221290192.7,,2014.0,Consumer Services,Real Estate Investment Trusts,https://old.nasdaq.com/symbol/snr
 SNSR,Global X Internet of Things ETF,19.79,130603254.0,,,,,https://old.nasdaq.com/symbol/snsr
 SNSS,"Sunesis Pharmaceuticals, Inc.",0.4716,52532938.8,,2005.0,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/snss
-SNUG,Merlyn.AI Tactical Growth & Income ETF,23.293000000000006,4658600.0,,,,,https://old.nasdaq.com/symbol/snug
+SNUG,Merlyn.AI Tactical Growth & Income ETF,23.29300000000001,4658600.0,,,,,https://old.nasdaq.com/symbol/snug
 SNV,Synovus Financial Corp.,17.37,2557840211.0,,,Finance,Major Banks,https://old.nasdaq.com/symbol/snv
 SNV^D,Synovus Financial Corp.,22.54,0.0,,,,,https://old.nasdaq.com/symbol/snv^d
 SNV^E,Synovus Financial Corp.,21.0769,0.0,,,,,https://old.nasdaq.com/symbol/snv^e
@@ -6337,7 +6337,7 @@ TRVI,"Trevi Therapeutics, Inc.",2.7499,49043284.04,,2019.0,Health Care,Major Pha
 TRVN,"Trevena, Inc.",0.64,62632953.6,,2014.0,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/trvn
 TRWH,"Twin River Worldwide Holdings, Inc.",11.36,351632066.7,,2019.0,Consumer Services,Hotels/Resorts,https://old.nasdaq.com/symbol/trwh
 TRX,Tanzanian Gold Corporation,0.5315,84151256.53,,,Basic Industries,Precious Metals,https://old.nasdaq.com/symbol/trx
-TRXC,"TransEnterix, Inc.",0.471,21708279.79,,,Health Care,Medical/Dental Instruments,https://old.nasdaq.com/symbol/trxc
+TRXC,"TransEnterix, Inc.",0.47100000000000003,21708279.79,,,Health Care,Medical/Dental Instruments,https://old.nasdaq.com/symbol/trxc
 TS,Tenaris S.A.,12.14,7165858558.0,,,Basic Industries,Steel/Iron Ore,https://old.nasdaq.com/symbol/ts
 TSBK,"Timberland Bancorp, Inc.",16.11,134772941.3,,,Finance,Banks,https://old.nasdaq.com/symbol/tsbk
 TSC,"TriState Capital Holdings, Inc.",10.39,309233185.4,,2013.0,Finance,Major Banks,https://old.nasdaq.com/symbol/tsc
@@ -6354,7 +6354,7 @@ TSLX,"TPG Specialty Lending, Inc.",15.15,1010793774.0,,2014.0,,,https://old.nasd
 TSM,Taiwan Semiconductor Manufacturing Company Ltd.,52.59,272736000000.0,,1997.0,Technology,Semiconductors,https://old.nasdaq.com/symbol/tsm
 TSN,"Tyson Foods, Inc.",63.86,23311334663.0,,,Consumer Non-Durables,Meat/Poultry/Fish,https://old.nasdaq.com/symbol/tsn
 TSQ,"Townsquare Media, Inc.",4.31,81796020.45,,2014.0,Consumer Services,Broadcasting,https://old.nasdaq.com/symbol/tsq
-TSRI,"TSR, Inc.",3.3838,6639225.396000002,,,Technology,EDP Services,https://old.nasdaq.com/symbol/tsri
+TSRI,"TSR, Inc.",3.3838,6639225.3960000025,,,Technology,EDP Services,https://old.nasdaq.com/symbol/tsri
 TSU,TIM Participacoes S.A.,12.05,5833181051.0,,,Public Utilities,Telecommunications Equipment,https://old.nasdaq.com/symbol/tsu
 TT,Trane Technologies plc,85.02,20268855826.0,,,Capital Goods,Auto Parts:O.E.M.,https://old.nasdaq.com/symbol/tt
 TTC,Toro Company (The),63.24,6765370679.0,,,Capital Goods,Tools/Hardware,https://old.nasdaq.com/symbol/ttc
@@ -6422,7 +6422,7 @@ UAA,"Under Armour, Inc.",9.65,4361041655.0,,,Consumer Non-Durables,Apparel,https
 UAE,iShares MSCI UAE ETF,9.91,48063500.0,,,,,https://old.nasdaq.com/symbol/uae
 UAL,"United Airlines Holdings, Inc.",27.79,6871268000.0,,,Transportation,Air Freight/Delivery Services,https://old.nasdaq.com/symbol/ual
 UAMY,United States Antimony Corporation,0.37,25774731.32,,,Capital Goods,Metal Fabrications,https://old.nasdaq.com/symbol/uamy
-UAN,"CVR Partners, LP",0.923,104560184.1,,2011.0,Basic Industries,Agricultural Chemicals,https://old.nasdaq.com/symbol/uan
+UAN,"CVR Partners, LP",0.9229999999999999,104560184.1,,2011.0,Basic Industries,Agricultural Chemicals,https://old.nasdaq.com/symbol/uan
 UAVS,"AgEagle Aerial Systems, Inc.",0.59,9896892.46,,,Capital Goods,Aerospace,https://old.nasdaq.com/symbol/uavs
 UBA,Urstadt Biddle Properties Inc.,11.74,470324757.2,,,Consumer Services,Real Estate Investment Trusts,https://old.nasdaq.com/symbol/uba
 UBCP,"United Bancorp, Inc.",9.54,56447712.54,,,Finance,Major Banks,https://old.nasdaq.com/symbol/ubcp
@@ -6531,7 +6531,7 @@ UTI,Universal Technical Institute Inc,5.92,192561781.8,,2003.0,Consumer Services
 UTL,UNITIL Corporation,50.54,756084667.0,,,Public Utilities,Power Generation,https://old.nasdaq.com/symbol/utl
 UTMD,"Utah Medical Products, Inc.",82.26,304150674.1,,,Health Care,Medical/Dental Instruments,https://old.nasdaq.com/symbol/utmd
 UTSI,UTStarcom Holdings Corp,2.0,71232670.0,,2000.0,Capital Goods,Telecommunications Equipment,https://old.nasdaq.com/symbol/utsi
-UUU,"Universal Security Instruments, Inc.",0.4601,1064159.309,,,Technology,Electronic Components,https://old.nasdaq.com/symbol/uuu
+UUU,"Universal Security Instruments, Inc.",0.4601,1064159.3090000001,,,Technology,Electronic Components,https://old.nasdaq.com/symbol/uuu
 UUUU,Energy Fuels Inc,1.68,187172583.4,,,Basic Industries,Mining & Quarrying of Nonmetallic Minerals (No Fuels),https://old.nasdaq.com/symbol/uuuu
 UUUU.WS,Energy Fuels Inc,,0.0,,,,,https://old.nasdaq.com/symbol/uuuu.ws
 UVE,UNIVERSAL INSURANCE HOLDINGS INC,17.51,572316031.0,,,Finance,Property-Casualty Insurers,https://old.nasdaq.com/symbol/uve
@@ -6584,7 +6584,7 @@ VERT.U,"Vertiv Holdings, LLC",,0.0,,2018.0,,,https://old.nasdaq.com/symbol/vert.
 VERU,Veru Inc.,3.24,211226535.0,,,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/veru
 VERY,"Vericity, Inc.",10.05,149493750.0,,2019.0,Finance,Life Insurance,https://old.nasdaq.com/symbol/very
 VET,Vermilion Energy Inc.,3.38,530729219.0,,,Energy,Oil & Gas Production,https://old.nasdaq.com/symbol/vet
-VETS,Pacer Military Times Best Employers ETF,26.696,2669600.0,,,,,https://old.nasdaq.com/symbol/vets
+VETS,Pacer Military Times Best Employers ETF,26.695999999999998,2669600.0,,,,,https://old.nasdaq.com/symbol/vets
 VFC,V.F. Corporation,55.83,22037233456.0,,,Consumer Non-Durables,Apparel,https://old.nasdaq.com/symbol/vfc
 VFF,"Village Farms International, Inc.",3.05,171563778.0,,,Consumer Non-Durables,Farming/Seeds/Milling,https://old.nasdaq.com/symbol/vff
 VFL,Delaware Investments Florida Insured Municipal Income Fund,11.77,53299774.11,,1993.0,,,https://old.nasdaq.com/symbol/vfl
@@ -6692,7 +6692,7 @@ VTA,Invesco Credit Opportunities Fund,8.45,532182191.5,,2007.0,,,https://old.nas
 VTC,Vanguard Total Corporate Bond ETF,88.8539,384293117.5,,,,,https://old.nasdaq.com/symbol/vtc
 VTEC,Valtech SE,,0.0,,,,,https://old.nasdaq.com/symbol/vtec
 VTGN,"VistaGen Therapeutics, Inc.",0.42,20669477.64,,,Health Care,Major Pharmaceuticals,https://old.nasdaq.com/symbol/vtgn
-VTHR,Vanguard Russell 3000 ETF,126.076,491696400.0,,,,,https://old.nasdaq.com/symbol/vthr
+VTHR,Vanguard Russell 3000 ETF,126.07600000000001,491696400.0,,,,,https://old.nasdaq.com/symbol/vthr
 VTIP,Vanguard Short-Term Inflation-Protected Securities Index Fund,49.16,6935827235.0,,,,,https://old.nasdaq.com/symbol/vtip
 VTIQ,VectoIQ Acquisition Corp.,12.11,358940400.0,,2018.0,Capital Goods,Construction/Ag Equipment/Trucks,https://old.nasdaq.com/symbol/vtiq
 VTIQU,VectoIQ Acquisition Corp.,15.5,0.0,,2018.0,Capital Goods,Construction/Ag Equipment/Trucks,https://old.nasdaq.com/symbol/vtiqu

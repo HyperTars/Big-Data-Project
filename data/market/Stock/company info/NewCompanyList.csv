@@ -621,7 +621,7 @@ BG,Bunge Limited,5526650399.0,Consumer Non-Durables,Packaged Foods
 BGCP,"BGC Partners, Inc.",940394603.2,Finance,Investment Bankers/Brokers/Service
 BGFV,Big 5 Sporting Goods Corporation,21230794.48,Consumer Services,Other Specialty Stores
 BGG,Briggs & Stratton Corporation,78584605.25,Energy,Industrial Machinery/Components
-BGI,Birks Group Inc.,9882187.462000001,Consumer Services,Consumer Specialties
+BGI,Birks Group Inc.,9882187.462,Consumer Services,Consumer Specialties
 BGNE,"BeiGene, Ltd.",6515203108.0,Health Care,Major Pharmaceuticals
 BGS,"B&G Foods, Inc.",1211084313.0,Consumer Non-Durables,Packaged Foods
 BGSF,BG Staffing Inc,97422280.2,Technology,Professional Services
@@ -712,10 +712,10 @@ BOMN,Boston Omaha Corporation,390041849.4,Finance,Real Estate
 BOOM,DMC Global Inc.,401688682.1,Capital Goods,Industrial Specialties
 BOOT,"Boot Barn Holdings, Inc.",407692282.5,Consumer Services,Clothing/Shoe/Accessory Stores
 BORR,Borr Drilling Limited,76243025.49,Energy,Oil & Gas Production
-BOSC,B.O.S. Better Online Solutions,8005070.9789999975,Technology,Computer Communications Equipment
+BOSC,B.O.S. Better Online Solutions,8005070.978999997,Technology,Computer Communications Equipment
 BOTJ,"Bank of the James Financial Group, Inc.",41485442.1,Finance,Major Banks
 BOX,"Box, Inc.",2433743900.0,Technology,Computer Software: Prepackaged Software
-BOXL,Boxlight Corporation,9283985.458999999,Miscellaneous,Industrial Machinery/Components
+BOXL,Boxlight Corporation,9283985.459,Miscellaneous,Industrial Machinery/Components
 BP,BP p.l.c.,75464219804.0,Energy,Integrated oil Companies
 BPFH,"Boston Private Financial Holdings, Inc.",586180855.0,Finance,Major Banks
 BPMC,Blueprint Medicines Corporation,3814847105.0,Health Care,Major Pharmaceuticals
@@ -1971,7 +1971,7 @@ GBL,"Gamco Investors, Inc.",330917267.2,Finance,Investment Bankers/Brokers/Servi
 GBLI,Global Indemnity Limited,342953795.0,Finance,Property-Casualty Insurers
 GBLIL,Global Indemnity Limited,0.0,Finance,Property-Casualty Insurers
 GBLIZ,Global Indemnity Limited,0.0,Finance,Property-Casualty Insurers
-GBR,"New Concept Energy, Inc",3988025.9110000003,Energy,Oil & Gas Production
+GBR,"New Concept Energy, Inc",3988025.911,Energy,Oil & Gas Production
 GBT,"Global Blood Therapeutics, Inc.",4439910389.0,Health Care,Major Pharmaceuticals
 GBX,"Greenbrier Companies, Inc. (The)",533462969.5,Capital Goods,Railroads
 GCAP,"GAIN Capital Holdings, Inc.",222409133.1,Finance,Investment Bankers/Brokers/Service
@@ -2036,7 +2036,7 @@ GL,Globe Life Inc.,8119226732.0,Finance,Life Insurance
 GLAD,Gladstone Capital Corporation,191893726.6,Consumer Non-Durables,Textiles
 GLADD,Gladstone Capital Corporation,0.0,Consumer Non-Durables,Textiles
 GLADL,Gladstone Capital Corporation,0.0,Consumer Non-Durables,Textiles
-GLBS,Globus Maritime Limited,4002958.3619999997,Transportation,Marine Transportation
+GLBS,Globus Maritime Limited,4002958.362,Transportation,Marine Transportation
 GLBZ,Glen Burnie Bancorp,24199560.9,Finance,Major Banks
 GLDD,Great Lakes Dredge & Dock Corporation,498416242.2,Basic Industries,Military/Government/Technical
 GLDI,Credit Suisse AG,39438861.98,Finance,Investment Bankers/Brokers/Service
@@ -2086,7 +2086,7 @@ GNRSU,Greenrose Acquisition Corp.,0.0,Finance,Business Services
 GNSS,Genasys Inc.,118832371.0,Consumer Non-Durables,Consumer Electronics/Appliances
 GNTX,Gentex Corporation,5664006481.0,Capital Goods,Auto Parts:O.E.M.
 GNTY,"Guaranty Bancshares, Inc.",271199296.2,Finance,Major Banks
-GNUS,"Genius Brands International, Inc.",8318375.5720000025,Consumer Services,Movies/Entertainment
+GNUS,"Genius Brands International, Inc.",8318375.572000002,Consumer Services,Movies/Entertainment
 GNW,Genworth Financial Inc,1707326211.0,Finance,Life Insurance
 GO,Grocery Outlet Holding Corp.,3141125776.0,Consumer Services,Food Chains
 GOGL,Golden Ocean Group Limited,519381651.6,Consumer Services,Marine Transportation
@@ -2625,7 +2625,7 @@ JMPNZ,JMP Group LLC,0.0,Finance,Investment Bankers/Brokers/Service
 JNCE,"Jounce Therapeutics, Inc.",165478582.3,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 JNJ,Johnson & Johnson,399856000000.0,Health Care,Major Pharmaceuticals
 JNPR,"Juniper Networks, Inc.",7646371286.0,Technology,Computer Communications Equipment
-JOB,GEE Group Inc.,4153842.6139999996,Technology,Diversified Commercial Services
+JOB,GEE Group Inc.,4153842.614,Technology,Diversified Commercial Services
 JOBS,"51job, Inc.",2807540711.0,Technology,Diversified Commercial Services
 JOE,St. Joe Company (The),989413639.3,Consumer Services,Homebuilding
 JOUT,Johnson Outdoors Inc.,591826418.0,Consumer Non-Durables,Recreational Products/Toys
@@ -3419,7 +3419,7 @@ NTRS,Northern Trust Corporation,16601137783.0,Finance,Major Banks
 NTRSO,Northern Trust Corporation,0.0,Finance,Major Banks
 NTUS,Natus Medical Incorporated,815112272.4,Health Care,Biotechnology: Electromedical & Electrotherapeutic Apparatus
 NTWK,NetSol Technologies Inc.,28559943.09,Technology,Computer Software: Prepackaged Software
-NTZ,"Natuzzi, S.p.A.",5989952.5139999995,Consumer Durables,Home Furnishings
+NTZ,"Natuzzi, S.p.A.",5989952.514,Consumer Durables,Home Furnishings
 NUAN,"Nuance Communications, Inc.",5366377431.0,Technology,Computer Software: Prepackaged Software
 NUE,Nucor Corporation,11000334718.0,Basic Industries,Steel/Iron Ore
 NURO,"NeuroMetrix, Inc.",4385716.48,Health Care,Medical/Dental Instruments
@@ -4975,7 +4975,7 @@ UTI,Universal Technical Institute Inc,192561781.8,Consumer Services,Other Consum
 UTL,UNITIL Corporation,756084667.0,Public Utilities,Power Generation
 UTMD,"Utah Medical Products, Inc.",304150674.1,Health Care,Medical/Dental Instruments
 UTSI,UTStarcom Holdings Corp,71232670.0,Capital Goods,Telecommunications Equipment
-UUU,"Universal Security Instruments, Inc.",1064159.3090000001,Technology,Electronic Components
+UUU,"Universal Security Instruments, Inc.",1064159.309,Technology,Electronic Components
 UUUU,Energy Fuels Inc,187172583.4,Basic Industries,Mining & Quarrying of Nonmetallic Minerals (No Fuels)
 UVE,UNIVERSAL INSURANCE HOLDINGS INC,572316031.0,Finance,Property-Casualty Insurers
 UVSP,Univest Financial Corporation,453138277.0,Finance,Major Banks
