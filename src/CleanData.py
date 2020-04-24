@@ -119,7 +119,49 @@ def CleanOtherSources():
         # save
         df.to_csv(path, index=False, header=True)
 
+########################################    
+# this function modify Covid-19 world data from JHU CSSE
+def CleanCovid19Data():
+    covidDataPath = '../data/covid-19/time_series_covid19_confirmed_global.csv'
+    covidDataNewPath = '../data/covid-19/time_series_covid19_confirmed_global_modified.csv'
+    df = pd.read_csv(covidDataPath)
+    # remove useless columns
+    df = df.drop(['Province/State', 'Lat', 'Long'], 1)
+    df.rename(columns={'Country/Region': 'Date'}, inplace=True)
+    # transform date format to 'yyyy-mm-dd'
+    # df.rename(lambda x: modifyDate(x), axis = 'columns', inplace = True)
+    # combine province/state data to the whole country
+    group_df = df[1:].groupby(df['Date'])
+    sum_df = group_df.sum()
+    # calculate world data
+    sum_df.loc["World"] = sum_df.apply(lambda x: x.sum())
+    # transposition, probably not necessary
+    result = pd.DataFrame(sum_df.values.T, index=sum_df.columns, columns=sum_df.index)
+    # transform date format to 'yyyy-mm-dd'
+    result.index = pd.to_datetime(result.index)
+    # output
+    result.to_csv(covidDataPath, index=True, header=True)
+
+########################################    
+# this function transform every date to format "yyyy-mm-dd"
+def DateTransformation():
+    '''
+    this function is quite dump, it walk through the whole data directory, and try to modify every csv file
+    but it some how make sense since most of our file need to be transformed
+    '''
+    rootPath = "../data"
+    for root, dirs, files in os.walk(rootPath):
+        for file in files:
+            path = os.path.join(root, file)
+            if path.endswith('.csv'):
+                df = pd.read_csv(path)
+                if 'Date' in df.columns:
+                    df['Date'] = pd.to_datetime(df['Date'])
+                    df.to_csv(path, index=False, header=True)
+
 TransToUSDBase()
 TransYahooToNASDAQ()
 CleanDataFromNASDAQ()
 CleanOtherSources()
+CleanCovid19Data()
+DateTransformation()
