@@ -177,7 +177,7 @@ def FormatDate():
 
 sys = pf.system()
 if sys == 'Darwin' or sys == 'Linux':
-    os.system('unzip ../raw_data_0422.zip -d ../')
+    os.system('unzip -o ../raw_data_0422.zip -d ../')
 if sys == 'Windows':
     os.system('Expand-Archive -Path "..\raw_data_0422.zip" -DestinationPath "..\"')
 
