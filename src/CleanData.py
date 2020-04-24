@@ -152,20 +152,26 @@ def CleanCovid19Data():
 
 ########################################
 # this function transform every date to format "yyyy-mm-dd"
-def DateTransformation():
+def FormatDate():
     '''
     this function is quite dump, it walk through the whole data directory, and try to modify every csv file
     but it some how make sense since most of our file need to be transformed
     '''
+    print('### Format Date Column Start ###')
     rootPath = "../data"
     for root, dirs, files in os.walk(rootPath):
         for file in files:
             path = os.path.join(root, file)
             if path.endswith('.csv'):
                 df = pd.read_csv(path)
+                if 'DATE' in df.columns:
+                    df.rename(columns={'DATE': 'Date'}, inplace=True)
+                if 'date' in df.columns:
+                    df.rename(columns={'date': 'Date'}, inplace=True)
                 if 'Date' in df.columns:
                     df['Date'] = pd.to_datetime(df['Date'])
-                    df.to_csv(path, index=False, header=True)
+                df.to_csv(path, index=False, header=True)
+    print('### Format Date Column Completed ###')
 
 
 TransToUSDBase()
@@ -173,4 +179,4 @@ TransYahooToNASDAQ()
 CleanDataFromNASDAQ()
 CleanOtherSources()
 CleanCovid19Data()
-DateTransformation()
+FormatDate()
