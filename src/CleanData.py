@@ -99,8 +99,8 @@ def CleanOtherSources():
     # CrudeOil WTI MacroTrends
     CWM = pd.read_csv(file_CrudeOil_WTI_MacroTrends)
     # reorder in time
-    CWM['date'] = pd.to_datetime(CWM['date'])
-    CWM.sort_values('date', inplace=True, ascending=False)
+    CWM['Date'] = pd.to_datetime(CWM['Date'])
+    CWM.sort_values('Date', inplace=True, ascending=False)
     # format column name, delete redundant whitespace in column names
     CWM.columns = [x.strip() for x in CWM.columns.values if x.strip() != '']
     # delete invalid future data
@@ -115,8 +115,8 @@ def CleanOtherSources():
     for path in file_path:
         df = pd.read_csv(path)
         # reorder in time
-        df['DATE'] = pd.to_datetime(df['DATE'])
-        df.sort_values('DATE', inplace=True, ascending=False)
+        df['Date'] = pd.to_datetime(df['Date'])
+        df.sort_values('Date', inplace=True, ascending=False)
         # save
         df.to_csv(path, index=False, header=True)
     print('### Clean Data Sets From Other Sources Completed ###')
@@ -174,9 +174,9 @@ def FormatDate():
     print('### Format Date Column Completed ###')
 
 
+FormatDate()
 TransToUSDBase()
 TransYahooToNASDAQ()
 CleanDataFromNASDAQ()
 CleanOtherSources()
 CleanCovid19Data()
-FormatDate()
