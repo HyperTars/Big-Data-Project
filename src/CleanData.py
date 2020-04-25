@@ -179,7 +179,7 @@ sys = pf.system()
 if sys == 'Darwin' or sys == 'Linux':
     os.system('unzip -o ../raw_data_0422.zip -d ../')
 if sys == 'Windows':
-    os.system('Expand-Archive -Path "..\raw_data_0422.zip" -DestinationPath "..\"')
+    os.system('powershell -command "Expand-Archive" -Path "../raw_data_0422.zip" -DestinationPath "../" -Force')
 
 FormatDate()
 TransToUSDBase()

@@ -712,7 +712,7 @@ BOMN,Boston Omaha Corporation,390041849.4,Finance,Real Estate
 BOOM,DMC Global Inc.,401688682.1,Capital Goods,Industrial Specialties
 BOOT,"Boot Barn Holdings, Inc.",407692282.5,Consumer Services,Clothing/Shoe/Accessory Stores
 BORR,Borr Drilling Limited,76243025.49,Energy,Oil & Gas Production
-BOSC,B.O.S. Better Online Solutions,8005070.978999998,Technology,Computer Communications Equipment
+BOSC,B.O.S. Better Online Solutions,8005070.978999997,Technology,Computer Communications Equipment
 BOTJ,"Bank of the James Financial Group, Inc.",41485442.1,Finance,Major Banks
 BOX,"Box, Inc.",2433743900.0,Technology,Computer Software: Prepackaged Software
 BOXL,Boxlight Corporation,9283985.459,Miscellaneous,Industrial Machinery/Components
@@ -4378,7 +4378,7 @@ SMTX,SMTC Corporation,71898015.0,Technology,Electrical Products
 SNA,Snap-On Incorporated,6270465769.0,Capital Goods,Industrial Machinery/Components
 SNAP,Snap Inc.,18348870188.0,Technology,"Computer Software: Programming, Data Processing"
 SNBR,Sleep Number Corporation,623024952.7,Consumer Durables,Home Furnishings
-SNCA,"Seneca Biopharma, Inc.",7694199.777000002,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
+SNCA,"Seneca Biopharma, Inc.",7694199.777000003,Health Care,Biotechnology: Biological Products (No Diagnostic Substances)
 SNCR,"Synchronoss Technologies, Inc.",143168446.0,Technology,EDP Services
 SND,"Smart Sand, Inc.",27563307.89,Basic Industries,Mining & Quarrying of Nonmetallic Minerals (No Fuels)
 SNDE,Sundance Energy Inc. ,18701827.84,Energy,Oil & Gas Production
@@ -4828,7 +4828,7 @@ TSLA,"Tesla, Inc. ",137621000000.0,Capital Goods,Auto Manufacturing
 TSM,Taiwan Semiconductor Manufacturing Company Ltd.,272736000000.0,Technology,Semiconductors
 TSN,"Tyson Foods, Inc.",23311334663.0,Consumer Non-Durables,Meat/Poultry/Fish
 TSQ,"Townsquare Media, Inc.",81796020.45,Consumer Services,Broadcasting
-TSRI,"TSR, Inc.",6639225.396000002,Technology,EDP Services
+TSRI,"TSR, Inc.",6639225.3960000025,Technology,EDP Services
 TSU,TIM Participacoes S.A.,5833181051.0,Public Utilities,Telecommunications Equipment
 TT,Trane Technologies plc,20268855826.0,Capital Goods,Auto Parts:O.E.M.
 TTC,Toro Company (The),6765370679.0,Capital Goods,Tools/Hardware
