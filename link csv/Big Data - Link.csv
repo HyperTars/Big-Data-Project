@@ -7,7 +7,7 @@ Symbols of All Companies,eoddata,http://eoddata.com/symbols.aspx,World,-,day,-,-
 Symbols of Stock Market,nasdaqtrader,http://www.nasdaqtrader.com/trader.aspx?id=symboldirdefs,World,-,day,-,-,other,"List of symbols used in stock market data presentation","stock, market, symbols"
 Company Info,NASDAQ,https://www.nasdaq.com/market-activity/stocks/screener,World,-,day,-,-,other,"Basic stock info of companies in NASDAQ","stock, company info, NASDAQ"
 Company Info,NASDAQ,https://old.nasdaq.com/screening/company-list.aspx,World,-,day,-,-,other,"Stock info of companies in NASDAQ and NYSE and AMEX","stock, company info"
-Company Info,NASDAQ,https://old.nasdaq.com/screening/companies-by-industry.aspx?render=download,-,day,-,-,other,"Stock info with industry data of companies in NASDAQ and NYSE and AMEX","stock, company info"
+Company Info,NASDAQ,https://old.nasdaq.com/screening/companies-by-industry.aspx?render=download,World,-,day,-,-,other,"Stock info with industry data of companies in NASDAQ and NYSE and AMEX","stock, company info"
 NASDAQ Company List with Status,nasdaqtrader,http://ftp.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt,World,-,other,-,-,other,"NASDAQ company list with status like financial status and round lot size","stock, company list"
 Other Company List with Status,nasdaqtrader,http://ftp.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt,World,-,other,-,-,other,"Other company list with status like financial status and round lot size","stock, company list"
 Full Company History,Yahoo,https://finance.yahoo.com,World,-,other,-,-,other,"All companies and their full history stock data","stock, company list, history data"
