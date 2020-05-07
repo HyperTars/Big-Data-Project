@@ -3,10 +3,16 @@ import numpy as np
 import platform as pf
 import os
 import xlrd
+import shutil
+
 
 def removeExist(path):
-    if(os.path.exists(path)):
+    if os.path.exists(path):
         os.remove(path)
+
+
+def getNewPath(path):
+    return '../clean_data' + path[7:]
 
 
 ########################################
@@ -17,7 +23,7 @@ def TransToUSDBase():
     currencies = ['AUD_USD.csv', 'EUR_USD.csv', 'GBP_USD.csv']
     for currency in currencies:
         curPath = currenciesPath + currency
-        newPath = currenciesPath + currency[4:7] + '_' + currency[:3] + '.csv'
+        newPath = currenciesPath + 'USD_' + currency[:3] + '.csv'
         df = pd.read_csv(curPath)
         columns = [df.columns.values[1], df.columns.values[3], df.columns.values[4], df.columns.values[5]]
         for col in columns:
@@ -42,6 +48,7 @@ def TransYahooToNASDAQ():
         # remove redundant column 'Adj Close'
         df = df.drop('Adj Close', axis=1, errors='ignore')
         # rename Close to Close/Last and put to second place
+        print(df.columns.values)
         if 'Close' in df.columns.values:
             df_close = df.Close
             df = df.drop('Close', axis=1, errors='ignore')
@@ -72,7 +79,7 @@ def CleanDataFromNASDAQ():
         # remove redundant column 'Volume'
         df = df.drop('Volume', axis=1, errors='ignore')
         # save
-        df.to_csv(path, index=False, header=True)
+        df.to_csv(getNewPath(path), index=False, header=True)
     print('### Clean Data Sets From NASDAQ Completed ###')
 
 
@@ -95,7 +102,7 @@ def CleanOtherSources():
     FSRPR_Country = FSRPR.Country
     FSRPR = FSRPR.drop('Country', axis=1, errors='ignore')
     FSRPR.insert(0, 'Country', FSRPR_Country)
-    FSRPR.to_csv(file_Finance_Sector_Related_Policy_Responses[:-4] + 'csv', index=False, header=True)
+    FSRPR.to_csv(getNewPath(file_Finance_Sector_Related_Policy_Responses[:-4] + 'csv'), index=False, header=True)
 
     # CrudeOil WTI MacroTrends
     CWM = pd.read_csv(file_CrudeOil_WTI_MacroTrends)
@@ -106,7 +113,10 @@ def CleanOtherSources():
     CWM.columns = [x.strip() for x in CWM.columns.values if x.strip() != '']
     # delete invalid future data
     CWM.dropna(subset=['value'], inplace=True)
-    CWM.to_csv(file_CrudeOil_WTI_MacroTrends, index=False, header=True)
+    # rename value to Close/Last
+    if 'value' in CWM.columns.values:
+        CWM.rename(columns={'value': 'Close/Last'}, inplace=True)
+    CWM.to_csv(getNewPath(file_CrudeOil_WTI_MacroTrends), index=False, header=True)
 
     # Others with date (reorder date)
     file_path = []
@@ -119,16 +129,14 @@ def CleanOtherSources():
         df['Date'] = pd.to_datetime(df['Date'])
         df.sort_values('Date', inplace=True, ascending=False)
         # save
-        df.to_csv(path, index=False, header=True)
+        df.to_csv(getNewPath(path), index=False, header=True)
     print('### Clean Data Sets From Other Sources Completed ###')
 
 
 ########################################
 # this function modify Covid-19 world data from JHU CSSE
-def CleanCovid19Data():
+def CleanCovid19Data(covidDataPath):
     print('### Clean Covid-19 Data Sets Start ###')
-    covidDataPath = '../data/covid-19/time_series_covid19_confirmed_global.csv'
-    covidDataNewPath = '../data/covid-19/time_series_covid19_confirmed_global_modified.csv'
     df = pd.read_csv(covidDataPath)
     # remove useless columns
     df = df.drop(['Province/State', 'Lat', 'Long'], 1, errors='ignore')
@@ -147,7 +155,7 @@ def CleanCovid19Data():
         result.index = pd.to_datetime(result.index)
         result.index.name = 'Date'
         # output
-    result.to_csv(covidDataNewPath, index=True, header=True)
+    result.to_csv(getNewPath(covidDataPath), index=True, header=True)
     print('### Clean Covid-19 Data Sets Completed ###')
 
 
@@ -175,15 +183,38 @@ def FormatDate():
     print('### Format Date Column Completed ###')
 
 
+if os.path.exists('../clean_data/'):
+    shutil.rmtree('../data/', ignore_errors=True)
+    shutil.rmtree('../clean_data/', ignore_errors=True)
+
 sys = pf.system()
 if sys == 'Darwin' or sys == 'Linux':
     os.system('unzip -o ../raw_data_0422.zip -d ../')
 if sys == 'Windows':
     os.system('powershell -command "Expand-Archive" -Path "../raw_data_0422.zip" -DestinationPath "../" -Force')
 
+os.makedirs('../clean_data/')
+os.makedirs('../clean_data/covid-19')
+os.makedirs('../clean_data/general')
+os.makedirs('../clean_data/employment')
+os.makedirs('../clean_data/market/Stock/all symbols')
+os.makedirs('../clean_data/market/Stock/company info')
+os.makedirs('../clean_data/market/Stock/company status')
+os.makedirs('../clean_data/market/Stock/markets')
+os.makedirs('../clean_data/market/Commodities/Energies')
+os.makedirs('../clean_data/market/Commodities/Grains')
+os.makedirs('../clean_data/market/Commodities/Meats')
+os.makedirs('../clean_data/market/Commodities/Metals')
+os.makedirs('../clean_data/market/Commodities/Softs')
+os.makedirs('../clean_data/market/Cryptocurrencies')
+os.makedirs('../clean_data/market/Currencies')
+os.makedirs('../clean_data/market/Funds_ETFs')
+os.makedirs('../clean_data/market/Index')
+
 FormatDate()
 TransToUSDBase()
 TransYahooToNASDAQ()
 CleanDataFromNASDAQ()
 CleanOtherSources()
-CleanCovid19Data()
+CleanCovid19Data('../data/covid-19/time_series_covid19_confirmed_global.csv')
+CleanCovid19Data('../data/covid-19/time_series_covid19_deaths_global.csv')
