@@ -175,6 +175,8 @@ def plotData(data, directory, name,
         print(data_date)
         print(data_value)
         plt.plot(data_date, data_value, label=data_label, linewidth=1, linestyle='--', marker=markerStyle[plotNumber % 10], markersize=3)
+        #plt.bar(data_date, data_value, label=data_label)
+        # to be updated: 转成直方图
         plt.xticks(rotation=90)
         plt.yticks([])
         plt.legend()
