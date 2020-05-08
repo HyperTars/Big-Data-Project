@@ -4,3 +4,9 @@
 .ipynb_checkpoints/
 __MACOSX/
 .__MACOSX/
+full_history/
+/full_history
+full_history
+.full_history/
+*full_history*
+clean_data/market/Stock/history/
