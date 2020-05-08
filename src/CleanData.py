@@ -48,7 +48,7 @@ def TransYahooToNASDAQ():
         # remove redundant column 'Adj Close'
         df = df.drop('Adj Close', axis=1, errors='ignore')
         # rename Close to Close/Last and put to second place
-        print(df.columns.values)
+        # print(df.columns.values)
         if 'Close' in df.columns.values:
             df_close = df.Close
             df = df.drop('Close', axis=1, errors='ignore')
