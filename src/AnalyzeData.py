@@ -5,6 +5,8 @@ import os
 import xlrd
 import matplotlib
 import shutil
+import stockstats as ss
+from math import log
 from matplotlib import pyplot as plt
 from sklearn import preprocessing as pprs
 from scipy import stats
@@ -40,29 +42,145 @@ def getNewPath(path):
 
 def analyzeMarketData(filePath):
     df = pd.read_csv(filePath)
+    #################
+    # Daily Changes #
+    #################
+    df.sort_values('Date', inplace=True, ascending=False)
+    df = df.reset_index(drop=True)
+    df['LastClose'] = df['Close/Last'].shift(-1)
 
-    if 'DailyIncreasingRate' in df.columns.values:
-        df = df.drop('DailyIncreasingRate', axis=1)
-    if 'DailyFlucRange' in df.columns.values:
-        df = df.drop('DailyFlucRange', axis=1)
-    if 'DailyFlucRate' in df.columns.values:
-        df = df.drop('DailyFlucRate', axis=1)
-    if 'OpenLastCloseRate' in df.columns.values:
-        df = df.drop('OpenLastCloseRate', axis=1)
-
+    # Daily Rise 日涨跌
+    if 'DailyRise' in df.columns.values:
+        df = df.drop('DailyRise', axis=1)
     if 'Close/Last' in df.columns.values:
-        close = df.sort_values('Date', ascending=True)['Close/Last']
-        close_change = close.pct_change().sort_index(ascending=True)
-        df['DailyIncreasingRate'] = close_change * 100
+        df['DailyRise'] = df['Close/Last'].diff(-1)
+
+    # Daily Rise Rate 日涨跌率
+    if 'DailyRiseRate' in df.columns.values:
+        df = df.drop('DailyRiseRate', axis=1)
+    if 'DailyRise' in df.columns.values:
+        df['DailyRiseRate'] = (df['DailyRise'] / df['LastClose']) * 100
+
+    # Daily Rise Log 日涨跌log
+    if 'DailyRiseLog' in df.columns.values:
+        df = df.drop('DailyRiseLog', axis=1)
+        df['DailyRiseLog'] = (df['Close/Last'].apply(np.log) - df['LastClose'].apply(np.log)) * 100
+
+    # Daily Ripple Range / 日波动范围
+    if 'DailyRippleRange' in df.columns.values:
+        df = df.drop('DailyRippleRange', axis=1)
     if 'High' in df.columns.values:
-        df['DailyFlucRange'] = df['High'] - df['Low']
-    if 'DailyFlucRange' in df.columns.values:
+        df['DailyRippleRange'] = df['High'] - df['Low']
+
+    # Daily Ripple Radio (VIX) / 日波动率
+    if 'DailyRippleRadio' in df.columns.values:
+        df = df.drop('DailyRippleRadio', axis=1)
+    if 'High' in df.columns.values:
         # 后期更新波动率公式
-        df['DailyFlucRate'] = df['DailyFlucRange'] / df['Close/Last'] * 100
-    if 'Open' in df.columns.values:
-        df['OpenLastCloseRate'] = (df['Open'] - df['Close/Last'].shift(-1)) / df['Close/Last'].shift(-1) * 100
-    print(df.head(2))
-    print('\n')
+        df['DailyRippleRadio'] = df['High'] / df['Low'] * 100
+
+    # Daily K / 日震荡幅度
+    if 'DailyK' in df.columns.values:
+        df = df.drop('DailyK', axis=1)
+    if 'DailyRippleRange' in df.columns.values:
+        df['DailyK'] = df['DailyRippleRange'] / df['LastClose'] * 100
+
+    #################
+    # Period Trends #
+    #################
+    df.sort_values('Date', inplace=True, ascending=True)
+    df = df.reset_index(drop=True)
+
+    # Moving Average / 移动平均线 (趋势) -> 最好放到 PlotData.py 里，过滤完日期后再求移动平均线
+    MA_WindowSize = [5, 15, 30]
+    if 'Close/Last' in df.columns.values:
+        for i in MA_WindowSize:
+            if 'MA' + str(i) in df.columns.values:
+                df = df.drop('MA' + str(i), axis=1)
+            df['MA' + str(i)] = df['Close/Last'].rolling(i).mean()
+    '''
+    # Test
+    dfe = df[(df['Date'] > '2020-01-21')]
+    dfe.sort_values('Date', inplace=True, ascending=True)
+    dfe = dfe.reset_index(drop=True)
+    dfe['MA15'] = dfe['Close/Last'].rolling(15).mean()
+    dfe['MA30'] = dfe['Close/Last'].rolling(30).mean()
+    dfe[['Close/Last', 'MA5', 'MA15', 'MA30']].plot(subplots=False, figsize=(12, 6), grid=True)
+    plt.show()
+    '''
+
+    # Exponentially Weighted Moving-Average / 指数加权移动平均值 (趋势)
+    EWMA_SPAN = 5
+    if 'EWMA' in df.columns.values:
+        df = df.drop('EWMA', axis=1)
+    if 'Close/Last' in df.columns.values:
+        df['EWMA'] = df['Close/Last'].ewm(span=EWMA_SPAN, ignore_na=True, adjust=True).mean()
+
+    # Moving Average Convergence / Divergence 异同移动平均线 (趋势)
+    if 'MACD' in df.columns.values:
+        df = df.drop('MACD')
+    if 'Close/Last' in df.columns.values:
+        MCDA_short = 5
+        MCDA_mid = 15
+        MCDA_long = 30
+        sema = df['Close/Last'].ewm(span=MCDA_short).mean()
+        lema = df['Close/Last'].ewm(span=MCDA_long).mean()
+        df.fillna(0, inplace=True)
+        ema_dif = sema - lema
+        dea = ema_dif.ewm(span=MCDA_mid).mean()
+        df['MACD'] = 2 * ema_dif - dea
+
+    # KDJ Index / 随机指标 (趋势)
+    if 'K' in df.columns.values:
+        df = df.drop('K')
+    if 'D' in df.columns.values:
+        df = df.drop('D')
+    if 'J' in df.columns.values:
+        df = df.drop('J')
+    if 'High' in df.columns.values:
+        low_list = df['Low'].rolling(9, min_periods=9).min()
+        low_list.fillna(value=df['Low'].expanding().min(), inplace=True)
+        high_list = df['High'].rolling(9, min_periods=9).max()
+        high_list.fillna(value=df['High'].expanding().max(), inplace=True)
+        rsv = (df['Close/Last'] - low_list) / (high_list - low_list) * 100
+        df['K'] = pd.DataFrame(rsv).ewm(com=2).mean()
+        df['D'] = df['K'].ewm(com=2).mean()
+        df['J'] = 3 * df['K'] - 2 * df['D']
+
+
+    # RSI (价值回归)
+    '''
+    N日RSI = N日内收盘涨幅的平均值/(N日内收盘涨幅均值+N日内收盘跌幅均值) ×100
+    由上面算式可知RSI指标的技术含义，即以向上的力量与向下的力量进行比较，若向上的力量较大，则计算出来的指标上升；若向下的力量较大，则指标下降，由此测算出市场走势的强弱。
+    市场上一般的规则：（快速RSI指14日的RSI，慢速RSI指6日的RSI）
+    1. RSI 金叉：快速 RSI 从下往上突破慢速 RSI 时,认为是买进机会。
+    2. RSI 死叉：快速 RSI 从上往下跌破慢速 RSI 时,认为是卖出机会
+    3. 慢速RSI<20 为超卖状态,为买进机会。
+    4. 慢速RSI>80 为超买状态,为卖出机会。
+    '''
+    if 'DailyRise' in df.columns.values:
+        RSI_WINDOW = 14
+        df['rsi_gain'] = np.select([df['DailyRise'] > 0, df['DailyRise'].isna()], [df['DailyRise'], np.nan], default=0)
+        df['rsi_loss'] = np.select([df['DailyRise'] < 0, df['DailyRise'].isna()], [-df['DailyRise'], np.nan], default=0)
+        df['avg_gain'] = np.nan
+        df['avg_loss'] = np.nan
+        df['avg_gain'][RSI_WINDOW] = df['rsi_gain'].rolling(window=RSI_WINDOW).mean().dropna().iloc[0]
+        df['avg_loss'][RSI_WINDOW] = df['rsi_loss'].rolling(window=RSI_WINDOW).mean().dropna().iloc[0]
+        for i in range(RSI_WINDOW + 1, df.shape[0]):
+            df['avg_gain'].iloc[i] = (df['avg_gain'].iloc[i - 1] * (RSI_WINDOW - 1) + df['rsi_gain'].iloc[i]) / RSI_WINDOW
+            df['avg_loss'].iloc[i] = (df['avg_loss'].iloc[i - 1] * (RSI_WINDOW - 1) + df['rsi_loss'].iloc[i]) / RSI_WINDOW
+        # calculate rs and rsi
+        df['rs'] = df['avg_gain'] / df['avg_loss']
+        df['rsi'] = 100 - (100 / (1 + df['rs']))
+        df = df.drop('rsi_gain', axis=1)
+        df = df.drop('rsi_loss', axis=1)
+        df = df.drop('avg_loss', axis=1)
+        df = df.drop('avg_gain', axis=1)
+
+    # Mean Absolute Deviation
+    if 'Close/Last' in df.columns.values:
+        df['MAD'] = df['Close/Last'].rolling(window=5).apply(lambda x: np.fabs(x - x.mean()).mean())
+
     df.to_csv(getNewPath(filePath), index=False, header=True)
 
 
@@ -90,3 +208,12 @@ readMarketCSV()
 
 for filePath in filePaths:
     analyzeMarketData(filePath)
+
+#analyzeMarketData('../clean_data/market/Commodities/Energies/CrudeOil_CL.csv')
+#df = pd.read_csv('../analyzed_data/market/Commodities/Energies/CrudeOil_CL.csv')
+
+array(['Date', 'Close/Last', 'Open', 'High', 'Low', 'LastClose',
+       'DailyRise', 'DailyRiseRate', 'DailyRippleRange',
+       'DailyRippleRadio', 'DailyK', 'MA5', 'MA15', 'MA30', 'EWMA',
+       'MACD', 'K', 'D', 'J', 'rs', 'rsi', 'MAD'], dtype=object)
+
