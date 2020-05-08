@@ -1,18 +1,7 @@
 import pandas as pd
 import numpy as np
-import platform as pf
 import os
-import xlrd
-import matplotlib
 import shutil
-import stockstats as ss
-from math import log
-from matplotlib import pyplot as plt
-from sklearn import preprocessing as pprs
-from scipy import stats
-from datetime import datetime
-from datetime import datetime
-from matplotlib.ticker import MultipleLocator, FormatStrFormatter
 
 
 def readMarketCSV():
@@ -147,7 +136,6 @@ def analyzeMarketData(filePath):
         df['D'] = df['K'].ewm(com=2).mean()
         df['J'] = 3 * df['K'] - 2 * df['D']
 
-
     # RSI (价值回归)
     '''
     N日RSI = N日内收盘涨幅的平均值/(N日内收盘涨幅均值+N日内收盘跌幅均值) ×100
@@ -208,12 +196,3 @@ readMarketCSV()
 
 for filePath in filePaths:
     analyzeMarketData(filePath)
-
-#analyzeMarketData('../clean_data/market/Commodities/Energies/CrudeOil_CL.csv')
-#df = pd.read_csv('../analyzed_data/market/Commodities/Energies/CrudeOil_CL.csv')
-
-array(['Date', 'Close/Last', 'Open', 'High', 'Low', 'LastClose',
-       'DailyRise', 'DailyRiseRate', 'DailyRippleRange',
-       'DailyRippleRadio', 'DailyK', 'MA5', 'MA15', 'MA30', 'EWMA',
-       'MACD', 'K', 'D', 'J', 'rs', 'rsi', 'MAD'], dtype=object)
-
