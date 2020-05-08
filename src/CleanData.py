@@ -195,11 +195,65 @@ if os.path.exists('../clean_data/'):
     shutil.rmtree('../data/', ignore_errors=True)
     shutil.rmtree('../clean_data/', ignore_errors=True)
 
+def CleanAllHistory():
+    all_symbol = []
+    # check two stock source files and use their intersection
+    fp = open('../data/market/Stock/all symbols/all_symbols.txt')
+    for line in fp:
+        all_symbol.append(line.strip())
+    fp = open('../data/market/Stock/all symbols/excluded_symbols.txt')
+    for line in fp:
+        all_symbol.append(line.strip()) 
+    fp.close()
+    
+    company_list_path = '../data/market/Stock/company info/companylist.csv'
+    company_list = pd.read_csv(company_list_path)
+    # drop some redundant columns
+    company_list = company_list.drop('ADR TSO', axis=1, errors='ignore')
+    company_list = company_list.drop('LastSale', axis=1, errors='ignore')
+    company_list = company_list.drop('IPOyear', axis=1, errors='ignore')
+    company_list = company_list.drop('Summary Quote', axis=1, errors='ignore')
+    # must ensure that sector is not NaN
+    company_list = company_list.dropna(subset=['Sector'])
+    
+    company_list.to_csv('../data/market/Stock/company info/NewCompanyList.csv', index=False, header=True)
+    company_list = company_list['Symbol'].values.tolist()
+    
+    final_list = list(set(all_symbol).intersection(set(company_list)))
+    
+    # generate a new directory to store all modified stock history
+    old_path = '../full_history/'
+    new_path = '../data/market/Stock/history/'
+    if not os.path.exists(new_path):
+        os.mkdir(new_path)
+    
+    counter = 0
+    for each_file in final_list:
+        counter += 1
+        if counter % 500 == 0:
+            print('Progress: ' + str(counter) + '/' + str(len(final_list)))
+        
+        file_path = old_path + each_file + '.csv'
+        try:
+            file = pd.read_csv(file_path)
+        except:
+            continue
+        
+        # drop close column
+        file = file.drop('close', axis=1, errors='ignore')
+        
+        # filter and use recent 2 years' record
+        file = file[file['date'] >= '2018-01-01']
+        
+        file.to_csv(new_path + each_file + '.csv', index=False, header=True)
+
 sys = pf.system()
 if sys == 'Darwin' or sys == 'Linux':
     os.system('unzip -o ../raw_data_0422.zip -d ../')
+    os.system('unzip -o ../raw_stock_history_0421.zip -d ../')
 if sys == 'Windows':
     os.system('powershell -command "Expand-Archive" -Path "../raw_data_0422.zip" -DestinationPath "../" -Force')
+    os.system('powershell -command "Expand-Archive" -Path "../raw_stock_history_0421.zip" -DestinationPath "../" -Force')
 
 os.makedirs('../clean_data/')
 os.makedirs('../clean_data/covid-19')
@@ -226,4 +280,5 @@ CleanDataFromNASDAQ()
 CleanOtherSources()
 CleanCovid19Data('../data/covid-19/time_series_covid19_confirmed_global.csv')
 CleanCovid19Data('../data/covid-19/time_series_covid19_deaths_global.csv')
+CleanAllHistory()
 TrimCurrencies()
