@@ -183,6 +183,14 @@ def FormatDate():
     print('### Format Date Column Completed ###')
 
 
+def TrimCurrencies():
+    rootPath = '../clean_data/market/Currencies'
+    for root, dirs, files in os.walk(rootPath):
+        for file in files:
+            filePath = rootPath + '/' + file
+            fileNewPath = rootPath + '/' + str(file[4:])
+            os.rename(filePath, fileNewPath)
+
 if os.path.exists('../clean_data/'):
     shutil.rmtree('../data/', ignore_errors=True)
     shutil.rmtree('../clean_data/', ignore_errors=True)
@@ -218,3 +226,4 @@ CleanDataFromNASDAQ()
 CleanOtherSources()
 CleanCovid19Data('../data/covid-19/time_series_covid19_confirmed_global.csv')
 CleanCovid19Data('../data/covid-19/time_series_covid19_deaths_global.csv')
+TrimCurrencies()
