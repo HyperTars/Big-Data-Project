@@ -239,6 +239,7 @@ def CleanAllHistory():
         file = file[file['date'] >= '2018-01-01']
         file.to_csv(new_path + each_file + '.csv', index=False, header=True)
 
+
 if os.path.exists('../clean_data/'):
     shutil.rmtree('../data/', ignore_errors=True)
     shutil.rmtree('../clean_data/', ignore_errors=True)
@@ -274,5 +275,6 @@ CleanDataFromNASDAQ()
 CleanOtherSources()
 CleanCovid19Data('../data/covid-19/time_series_covid19_confirmed_global.csv')
 CleanCovid19Data('../data/covid-19/time_series_covid19_deaths_global.csv')
+CleanAllHistory()
 TrimCurrencies()
 CleanAllHistory()
