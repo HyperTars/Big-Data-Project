@@ -166,3 +166,37 @@ def plotData(data, directory, name,
     plt.close()
 
 #analyzeMarketCSVByDirectory()
+
+df = pd.read_csv('../analyzed_data/market/Index/S&P_500.csv')
+df = pd.read_csv('../analyzed_data/market/Index/DowJones_IndustrialAvg.csv')
+df.sort_values('Date', inplace=True, ascending=True)
+df = df.reset_index(drop=True)
+dfe = df[(df['Date'] > '2019-10-20')]
+dfe.set_index('Date', inplace=True)
+
+dfe['DailyRiseRate'].plot()
+r = random.random()
+b = random.random()
+g = random.random()
+sub.set_ylabel('Returns')
+sub.grid(which="major", color='k', linestyle='-.', linewidth=0.2)
+plt.axvline(x='2020-01-30', color='RoyalBlue', linestyle='dashdot', linewidth=3)
+plt.axvline(x='2020-03-11', color='Red', linestyle='dashdot', linewidth=3)
+fig = plt.figure(figsize=(12, 8))
+sub = fig.add_subplot()
+plt.tight_layout()
+plt.show()
+
+
+data_cum_ret = (dfe['Close/Last'].pct_change()+1).cumprod()
+cum_rets = data_cum_ret.loc[tl.first_case.iloc[0]:tl.last_date.iloc[0]]
+running_max = np.maximum.accumulate(cum_rets.dropna())
+running_max[running_max < 1] = 1
+drawdown = (cum_rets)/running_max - 1
+
+
+def mostDropDownDay(df):
+    df.sort_values('Date', inplace=True, ascending=True)
+    df = df.reset_index(drop=True)
+    dfe = df[(df['Date'] > '2019-10-20')]
+    dfe.set_index('Date', inplace=True)

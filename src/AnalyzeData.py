@@ -64,6 +64,12 @@ def analyzeMarketData(filePath, lastDay):
     if 'DailyRise' in df.columns.values:
         df['DailyRiseRate'] = (df['DailyRise'] / df['LastClose']) * 100
 
+    # Daily Acc Profit 日累计收益
+    if 'DailyAccProfit' in df.columns.values:
+        df = df.drop('DailyAccProfit', axis=1)
+    if 'Close/Last' in df.columns.values:
+        df['DailyAccProfit'] = (df['Close/Last'].pct_change(1) + 1).cumprod()
+
     # Daily Rise Log 日涨跌log
     if 'DailyRiseLog' in df.columns.values:
         df = df.drop('DailyRiseLog', axis=1)
