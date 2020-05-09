@@ -195,8 +195,11 @@ running_max[running_max < 1] = 1
 drawdown = (cum_rets)/running_max - 1
 
 
-def mostDropDownDay(df):
-    df.sort_values('Date', inplace=True, ascending=True)
-    df = df.reset_index(drop=True)
-    dfe = df[(df['Date'] > '2019-10-20')]
+def largestOneDayDrops(df):
+    dfe = df.sort_values('DailyRiseRate', ascending=True).head(20)
     dfe.set_index('Date', inplace=True)
+    plt.title('Dow Jones Largest One Day Drops')
+    plt.bar(dfe.index, dfe['DailyRiseRate'])
+    plt.xticks(rotation=-60)
+    plt.legend()
+    

@@ -62,7 +62,7 @@ def analyzeMarketData(filePath, lastDay):
     if 'DailyRiseRate' in df.columns.values:
         df = df.drop('DailyRiseRate', axis=1)
     if 'DailyRise' in df.columns.values:
-        df['DailyRiseRate'] = (df['DailyRise'] / df['LastClose']) * 100
+        df['DailyRiseRate'] = (df['DailyRise'] / df['LastClose'])
 
     # Daily Acc Profit 日累计收益
     if 'DailyAccProfit' in df.columns.values:
@@ -73,7 +73,7 @@ def analyzeMarketData(filePath, lastDay):
     # Daily Rise Log 日涨跌log
     if 'DailyRiseLog' in df.columns.values:
         df = df.drop('DailyRiseLog', axis=1)
-        df['DailyRiseLog'] = (df['Close/Last'].apply(np.log) - df['LastClose'].apply(np.log)) * 100
+        df['DailyRiseLog'] = (df['Close/Last'].apply(np.log) - df['LastClose'].apply(np.log))
 
     # Daily Ripple Range / 日波动范围
     if 'DailyRippleRange' in df.columns.values:
@@ -85,13 +85,13 @@ def analyzeMarketData(filePath, lastDay):
     if 'DailyRippleRadio' in df.columns.values:
         df = df.drop('DailyRippleRadio', axis=1)
     if 'High' in df.columns.values:
-        df['DailyRippleRadio'] = df['High'] / df['Low'] * 100
+        df['DailyRippleRadio'] = df['High'] / df['Low']
 
     # Daily K / 日震荡幅度
     if 'DailyK' in df.columns.values:
         df = df.drop('DailyK', axis=1)
     if 'DailyRippleRange' in df.columns.values:
-        df['DailyK'] = df['DailyRippleRange'] / df['LastClose'] * 100
+        df['DailyK'] = df['DailyRippleRange'] / df['LastClose']
 
     #################
     # Period Trends #
