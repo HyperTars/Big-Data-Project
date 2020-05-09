@@ -20,7 +20,7 @@ covidDP_deaths = '../clean_data/covid-19/time_series_covid19_deaths_global.csv'
 directories = ['Commodities/Energies', 'Commodities/Grains', 'Commodities/Meats',
                'Commodities/Metals', 'Commodities/Softs', 'Cryptocurrencies', 'Currencies',
                'Funds_ETFs', 'Index']
-directories = ['Commodities/Energies']
+directories_index = '../analyzed_data/market/Index'
 marketDataFP = '../clean_data/market/'
 markerStyle = ['.', ',', 'o', 'v', '^', '1', 'p', 'P', '*', '+']
 
@@ -198,10 +198,20 @@ drawdown = (cum_rets)/running_max - 1
 def plotLargestOneDayDrops(df, title):
     dft = df.sort_values('DailyRiseRate', ascending=True).head(20)
     dft.sort_values('DailyRiseRate', inplace=True, ascending=False)
-    plt.figure(figsize=(8, 4))
+    plt.figure(figsize=(10, 4))
     plt.title(title + ' Largest One Day Drops (since 2015)')
     plt.barh(dft['Date'], dft['DailyRiseRate'], 0.5)
     plt.xlabel('Daily Rise Rate')
     plt.ylabel('Date')
-    plt.legend()
-    plt.show()
+    if not os.path.exists('../result/largest_one_day_drops/'):
+        os.makedirs('../result/largest_one_day_drops/')
+    plt.savefig('../result/largest_one_day_drops/' + title + '.png')
+
+
+# plot largest one day drops for indices
+for root, dirs, files in os.walk(directories_index):
+    for file in files:
+        path = os.path.join(root, file)
+        if path.endswith('.csv'):
+            df = pd.read_csv(path)
+            plotLargestOneDayDrops(df, file[:-4])
