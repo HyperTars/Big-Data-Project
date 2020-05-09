@@ -195,11 +195,13 @@ running_max[running_max < 1] = 1
 drawdown = (cum_rets)/running_max - 1
 
 
-def largestOneDayDrops(df):
-    dfe = df.sort_values('DailyRiseRate', ascending=True).head(20)
-    dfe.set_index('Date', inplace=True)
-    plt.title('Dow Jones Largest One Day Drops')
-    plt.bar(dfe.index, dfe['DailyRiseRate'])
-    plt.xticks(rotation=-60)
+def plotLargestOneDayDrops(df, title):
+    dft = df.sort_values('DailyRiseRate', ascending=True).head(20)
+    dft.sort_values('DailyRiseRate', inplace=True, ascending=False)
+    plt.figure(figsize=(8, 4))
+    plt.title(title + ' Largest One Day Drops (since 2015)')
+    plt.barh(dft['Date'], dft['DailyRiseRate'], 0.5)
+    plt.xlabel('Daily Rise Rate')
+    plt.ylabel('Date')
     plt.legend()
-    
+    plt.show()
