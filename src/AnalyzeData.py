@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import os
 import shutil
+import datetime as dt
 
 
 def readMarketCSV():
@@ -29,8 +30,21 @@ def getNewPath(path):
     return '../analyzed_data' + path[13:]
 
 
-def analyzeMarketData(filePath):
+def getLastDay(path, lastDay):
+    df = pd.read_csv(path)
+    df.sort_values('Date', inplace=True, ascending=False)
+    if df['Date'][0] < lastDay:
+        return df['Date'][0]
+    return lastDay
+
+
+def trimLastDay(df, lastDay):
+    return df[(df['Date'] <= lastDay)]
+
+
+def analyzeMarketData(filePath, lastDay):
     df = pd.read_csv(filePath)
+    df = trimLastDay(df, lastDay)
     #################
     # Daily Changes #
     #################
@@ -65,7 +79,6 @@ def analyzeMarketData(filePath):
     if 'DailyRippleRadio' in df.columns.values:
         df = df.drop('DailyRippleRadio', axis=1)
     if 'High' in df.columns.values:
-        # 后期更新波动率公式
         df['DailyRippleRadio'] = df['High'] / df['Low'] * 100
 
     # Daily K / 日震荡幅度
@@ -105,7 +118,7 @@ def analyzeMarketData(filePath):
     if 'Close/Last' in df.columns.values:
         df['EWMA'] = df['Close/Last'].ewm(span=EWMA_SPAN, ignore_na=True, adjust=True).mean()
 
-    # Moving Average Convergence / Divergence 异同移动平均线 (趋势)
+    # Moving Average Convergence / Divergence 异同移动平均线 (振荡指标)
     if 'MACD' in df.columns.values:
         df = df.drop('MACD')
     if 'Close/Last' in df.columns.values:
@@ -136,7 +149,7 @@ def analyzeMarketData(filePath):
         df['D'] = df['K'].ewm(com=2).mean()
         df['J'] = 3 * df['K'] - 2 * df['D']
 
-    # RSI (价值回归)
+    # Relative Strength Index / 相对强弱指标 (价值回归)
     '''
     N日RSI = N日内收盘涨幅的平均值/(N日内收盘涨幅均值+N日内收盘跌幅均值) ×100
     由上面算式可知RSI指标的技术含义，即以向上的力量与向下的力量进行比较，若向上的力量较大，则计算出来的指标上升；若向下的力量较大，则指标下降，由此测算出市场走势的强弱。
@@ -169,6 +182,9 @@ def analyzeMarketData(filePath):
     if 'Close/Last' in df.columns.values:
         df['MAD'] = df['Close/Last'].rolling(window=5).apply(lambda x: np.fabs(x - x.mean()).mean())
 
+    df.sort_values('Date', inplace=True, ascending=False)
+    df = df.reset_index(drop=True)
+    print(getNewPath(filePath))
     df.to_csv(getNewPath(filePath), index=False, header=True)
 
 
@@ -192,7 +208,16 @@ os.makedirs('../analyzed_data/market/Stock/history')
 filePaths = []
 stockPaths = []
 readMarketCSV()
+lastDay = dt.datetime.now().strftime('%Y-%m-%d')
 # readStockHistoryCSV()
 
 for filePath in filePaths:
-    analyzeMarketData(filePath)
+    lastDay = getLastDay(filePath, lastDay)
+
+for filePath in filePaths:
+    analyzeMarketData(filePath, lastDay)
+
+COVID_CONFIRMED = '../clean_data/covid-19/time_series_covid19_confirmed_global.csv'
+COVID_DEATHS = '../clean_data/covid-19/time_series_covid19_deaths_global.csv'
+trimLastDay(pd.read_csv(COVID_CONFIRMED), lastDay).to_csv(getNewPath(COVID_CONFIRMED), index=False, header=True)
+trimLastDay(pd.read_csv(COVID_DEATHS), lastDay).to_csv(getNewPath(COVID_DEATHS), index=False, header=True)
