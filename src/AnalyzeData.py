@@ -70,6 +70,14 @@ def analyzeMarketData(filePath, lastDay):
     if 'Close/Last' in df.columns.values:
         df['DailyReturn'] = (df['Close/Last'].pct_change(1) + 1).cumprod()
 
+    # Total Return since COVID-19
+    if 'TotalReturn' in df.columns.values:
+        df = df.drop('TotalReturn', axis=1)
+    if 'Close/Last' in df.columns.values:
+        df['TotalReturn'] = df['Close/Last']
+        val = df[df['Date'] == '2020-01-22']['Close/Last']
+        df['TotalReturn'] = df['TotalReturn'].apply(lambda x: (x - val) / val)
+
     # Daily Rise Log 日涨跌log
     if 'DailyRiseLog' in df.columns.values:
         df = df.drop('DailyRiseLog', axis=1)
