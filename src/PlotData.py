@@ -129,7 +129,7 @@ def plotLargestOneDayDrops(df, title):
     dft = df.sort_values('DailyRiseRate', ascending=True).head(20)
     dft.sort_values('DailyRiseRate', inplace=True, ascending=False)
     plt.figure(figsize=(10, 4))
-    plt.title(title + ' Largest One Day Drops (since 2015)')
+    plt.title(title + ' Largest One Day Drops (since 2010)')
     plt.barh(dft['Date'], dft['DailyRiseRate'], 0.5)
     plt.xlabel('Daily Rise Rate')
     plt.ylabel('Date')
