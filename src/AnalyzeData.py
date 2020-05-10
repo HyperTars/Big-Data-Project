@@ -136,15 +136,14 @@ def analyzeMarketData(filePath, lastDay):
     if 'MACD' in df.columns.values:
         df = df.drop('MACD')
     if 'Close/Last' in df.columns.values:
-        MCDA_short = 5
-        MCDA_mid = 15
-        MCDA_long = 30
-        sema = df['Close/Last'].ewm(span=MCDA_short).mean()
-        lema = df['Close/Last'].ewm(span=MCDA_long).mean()
-        df.fillna(0, inplace=True)
+        MCDA_short = 12
+        MCDA_mid = 9
+        MCDA_long = 26
+        sema = df['Close/Last'].ewm(adjust=False, alpha=2 / (MCDA_short + 1), ignore_na=True).mean()
+        lema = df['Close/Last'].ewm(adjust=False, alpha=2 / (MCDA_long + 1), ignore_na=True).mean()
         ema_dif = sema - lema
-        dea = ema_dif.ewm(span=MCDA_mid).mean()
-        df['MACD'] = 2 * ema_dif - dea
+        dea = ema_dif.ewm(adjust=False, alpha=2 / (MCDA_mid + 1), ignore_na=True).mean()
+        df['MACD'] = 2 * (ema_dif - dea)
 
     # KDJ Index / 随机指标 (趋势)
     if 'K' in df.columns.values:
