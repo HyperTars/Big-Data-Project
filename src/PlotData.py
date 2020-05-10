@@ -130,7 +130,7 @@ def plotLargestOneDayDrops(df, title):
     dft.sort_values('DailyRiseRate', inplace=True, ascending=False)
     plt.figure(figsize=(10, 4))
     plt.title(title + ' Largest One Day Drops (since 2010)')
-    plt.barh(dft['Date'], dft['DailyRiseRate'], 0.5)
+    plt.barh(dft['Date'], dft['DailyRiseRate'])
     plt.xlabel('Daily Rise Rate')
     plt.ylabel('Date')
     if not os.path.exists('../result/largest_one_day_drops/'):
