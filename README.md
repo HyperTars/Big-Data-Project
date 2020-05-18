@@ -8,9 +8,9 @@ Linyi Yan <ly1333@nyu.edu>
 Tingfeng Mai <tm3358@nyu.edu>
 
 ## Related Documentation Links
-Full Report: https://docs.google.com/document/d/1i3iQkhmNyG4myV1ErU-NR5ze9icRVYVLuITZ561nBX0/edit
+Full Report: `Big Data Spring 2020.pdf` or https://docs.google.com/document/d/1i3iQkhmNyG4myV1ErU-NR5ze9icRVYVLuITZ561nBX0/edit
 
-Prez PPT: https://1drv.ms/p/s!AqLzalILZz0hu1wSfb9AGRcq7ESc?e=mEjx7a
+Prez PPT: `Big Data Prez.pptx`
 
 ## Setup Instruction
 Raw company history data in `raw_stock_history_0421.zip`, we only keep a zipped file in git because they are too large, you can extract to your local disk before using. These stock data should be extracted and placed in a folder call 'stock-history' (should also be created manually) under `../clean_data/`. 
