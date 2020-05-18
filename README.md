@@ -7,7 +7,15 @@
 
 - Tingfeng Mai <tm3358@nyu.edu>
 
-## Related Documentation Links
+## Project Description
+- Our project will focus on several economic indicators which should be considered and by how much the COVID-19 has affected the world’s economy. We will work on the problem: What economic indicators should be considered with the effect of COVID-19?. To be more specific, we will gather a wide range of economic indicators, analyze each indicator’s characteristics and its correlation with COVID-19, then make comparisons to find out those indicators which are most sensitive to COVID-19. We plan to analyze indicators including:
+  - Stock market, which involves several indexes and each NASDAQ stock’s historical pricing data
+  - Commodities market, which involves metals, energies, grains, meats and softs
+  - Cryptocurrencies market
+  - Currencies market, or specifically, the exchange rate market
+- Since each indicator may vary from others, we expect to witness significant differences between each of them. For example, the stock markets are quite sensitive to the COVID-19 progress and fluctuate rapidly, while the exchange rate market may respond to the COVID-19 slower and remain nonvolatile. These differences will help us better figure out all indicators’ features and by how much they have been impacted by COVID-19.
+
+## Related Documentation
 - Data Sets: `datasets-used.csv`
 
 - Full Report: `Big Data Spring 2020.pdf` or https://docs.google.com/document/d/1i3iQkhmNyG4myV1ErU-NR5ze9icRVYVLuITZ561nBX0/edit
