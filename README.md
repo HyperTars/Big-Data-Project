@@ -15,10 +15,11 @@
   - Currencies market, or specifically, the exchange rate market
 - Since each indicator may vary from others, we expect to witness significant differences between each of them. For example, the stock markets are quite sensitive to the COVID-19 progress and fluctuate rapidly, while the exchange rate market may respond to the COVID-19 slower and remain nonvolatile. These differences will help us better figure out all indicators’ features and by how much they have been impacted by COVID-19.
 
-## Related Documentation
+## Related Documents
 - Data Sets: `datasets-used.csv`
 
-- Full Report: `Big Data Spring 2020.pdf` or https://docs.google.com/document/d/1i3iQkhmNyG4myV1ErU-NR5ze9icRVYVLuITZ561nBX0/edit
+- Full Report: `Big Data Spring 2020.pdf` 
+  or https://docs.google.com/document/d/1i3iQkhmNyG4myV1ErU-NR5ze9icRVYVLuITZ561nBX0/edit
 
 - Prez PPT: `Big Data Prez.pptx`
 
