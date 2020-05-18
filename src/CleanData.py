@@ -244,7 +244,6 @@ if os.path.exists('../clean_data/'):
     shutil.rmtree('../data/', ignore_errors=True)
     shutil.rmtree('../clean_data/', ignore_errors=True)
 
-
 sys = pf.system()
 if sys == 'Darwin' or sys == 'Linux':
     os.system('unzip -o ../raw_data_0422.zip -d ../')
