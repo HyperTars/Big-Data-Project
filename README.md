@@ -13,10 +13,10 @@
 ## Related Documents
 - Data Sets: [datasets-used.csv](datasets-used.csv)
 
-- Full Report: [Big Data Spring 2020.pdf]([Big\ Data\ Spring\ 2020.pdf)
+- Full Report: [Big Data Spring 2020.pdf]([BigDataSpring2020.pdf)
   or [Google Docs](https://docs.google.com/document/d/1i3iQkhmNyG4myV1ErU-NR5ze9icRVYVLuITZ561nBX0/edit)
 
-- Prez PPT: [Big Data Prez.pptx](Big\ Data\ Prez.pptx)
+- Prez PPT: [Big Data Prez.pptx](BigDataPrez.pptx)
 
 ## Setup Instruction
 - Raw company history data in `raw_stock_history_0421.zip`, we only keep a zipped file in git because they are too large, you can extract to your local disk before using. These stock data should be extracted and placed in a folder call 'stock-history' (should also be created manually) under `../clean_data/`. 
