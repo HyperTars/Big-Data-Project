@@ -1,11 +1,6 @@
 # Big-Data-Project
 
-## Group Members
-- Wenzhou Li <wl2154@nyu.edu>
-
-- Linyi Yan <ly1333@nyu.edu>
-
-- Tingfeng Mai <tm3358@nyu.edu>
+![](https://img.shields.io/badge/python-3.7-green)
 
 ## Project Description
 - Our project will focus on several economic indicators which should be considered and by how much the COVID-19 has affected the world’s economy. We will work on the problem: What economic indicators should be considered with the effect of COVID-19?. To be more specific, we will gather a wide range of economic indicators, analyze each indicator’s characteristics and its correlation with COVID-19, then make comparisons to find out those indicators which are most sensitive to COVID-19. We plan to analyze indicators including:
@@ -47,3 +42,10 @@
 
 **CompareToOtherCrises**
 - To compare the stock market crash to crashes in some other financial crises years, run `market_drop_analysis/DataAnalyze.ipynb`, the results images can be directly viewed in the ipynb file.
+
+## Contributing
+- Wenzhou Li <wl2154@nyu.edu>
+
+- Linyi Yan <ly1333@nyu.edu>
+
+- Tingfeng Mai <tm3358@nyu.edu>
