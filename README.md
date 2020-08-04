@@ -1,4 +1,4 @@
-# Big-Data-Project
+# Impact-of-COVID-19-on-Financial-Market
 
 ![](https://img.shields.io/badge/python-3.7-green)
 
@@ -14,7 +14,7 @@
 - Data Sets: [Datasets-used.csv](datasets-used.csv)
 
 - Full Report: [Big Data Spring 2020.pdf]([BigDataSpring2020.pdf)
-  or [Google Docs](https://docs.google.com/document/d/1i3iQkhmNyG4myV1ErU-NR5ze9icRVYVLuITZ561nBX0/edit)
+  or [Google Docs](https://docs.google.com/document/d/e/2PACX-1vQfVVlkV5pu67TuiVFkcvqsSSyRJqRxd99qZ5FSeqmagk3SliKXBHqkpf4doj1fquu87NbDH5wjKlAQ/pub)
 
 - Prez PPT: [Big Data Prez.pptx](BigDataPrez.pptx)
 
@@ -49,3 +49,9 @@
 - Linyi Yan <ly1333@nyu.edu>
 
 - Tingfeng Mai <tm3358@nyu.edu>
+
+## Relevant projects
+- [NYC Taxi Analysis](https://github.com/HyperTars/NYC-Taxi-Analysis)
+  - MapReduce
+  - PySpark (RDD and PySpark SQL)
+  - OpenRefine (fingerprint & ngram, data cleaning)
