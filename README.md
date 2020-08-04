@@ -13,7 +13,7 @@
 ## Related Documents
 - Data Sets: [Datasets-used.csv](datasets-used.csv)
 
-- Full Report: [Big Data Spring 2020.pdf]([BigDataSpring2020.pdf)
+- Full Report: [Big Data Spring 2020.pdf](BigDataSpring2020.pdf)
   or [Google Docs](https://docs.google.com/document/d/e/2PACX-1vQfVVlkV5pu67TuiVFkcvqsSSyRJqRxd99qZ5FSeqmagk3SliKXBHqkpf4doj1fquu87NbDH5wjKlAQ/pub)
 
 - Prez PPT: [Big Data Prez.pptx](BigDataPrez.pptx)
