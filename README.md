@@ -29,19 +29,57 @@
 - To clean data, run `CleanData.py`, the results will be saved in `../clean_data/`. To have a better understanding of what we do in this part, you can optionally run `CleanData.ipynb` to observe the better visualized version of cleaning code.
   
 ### Data Analysis & Plotting
+
+**TimeSeries**
+- To get time series trend data of all indicators, run `time-series-analysis.ipynb`, the results will be saved in `../result/time-series/`
+
+  - NASDAQ vs Confirmed Cases (World Wide & US)
+  
+    ![Confirmed](images/ConfirmedCases.png)
+
+  - NASDAQ Daily Volatility
+  
+    ![Volatility](images/DailyVolatility.png)
+    
+  - COVID-19 Event Timeline
+  
+    ![Timeline](images/Timeline.png)
+
+
 **QuantitativeAnalysis**
 - To do quantitative analysis, run `AnalyzeData.py`, the results will be saved in ../analyzed_data/
 - To plot largest one day drops results, run `PlotData.py`, the results will be saved in `../result/largest_one_day_drops/`
 - To plot quantitative analysis, run `PlotData.ipynb`, the results will be saved in `../result/market/`
 
-**TimeSeries**
-- To get time series trend data of all indicators, run `time-series-analysis.ipynb`, the results will be saved in `../result/time-series/`
+- Largest One Day Drop in History
 
+  ![LargestOneDayDrop](images/LargestOneDayDrop.png)
+  
+- Cumulative Returns if invested from the beginning of the pandemic
+  
+  ![CumulativeReturns](images/CumulativeReturns.png)
+
+- CBOE Volatility Index
+
+  ![CBOE](images/CBOE.png)
+    
 **Correlation**
 - To perform correlation analysis, run `DataAnalyze.ipynb`, the results will be saved in `../result/correlations/`
-
+  - Correlation map
+    
+      ![correlations](result/correlations/CorrelationsAll_S.png)
+  - Correlation by Sector
+  
+      ![correlationSector](images/Correlation.png)
+  
 **CompareToOtherCrises**
 - To compare the stock market crash to crashes in some other financial crises years, run `market_drop_analysis/DataAnalyze.ipynb`, the results images can be directly viewed in the ipynb file.
+
+  ![crises](images/Crises.png)
+
+**See full report**
+- [Full Report](BigDataSpring2020.pdf)
+
 
 ## Contributing
 - Wenzhou Li <wl2154@nyu.edu>
