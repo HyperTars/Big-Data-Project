@@ -19,7 +19,7 @@
 - Prez PPT: [Big Data Prez.pptx](BigDataPrez.pptx)
 
 ## Setup Instruction
-- Raw company history data in `raw_stock_history_0421.zip`, we only keep a zipped file in git because they are too large, you can extract to your local disk before using. These stock data should be extracted and placed in a folder call 'stock-history' (should also be created manually) under `../clean_data/`. 
+- **Raw company history data in [raw_stock_history_0421.zip](https://drive.google.com/file/d/107v-LlRyeZD4Nd-aK2snm7aQyUsPEjTd/view?usp=sharing)**, we only keep a zipped file in git because they are too large, you can extract to your local disk before using. These stock data should be extracted and placed in a folder call 'stock-history' (should also be created manually) under `../clean_data/`. 
 
 - Other raw data from `raw_data_0422.zip` is already extracted to data/ folder.
 
@@ -81,7 +81,7 @@
 - [Full Report](BigDataSpring2020.pdf)
 
 
-## Contributing
+## Contributers
 - Wenzhou Li <wl2154@nyu.edu>
 
 - Linyi Yan <ly1333@nyu.edu>
